@@ -1,0 +1,180 @@
+    Checking daily_kanji v0.1.0 (/home/vaishnav/Desktop/My_Projects/daily_kanji)
+    Checking daily_kanji v0.1.0 (/home/vaishnav/Desktop/My_Projects/daily_kanji)
+warning: unused import: `std::path::PathBuf`
+ --> src/state.rs:5:5
+  |
+5 | use std::path::PathBuf;
+  |     ^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `Text`
+ --> src/ui.rs:4:24
+  |
+4 |     text::{Line, Span, Text},
+  |                        ^^^^
+
+warning: unused import: `std::path::PathBuf`
+ --> src/state.rs:5:5
+  |
+5 | use std::path::PathBuf;
+  |     ^^^^^^^^^^^^^^^^^^
+  |
+  = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused import: `Text`
+ --> src/ui.rs:4:24
+  |
+4 |     text::{Line, Span, Text},
+  |                        ^^^^
+
+error[E0369]: binary operation `==` cannot be applied to type `CurrentScreen`
+  --> src/main.rs:55:19
+   |
+55 |     if app.screen == CurrentScreen::Results || app.quiz_finished {
+   |        ---------- ^^ ---------------------- CurrentScreen
+   |        |
+   |        CurrentScreen
+   |
+note: an implementation of `PartialEq` might be missing for `CurrentScreen`
+  --> src/app.rs:4:1
+   |
+ 4 | pub enum CurrentScreen {
+   | ^^^^^^^^^^^^^^^^^^^^^^ must implement `PartialEq`
+help: consider annotating `CurrentScreen` with `#[derive(PartialEq)]`
+  --> src/app.rs:4:1
+   |
+ 4 + #[derive(PartialEq)]
+ 5 | pub enum CurrentScreen {
+   |
+
+error[E0609]: no field `quiz_finished` on type `App`
+  --> src/main.rs:55:52
+   |
+55 |     if app.screen == CurrentScreen::Results || app.quiz_finished {
+   |                                                    ^^^^^^^^^^^^^ unknown field
+   |
+   = note: available fields are: `screen`, `selected_level`, `questions`, `current_question_index`, `user_input` ... and 2 others
+
+error[E0369]: binary operation `==` cannot be applied to type `CurrentScreen`
+  --> src/main.rs:55:19
+   |
+55 |     if app.screen == CurrentScreen::Results || app.quiz_finished {
+   |        ---------- ^^ ---------------------- CurrentScreen
+   |        |
+   |        CurrentScreen
+   |
+note: an implementation of `PartialEq` might be missing for `CurrentScreen`
+  --> src/app.rs:4:1
+   |
+ 4 | pub enum CurrentScreen {
+   | ^^^^^^^^^^^^^^^^^^^^^^ must implement `PartialEq`
+help: consider annotating `CurrentScreen` with `#[derive(PartialEq)]`
+  --> src/app.rs:4:1
+   |
+ 4 + #[derive(PartialEq)]
+ 5 | pub enum CurrentScreen {
+   |
+
+error[E0609]: no field `quiz_finished` on type `App`
+  --> src/main.rs:55:52
+   |
+55 |     if app.screen == CurrentScreen::Results || app.quiz_finished {
+   |                                                    ^^^^^^^^^^^^^ unknown field
+   |
+   = note: available fields are: `screen`, `selected_level`, `questions`, `current_question_index`, `user_input` ... and 2 others
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+  --> src/main.rs:69:42
+   |
+66 | fn run_app<B: ratatui::backend::Backend>(terminal: &mut Terminal<B>, app: &mut App) -> io::Result<()> {
+   |                                                                                        -------------- expected `std::io::Error` because of this
+...
+69 |         terminal.draw(|f| ui::ui(f, app))?;
+   |                  ------------------------^ the trait `From<<B as Backend>::Error>` is not implemented for `std::io::Error`
+   |                  |
+   |                  this can't be annotated with `?` because it has type `Result<_, <B as Backend>::Error>`
+   |
+   = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+help: consider introducing a `where` clause, but there might be an alternative better way to express this requirement
+   |
+66 | fn run_app<B: ratatui::backend::Backend>(terminal: &mut Terminal<B>, app: &mut App) -> io::Result<()> where std::io::Error: From<<B as Backend>::Error> {
+   |                                                                                                       +++++++++++++++++++++++++++++++++++++++++++++++++
+
+error[E0277]: `?` couldn't convert the error to `std::io::Error`
+  --> src/main.rs:69:42
+   |
+66 | fn run_app<B: ratatui::backend::Backend>(terminal: &mut Terminal<B>, app: &mut App) -> io::Result<()> {
+   |                                                                                        -------------- expected `std::io::Error` because of this
+...
+69 |         terminal.draw(|f| ui::ui(f, app))?;
+   |                  ------------------------^ the trait `From<<B as Backend>::Error>` is not implemented for `std::io::Error`
+   |                  |
+   |                  this can't be annotated with `?` because it has type `Result<_, <B as Backend>::Error>`
+   |
+   = note: the question mark operation (`?`) implicitly performs a conversion on the error value using the `From` trait
+help: consider introducing a `where` clause, but there might be an alternative better way to express this requirement
+   |
+66 | fn run_app<B: ratatui::backend::Backend>(terminal: &mut Terminal<B>, app: &mut App) -> io::Result<()> where std::io::Error: From<<B as Backend>::Error> {
+   |                                                                                                       +++++++++++++++++++++++++++++++++++++++++++++++++
+
+error[E0599]: no method named `start_quiz` found for mutable reference `&mut App` in the current scope
+  --> src/main.rs:75:47
+   |
+75 |                     KeyCode::Char('1') => app.start_quiz(JlptLevel::N5),
+   |                                               ^^^^^^^^^^ method not found in `&mut App`
+
+error[E0599]: no method named `start_quiz` found for mutable reference `&mut App` in the current scope
+  --> src/main.rs:75:47
+   |
+75 |                     KeyCode::Char('1') => app.start_quiz(JlptLevel::N5),
+   |                                               ^^^^^^^^^^ method not found in `&mut App`
+
+error[E0599]: no method named `start_quiz` found for mutable reference `&mut App` in the current scope
+  --> src/main.rs:76:47
+   |
+76 |                     KeyCode::Char('2') => app.start_quiz(JlptLevel::N4),
+   |                                               ^^^^^^^^^^ method not found in `&mut App`
+
+error[E0599]: no method named `start_quiz` found for mutable reference `&mut App` in the current scope
+  --> src/main.rs:76:47
+   |
+76 |                     KeyCode::Char('2') => app.start_quiz(JlptLevel::N4),
+   |                                               ^^^^^^^^^^ method not found in `&mut App`
+
+error[E0599]: no method named `start_quiz` found for mutable reference `&mut App` in the current scope
+  --> src/main.rs:77:47
+   |
+77 |                     KeyCode::Char('3') => app.start_quiz(JlptLevel::N3),
+   |                                               ^^^^^^^^^^ method not found in `&mut App`
+
+error[E0599]: no method named `start_quiz` found for mutable reference `&mut App` in the current scope
+  --> src/main.rs:77:47
+   |
+77 |                     KeyCode::Char('3') => app.start_quiz(JlptLevel::N3),
+   |                                               ^^^^^^^^^^ method not found in `&mut App`
+
+warning: unused variable: `level`
+  --> src/data.rs:19:23
+   |
+19 | pub fn load_questions(level: JlptLevel) -> Vec<Question> {
+   |                       ^^^^^ help: if this is intentional, prefix it with an underscore: `_level`
+   |
+   = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+warning: unused variable: `level`
+  --> src/data.rs:19:23
+   |
+19 | pub fn load_questions(level: JlptLevel) -> Vec<Question> {
+   |                       ^^^^^ help: if this is intentional, prefix it with an underscore: `_level`
+   |
+   = note: `#[warn(unused_variables)]` (part of `#[warn(unused)]`) on by default
+
+Some errors have detailed explanations: E0277, E0369, E0599, E0609.
+For more information about an error, try `rustc --explain E0277`.
+Some errors have detailed explanations: E0277, E0369, E0599, E0609.
+For more information about an error, try `rustc --explain E0277`.
+warning: `daily_kanji` (bin "daily_kanji") generated 3 warnings
+warning: `daily_kanji` (bin "daily_kanji") generated 3 warnings
+error: could not compile `daily_kanji` (bin "daily_kanji") due to 6 previous errors; 3 warnings emitted
+error: could not compile `daily_kanji` (bin "daily_kanji") due to 6 previous errors; 3 warnings emitted
