@@ -28,7 +28,7 @@ pub fn generate_report(app: &App) -> anyhow::Result<()> {
 
         writeln!(file, "# Daily Kanji Report")?;
         writeln!(file, "**Date:** {}", date_str)?;
-        writeln!(file, "**Score:** {}/10\n", app.score)?;
+        writeln!(file, "**Score:** {}/15\n", app.score)?;
 
         writeln!(file, "| Question | User Answer | Correct | Result |")?;
         writeln!(file, "|---|---|---|---|")?;

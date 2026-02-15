@@ -60,8 +60,8 @@ impl App {
         self.user_answers.push((self.user_input.clone(), is_correct));
         self.user_input.clear();
 
-        // Check if we reached the end (10 questions = index 9)
-        if self.current_question_index >= 9 {
+        // Check if we reached the end (15 questions = index 14)
+        if self.current_question_index >= 14 {
             self.quiz_finished = true;
             self.screen = CurrentScreen::Results;
         } else {

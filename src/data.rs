@@ -46,5 +46,5 @@ pub fn load_questions(level: JlptLevel) -> Vec<Question> {
 
     let mut rng = thread_rng();
     question_set.questions.shuffle(&mut rng);
-    question_set.questions.into_iter().take(10).collect()
+    question_set.questions.into_iter().take(15).collect()
 }

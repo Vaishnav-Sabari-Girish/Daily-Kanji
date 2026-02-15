@@ -62,8 +62,8 @@ fn render_quiz(f: &mut Frame, app: &App) {
         .split(f.area());
 
     // --- Header Section ---
-    let progress_ratio = (app.current_question_index as f64) / 10.0;
-    let label = format!("Question {}/10", app.current_question_index + 1);
+    let progress_ratio = (app.current_question_index as f64) / 15.0;
+    let label = format!("Question {}/15", app.current_question_index + 1);
     
     let gauge = Gauge::default()
         .block(Block::default().borders(Borders::ALL).title(" Progress "))
@@ -140,7 +140,7 @@ fn render_results(f: &mut Frame, app: &App) {
         Line::from(vec![
             "Final Score: ".into(),
             // FIXED: Only show correct/total
-            Span::styled(format!("{}/10", app.score), final_score_color), 
+            Span::styled(format!("{}/15", app.score), final_score_color), 
         ]),
         Line::from(""),
         Line::from("Generating PDF Report..."),
