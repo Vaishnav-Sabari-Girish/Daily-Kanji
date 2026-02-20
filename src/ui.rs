@@ -13,7 +13,6 @@ pub fn ui(f: &mut Frame, app: &App) {
         CurrentScreen::Menu => render_menu(f),
         CurrentScreen::Quiz => render_quiz(f, app),
         CurrentScreen::Results => render_results(f, app),
-        _ => {}
     }
 }
 
@@ -62,8 +61,9 @@ fn render_quiz(f: &mut Frame, app: &App) {
         .split(f.area());
 
     // --- Header Section ---
-    let progress_ratio = (app.current_question_index as f64) / 15.0;
-    let label = format!("Question {}/15", app.current_question_index + 1);
+    // Dynamic math using the app's limit
+    let progress_ratio = (app.current_question_index as f64) / (app.question_limit as f64);
+    let label = format!("Question {}/{}", app.current_question_index + 1, app.question_limit);
     
     let gauge = Gauge::default()
         .block(Block::default().borders(Borders::ALL).title(" Progress "))
@@ -119,7 +119,6 @@ fn render_quiz(f: &mut Frame, app: &App) {
 
     f.render_widget(input_text, chunks[2]);
     
-    // Set cursor to the end of the input text
     f.set_cursor_position(
         (
             chunks[2].x + 1 + app.user_input.chars().count() as u16,
@@ -131,7 +130,9 @@ fn render_quiz(f: &mut Frame, app: &App) {
 fn render_results(f: &mut Frame, app: &App) {
     let area = centered_rect(60, 40, f.area());
 
-    let final_score_color = if app.score >= 7 { Color::Green } else { Color::Red };
+    // Assuming passing score is > 50%
+    let passing_score = app.question_limit as i32 / 2;
+    let final_score_color = if app.score > passing_score { Color::Green } else { Color::Red };
 
     let text = vec![
         Line::from(""),
@@ -139,8 +140,8 @@ fn render_results(f: &mut Frame, app: &App) {
         Line::from(""),
         Line::from(vec![
             "Final Score: ".into(),
-            // FIXED: Only show correct/total
-            Span::styled(format!("{}/15", app.score), final_score_color), 
+            // Dynamic formatting
+            Span::styled(format!("{}/{}", app.score, app.question_limit), final_score_color), 
         ]),
         Line::from(""),
         Line::from("Generating PDF Report..."),

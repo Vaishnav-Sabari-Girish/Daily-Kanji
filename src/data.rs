@@ -1,6 +1,6 @@
 use serde::{Deserialize, Serialize};
 use rand::seq::SliceRandom;
-use rand::thread_rng;
+// thread_rng is removed, we will call rand::rng() directly
 
 #[derive(Debug, Clone, Copy, PartialEq, Serialize, Deserialize)]
 pub enum JlptLevel {
@@ -26,16 +26,13 @@ pub struct Question {
     pub correct_reading: String,
 }
 
-pub fn load_questions(level: JlptLevel) -> Vec<Question> {
-    // MAGICAL FIX: Embed the files directly into the binary!
-    // This string is loaded when you compile, not when you run.
+pub fn load_questions(level: JlptLevel, limit: usize) -> Vec<Question> {
     let content = match level {
         JlptLevel::N5 => include_str!("../assets/n5.json"),
         JlptLevel::N4 => include_str!("../assets/n4.json"),
         JlptLevel::N3 => include_str!("../assets/n3.json"),
     };
 
-    // Parse the JSON string
     let mut question_set: QuestionSet = match serde_json::from_str(content) {
         Ok(data) => data,
         Err(e) => {
@@ -44,7 +41,9 @@ pub fn load_questions(level: JlptLevel) -> Vec<Question> {
         }
     };
 
-    let mut rng = thread_rng();
+    // Use the new rand::rng() instead of the deprecated thread_rng()
+    let mut rng = rand::rng();
+    
     question_set.questions.shuffle(&mut rng);
-    question_set.questions.into_iter().take(15).collect()
+    question_set.questions.into_iter().take(limit).collect()
 }
