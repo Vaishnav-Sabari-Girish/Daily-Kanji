@@ -2,7 +2,6 @@ use chrono::{Local, NaiveDate};
 use directories::ProjectDirs;
 use serde::{Deserialize, Serialize};
 use std::fs;
-use std::path::PathBuf;
 
 #[derive(Serialize, Deserialize, Debug)]
 struct AppState {

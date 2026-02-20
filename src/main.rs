@@ -17,9 +17,12 @@ use crate::app::{App, CurrentScreen};
 use crate::data::JlptLevel;
 
 fn main() -> Result<()> {
-    // 1. Daily Guard: Check if we should run today
-    // UNCOMMENT THESE LINES TO ENABLE THE "ONCE PER DAY" LIMIT
-    if !state::should_run() {
+    // Check for the --test flag
+    let is_test = std::env::args().any(|arg| arg == "--test");
+    let question_limit = if is_test { 5 } else { 15 };
+
+    // 1. Daily Guard: Skip this check if we are in test mode
+    if !is_test && !state::should_run() {
         println!("You have already practiced today. Come back tomorrow!");
         return Ok(());
     }
@@ -31,8 +34,8 @@ fn main() -> Result<()> {
     let backend = CrosstermBackend::new(stdout);
     let mut terminal = Terminal::new(backend)?;
 
-    // 3. Initialize App State
-    let mut app = App::new();
+    // 3. Initialize App State with dynamic limit
+    let mut app = App::new(question_limit);
 
     // 4. Run the Main TUI Loop
     let res = run_app(&mut terminal, &mut app);
@@ -54,7 +57,7 @@ fn main() -> Result<()> {
     if app.screen == CurrentScreen::Results || app.quiz_finished {
         println!("Generating daily PDF report...");
         match report::generate_report(&app) {
-            Ok(_) => println!("Success! Report saved to ./daily_kanji_report.pdf"),
+            Ok(_) => println!("Success! Report saved to your Kanji_Report folder."),
             Err(e) => eprintln!("Failed to generate report: {}", e),
         }
     }
@@ -88,7 +91,6 @@ fn run_app(terminal: &mut Terminal<CrosstermBackend<io::Stdout>>, app: &mut App)
                     KeyCode::Char('q') | KeyCode::Esc | KeyCode::Enter => return Ok(()),
                     _ => {}
                 },
-                _ => {} // Ignore other events
             }
         }
     }

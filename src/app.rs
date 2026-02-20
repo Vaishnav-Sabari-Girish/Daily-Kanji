@@ -14,12 +14,13 @@ pub struct App {
     pub current_question_index: usize,
     pub user_input: String,
     pub score: i32,
-    pub user_answers: Vec<(String, bool)>, // (Answer, IsCorrect)
+    pub user_answers: Vec<(String, bool)>,
     pub quiz_finished: bool,
+    pub question_limit: usize, // New field to track the limit
 }
 
 impl App {
-    pub fn new() -> Self {
+    pub fn new(limit: usize) -> Self {
         Self {
             screen: CurrentScreen::Menu,
             selected_level: None,
@@ -29,12 +30,14 @@ impl App {
             score: 0,
             user_answers: vec![],
             quiz_finished: false,
+            question_limit: limit,
         }
     }
 
     pub fn start_quiz(&mut self, level: JlptLevel) {
         self.selected_level = Some(level);
-        self.questions = load_questions(level);
+        // Pass the limit to the data loader
+        self.questions = load_questions(level, self.question_limit);
         self.current_question_index = 0;
         self.score = 0;
         self.user_answers.clear();
@@ -49,19 +52,17 @@ impl App {
         }
 
         let current_q = &self.questions[self.current_question_index];
-        // Trim whitespace for simple validation
         let is_correct = self.user_input.trim() == current_q.correct_reading;
 
         if is_correct {
             self.score += 1;
         } 
-        // No negative marking for wrong answers
 
         self.user_answers.push((self.user_input.clone(), is_correct));
         self.user_input.clear();
 
-        // Check if we reached the end (15 questions = index 14)
-        if self.current_question_index >= 14 {
+        // Check if we reached the limit dynamically (0-indexed, so limit - 1)
+        if self.current_question_index >= self.question_limit.saturating_sub(1) {
             self.quiz_finished = true;
             self.screen = CurrentScreen::Results;
         } else {
