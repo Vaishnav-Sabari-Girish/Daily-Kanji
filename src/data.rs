@@ -24,6 +24,7 @@ pub struct Question {
     pub target_kanji: String,
     #[serde(rename = "expected_reading")]
     pub correct_reading: String,
+    pub full_kana: String
 }
 
 pub fn load_questions(level: JlptLevel, limit: usize) -> Vec<Question> {

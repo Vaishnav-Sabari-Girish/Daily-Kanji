@@ -1,0 +1,1206 @@
+{
+  "level": "N4",
+  "source": "N4 Kanji Database Part 1",
+  "questions": [
+    {
+      "id": 1,
+      "sentence": "将来、医者になりたいです。",
+      "target_kanji": "医者",
+      "expected_reading": "いしゃ",
+      "meaning": "Doctor",
+      "full_kana": "しょうらい、いしゃになりたいです。"
+    },
+    {
+      "id": 2,
+      "sentence": "この意味が分かりません。",
+      "target_kanji": "意味",
+      "expected_reading": "いみ",
+      "meaning": "Meaning",
+      "full_kana": "このいみがわかりません。"
+    },
+    {
+      "id": 3,
+      "sentence": "注意して運転してください。",
+      "target_kanji": "注意",
+      "expected_reading": "ちゅうい",
+      "meaning": "Caution/Attention",
+      "full_kana": "ちゅういしてうんてんしてください。"
+    },
+    {
+      "id": 4,
+      "sentence": "図書館で本を借ります。",
+      "target_kanji": "図書館",
+      "expected_reading": "としょかん",
+      "meaning": "Library",
+      "full_kana": "としょかんでほんをかります。"
+    },
+    {
+      "id": 5,
+      "sentence": "新しい映画館ができました。",
+      "target_kanji": "映画館",
+      "expected_reading": "えいがかん",
+      "meaning": "Movie theater",
+      "full_kana": "あたらしいえいがかんができました。"
+    },
+    {
+      "id": 6,
+      "sentence": "大使館はどこですか。",
+      "target_kanji": "大使館",
+      "expected_reading": "たいしかん",
+      "meaning": "Embassy",
+      "full_kana": "たいしかんはどこですか。"
+    },
+    {
+      "id": 7,
+      "sentence": "銀色の車を買いました。",
+      "target_kanji": "銀色",
+      "expected_reading": "ぎんいろ",
+      "meaning": "Silver color",
+      "full_kana": "ぎんいろのくるまをかいました。"
+    },
+    {
+      "id": 8,
+      "sentence": "銀行でお金を下ろします。",
+      "target_kanji": "銀行",
+      "expected_reading": "ぎんこう",
+      "meaning": "Bank",
+      "full_kana": "ぎんこうでおきんをくだろします。"
+    },
+    {
+      "id": 9,
+      "sentence": "町に新しい工場が建ちました。",
+      "target_kanji": "工場",
+      "expected_reading": "こうじょう",
+      "meaning": "Factory",
+      "full_kana": "まちにあたらしいこうじょうがたちました。"
+    },
+    {
+      "id": 10,
+      "sentence": "工学を勉強しています。",
+      "target_kanji": "工学",
+      "expected_reading": "こうがく",
+      "meaning": "Engineering",
+      "full_kana": "こうがくをべんきょうしています。"
+    },
+    {
+      "id": 11,
+      "sentence": "病院で薬をもらいました。",
+      "target_kanji": "病院",
+      "expected_reading": "びょういん",
+      "meaning": "Hospital",
+      "full_kana": "びょういんでくすりをもらいました。"
+    },
+    {
+      "id": 12,
+      "sentence": "病気で学校を休みました。",
+      "target_kanji": "病気",
+      "expected_reading": "びょうき",
+      "meaning": "Illness",
+      "full_kana": "びょうきでがっこうをやすみました。"
+    },
+    {
+      "id": 13,
+      "sentence": "重い荷物を運びます。",
+      "target_kanji": "重い",
+      "expected_reading": "おもい",
+      "meaning": "Heavy",
+      "full_kana": "おもいにもつをはこびます。"
+    },
+    {
+      "id": 14,
+      "sentence": "体重を量ります。",
+      "target_kanji": "体重",
+      "expected_reading": "たいじゅう",
+      "meaning": "Body weight",
+      "full_kana": "たいじゅうをはかります。"
+    },
+    {
+      "id": 15,
+      "sentence": "軽い運動をします。",
+      "target_kanji": "軽い",
+      "expected_reading": "かるい",
+      "meaning": "Light (weight)",
+      "full_kana": "かるいうんどうをします。"
+    },
+    {
+      "id": 16,
+      "sentence": "足が痛いです。",
+      "target_kanji": "痛い",
+      "expected_reading": "いたい",
+      "meaning": "Painful",
+      "full_kana": "あしがいたいです。"
+    },
+    {
+      "id": 17,
+      "sentence": "頭痛がします。",
+      "target_kanji": "頭痛",
+      "expected_reading": "ずつう",
+      "meaning": "Headache",
+      "full_kana": "ずつうがします。"
+    },
+    {
+      "id": 18,
+      "sentence": "英語の勉強を始めます。",
+      "target_kanji": "勉強",
+      "expected_reading": "べんきょう",
+      "meaning": "Study",
+      "full_kana": "えいごのべんきょうをはじめます。"
+    },
+    {
+      "id": 19,
+      "sentence": "風が強いです。",
+      "target_kanji": "強い",
+      "expected_reading": "つよい",
+      "meaning": "Strong",
+      "full_kana": "かぜがつよいです。"
+    },
+    {
+      "id": 20,
+      "sentence": "心が弱いです。",
+      "target_kanji": "弱い",
+      "expected_reading": "よわい",
+      "meaning": "Weak",
+      "full_kana": "こころがよわいです。"
+    },
+    {
+      "id": 21,
+      "sentence": "朝早く起きます。",
+      "target_kanji": "起き",
+      "expected_reading": "おき",
+      "meaning": "Wake up",
+      "full_kana": "あさはやくおきます。"
+    },
+    {
+      "id": 22,
+      "sentence": "寝る前に本を読みます。",
+      "target_kanji": "寝る",
+      "expected_reading": "ねる",
+      "meaning": "Sleep",
+      "full_kana": "ねるまえにほんをよみます。"
+    },
+    {
+      "id": 23,
+      "sentence": "昼休みは一時間です。",
+      "target_kanji": "昼休み",
+      "expected_reading": "ひるやすみ",
+      "meaning": "Lunch break",
+      "full_kana": "ひるやすみはいちじかんです。"
+    },
+    {
+      "id": 24,
+      "sentence": "夜道は暗くて危ないです。",
+      "target_kanji": "暗い",
+      "expected_reading": "くらい",
+      "meaning": "Dark",
+      "full_kana": "よみちはくらくてあぶないです。"
+    },
+    {
+      "id": 25,
+      "sentence": "明るい部屋で勉強します。",
+      "target_kanji": "明るい",
+      "expected_reading": "あかるい",
+      "meaning": "Bright",
+      "full_kana": "あかるいへやでべんきょうします。"
+    },
+    {
+      "id": 26,
+      "sentence": "今年の夏は暑いです。",
+      "target_kanji": "暑い",
+      "expected_reading": "あつい",
+      "meaning": "Hot (weather)",
+      "full_kana": "こんねんのなつはあついです。"
+    },
+    {
+      "id": 27,
+      "sentence": "熱いお茶を飲みます。",
+      "target_kanji": "熱い",
+      "expected_reading": "あつい",
+      "meaning": "Hot (thing)",
+      "full_kana": "あついおちゃをのみます。"
+    },
+    {
+      "id": 28,
+      "sentence": "冬はとても寒いです。",
+      "target_kanji": "寒い",
+      "expected_reading": "さむい",
+      "meaning": "Cold (weather)",
+      "full_kana": "ふゆはとてもさむいです。"
+    },
+    {
+      "id": 29,
+      "sentence": "冷たいジュースが飲みたい。",
+      "target_kanji": "冷たい",
+      "expected_reading": "つめたい",
+      "meaning": "Cold (thing)",
+      "full_kana": "つめたいじゅーすがのみたい。"
+    },
+    {
+      "id": 30,
+      "sentence": "急いで駅に行きます。",
+      "target_kanji": "急いで",
+      "expected_reading": "いそいで",
+      "meaning": "Hurry",
+      "full_kana": "いそいでえきにいきます。"
+    },
+    {
+      "id": 31,
+      "sentence": "急行電車に乗ります。",
+      "target_kanji": "急行",
+      "expected_reading": "きゅうこう",
+      "meaning": "Express train",
+      "full_kana": "きゅうこうでんしゃにのります。"
+    },
+    {
+      "id": 32,
+      "sentence": "特急で行けば早いです。",
+      "target_kanji": "特急",
+      "expected_reading": "とっきゅう",
+      "meaning": "Limited express",
+      "full_kana": "とっきゅうでいけばはやいです。"
+    },
+    {
+      "id": 33,
+      "sentence": "特別な日です。",
+      "target_kanji": "特別",
+      "expected_reading": "とくべつ",
+      "meaning": "Special",
+      "full_kana": "とくべつなにちです。"
+    },
+    {
+      "id": 34,
+      "sentence": "動物園に行きます。",
+      "target_kanji": "動物",
+      "expected_reading": "どうぶつ",
+      "meaning": "Animal",
+      "full_kana": "どうぶつえんにいきます。"
+    },
+    {
+      "id": 35,
+      "sentence": "機械が動かなくなりました。",
+      "target_kanji": "動か",
+      "expected_reading": "うごか",
+      "meaning": "Move",
+      "full_kana": "きかいがうごかなくなりました。"
+    },
+    {
+      "id": 36,
+      "sentence": "お風呂で体を洗います。",
+      "target_kanji": "洗います",
+      "expected_reading": "あらいます",
+      "meaning": "Wash",
+      "full_kana": "おふろでからだをあらいます。"
+    },
+    {
+      "id": 37,
+      "sentence": "洗濯機で服を洗います。",
+      "target_kanji": "洗濯",
+      "expected_reading": "せんたく",
+      "meaning": "Laundry",
+      "full_kana": "せんたくきでふくをあらいます。"
+    },
+    {
+      "id": 38,
+      "sentence": "毎日走っています。",
+      "target_kanji": "走って",
+      "expected_reading": "はしって",
+      "meaning": "Run",
+      "full_kana": "まいにちはしっています。"
+    },
+    {
+      "id": 39,
+      "sentence": "歌を歌うのが好きです。",
+      "target_kanji": "歌う",
+      "expected_reading": "うたう",
+      "meaning": "Sing",
+      "full_kana": "うたをうたうのがすきです。"
+    },
+    {
+      "id": 40,
+      "sentence": "歌手になりたいです。",
+      "target_kanji": "歌手",
+      "expected_reading": "かしゅ",
+      "meaning": "Singer",
+      "full_kana": "かしゅになりたいです。"
+    },
+    {
+      "id": 41,
+      "sentence": "道で友達に会いました。",
+      "target_kanji": "道",
+      "expected_reading": "みち",
+      "meaning": "Road",
+      "full_kana": "みちでともだちにあいました。"
+    },
+    {
+      "id": 42,
+      "sentence": "柔道を習っています。",
+      "target_kanji": "柔道",
+      "expected_reading": "じゅうどう",
+      "meaning": "Judo",
+      "full_kana": "じゅうどうをならっています。"
+    },
+    {
+      "id": 43,
+      "sentence": "水道の水を飲みます。",
+      "target_kanji": "水道",
+      "expected_reading": "すいどう",
+      "meaning": "Water supply",
+      "full_kana": "すいどうのみずをのみます。"
+    },
+    {
+      "id": 44,
+      "sentence": "ここは危ないです。",
+      "target_kanji": "危ない",
+      "expected_reading": "あぶない",
+      "meaning": "Dangerous",
+      "full_kana": "ここはあぶないです。"
+    },
+    {
+      "id": 45,
+      "sentence": "危険な場所に入らないで。",
+      "target_kanji": "危険",
+      "expected_reading": "きけん",
+      "meaning": "Danger",
+      "full_kana": "きけんなばしょにいらないで。"
+    },
+    {
+      "id": 46,
+      "sentence": "英語を教えてください。",
+      "target_kanji": "教えて",
+      "expected_reading": "おしえて",
+      "meaning": "Teach",
+      "full_kana": "えいごをおしえてください。"
+    },
+    {
+      "id": 47,
+      "sentence": "教室に誰もいません。",
+      "target_kanji": "教室",
+      "expected_reading": "きょうしつ",
+      "meaning": "Classroom",
+      "full_kana": "きょうしつにだれもいません。"
+    },
+    {
+      "id": 48,
+      "sentence": "黒板の字が見えません。",
+      "target_kanji": "黒板",
+      "expected_reading": "こくばん",
+      "meaning": "Blackboard",
+      "full_kana": "こくばんのじがみえません。"
+    },
+    {
+      "id": 49,
+      "sentence": "自転車に乗れますか。",
+      "target_kanji": "自転車",
+      "expected_reading": "じてんしゃ",
+      "meaning": "Bicycle",
+      "full_kana": "じてんしゃにのれますか。"
+    },
+    {
+      "id": 50,
+      "sentence": "自動車の運転を習います。",
+      "target_kanji": "自動車",
+      "expected_reading": "じどうしゃ",
+      "meaning": "Car",
+      "full_kana": "じどうしゃのうんてんをならいます。"
+    },
+    {
+      "id": 51,
+      "sentence": "自分で考えてください。",
+      "target_kanji": "自分",
+      "expected_reading": "じぶん",
+      "meaning": "Oneself",
+      "full_kana": "じぶんでかんがえてください。"
+    },
+    {
+      "id": 52,
+      "sentence": "新しい洋服を買いました。",
+      "target_kanji": "洋服",
+      "expected_reading": "ようふく",
+      "meaning": "Western clothes",
+      "full_kana": "あたらしいようふくをかいました。"
+    },
+    {
+      "id": 53,
+      "sentence": "西洋の歴史を勉強します。",
+      "target_kanji": "西洋",
+      "expected_reading": "せいよう",
+      "meaning": "The West",
+      "full_kana": "せいようのれきしをべんきょうします。"
+    },
+    {
+      "id": 54,
+      "sentence": "旅行の準備をします。",
+      "target_kanji": "旅行",
+      "expected_reading": "りょこう",
+      "meaning": "Travel",
+      "full_kana": "りょこうのじゅんびをします。"
+    },
+    {
+      "id": 55,
+      "sentence": "旅館に泊まりました。",
+      "target_kanji": "旅館",
+      "expected_reading": "りょかん",
+      "meaning": "Japanese inn",
+      "full_kana": "りょかんにとまりました。"
+    },
+    {
+      "id": 56,
+      "sentence": "世界で一番高い山。",
+      "target_kanji": "世界",
+      "expected_reading": "せかい",
+      "meaning": "World",
+      "full_kana": "せかいでいちばんたかいやま。"
+    },
+    {
+      "id": 57,
+      "sentence": "彼女は世話し好きです。",
+      "target_kanji": "世話",
+      "expected_reading": "せわ",
+      "meaning": "Care",
+      "full_kana": "かのじょはせわしすきです。"
+    },
+    {
+      "id": 58,
+      "sentence": "駅の改札口で待ちます。",
+      "target_kanji": "駅",
+      "expected_reading": "えき",
+      "meaning": "Station",
+      "full_kana": "えきのかいさつぐちでまちます。"
+    },
+    {
+      "id": 59,
+      "sentence": "着物を着ます。",
+      "target_kanji": "着物",
+      "expected_reading": "きもの",
+      "meaning": "Kimono",
+      "full_kana": "きものをちゃくます。"
+    },
+    {
+      "id": 60,
+      "sentence": "東京に到着しました。",
+      "target_kanji": "到着",
+      "expected_reading": "とうちゃく",
+      "meaning": "Arrival",
+      "full_kana": "とうきょうにとうちゃくしました。"
+    },
+    {
+      "id": 61,
+      "sentence": "上着を脱いでください。",
+      "target_kanji": "上着",
+      "expected_reading": "うわぎ",
+      "meaning": "Jacket/Coat",
+      "full_kana": "うわぎをぬいでください。"
+    },
+    {
+      "id": 62,
+      "sentence": "問題に答えてください。",
+      "target_kanji": "答えて",
+      "expected_reading": "こたえて",
+      "meaning": "Answer",
+      "full_kana": "もんだいにこたえてください。"
+    },
+    {
+      "id": 63,
+      "sentence": "答えが分かりません。",
+      "target_kanji": "答え",
+      "expected_reading": "こたえ",
+      "meaning": "Answer (noun)",
+      "full_kana": "こたえがわかりません。"
+    },
+    {
+      "id": 64,
+      "sentence": "質問がありますか。",
+      "target_kanji": "質問",
+      "expected_reading": "しつもん",
+      "meaning": "Question",
+      "full_kana": "しつもんがありますか。"
+    },
+    {
+      "id": 65,
+      "sentence": "仕事が忙しいです。",
+      "target_kanji": "仕事",
+      "expected_reading": "しごと",
+      "meaning": "Work",
+      "full_kana": "しごとがいそがしいです。"
+    },
+    {
+      "id": 66,
+      "sentence": "仕方がないですね。",
+      "target_kanji": "仕方",
+      "expected_reading": "しかた",
+      "meaning": "Method/Way",
+      "full_kana": "しかたがないですね。"
+    },
+    {
+      "id": 67,
+      "sentence": "用事があって行けません。",
+      "target_kanji": "用事",
+      "expected_reading": "ようじ",
+      "meaning": "Errand/Business",
+      "full_kana": "ようじがあっていけません。"
+    },
+    {
+      "id": 68,
+      "sentence": "火事がありました。",
+      "target_kanji": "火事",
+      "expected_reading": "かじ",
+      "meaning": "Fire",
+      "full_kana": "かじがありました。"
+    },
+    {
+      "id": 69,
+      "sentence": "食事の前に手を洗います。",
+      "target_kanji": "食事",
+      "expected_reading": "しょくじ",
+      "meaning": "Meal",
+      "full_kana": "しょくじのまえにてをあらいます。"
+    },
+    {
+      "id": 70,
+      "sentence": "大事な書類です。",
+      "target_kanji": "大事",
+      "expected_reading": "だいじ",
+      "meaning": "Important",
+      "full_kana": "だいじなしょるいです。"
+    },
+    {
+      "id": 71,
+      "sentence": "両親に手紙を書きます。",
+      "target_kanji": "両親",
+      "expected_reading": "りょうしん",
+      "meaning": "Parents",
+      "full_kana": "りょうしんにてがみをかきます。"
+    },
+    {
+      "id": 72,
+      "sentence": "親切な人に助けられました。",
+      "target_kanji": "親切",
+      "expected_reading": "しんせつ",
+      "meaning": "Kind",
+      "full_kana": "しんせつなにんにたすけられました。"
+    },
+    {
+      "id": 73,
+      "sentence": "親友と一緒に旅行します。",
+      "target_kanji": "親友",
+      "expected_reading": "しんゆう",
+      "meaning": "Best friend",
+      "full_kana": "しんゆうといっしょにりょこうします。"
+    },
+    {
+      "id": 74,
+      "sentence": "家族でご飯を食べます。",
+      "target_kanji": "家族",
+      "expected_reading": "かぞく",
+      "meaning": "Family",
+      "full_kana": "かぞくでごめしをたべます。"
+    },
+    {
+      "id": 75,
+      "sentence": "水族館に行きました。",
+      "target_kanji": "水族館",
+      "expected_reading": "すいぞくかん",
+      "meaning": "Aquarium",
+      "full_kana": "すいぞくかんにいきました。"
+    },
+    {
+      "id": 76,
+      "sentence": "同じ服を持っています。",
+      "target_kanji": "同じ",
+      "expected_reading": "おなじ",
+      "meaning": "Same",
+      "full_kana": "おなじふくをもっています。"
+    },
+    {
+      "id": 77,
+      "sentence": "同時に出発しました。",
+      "target_kanji": "同時",
+      "expected_reading": "どうじ",
+      "meaning": "At the same time",
+      "full_kana": "どうじにしゅっぱつしました。"
+    },
+    {
+      "id": 78,
+      "sentence": "意味を調べてください。",
+      "target_kanji": "調べて",
+      "expected_reading": "しらべて",
+      "meaning": "Look up/Investigate",
+      "full_kana": "いみをしらべてください。"
+    },
+    {
+      "id": 79,
+      "sentence": "調査の結果を報告します。",
+      "target_kanji": "調査",
+      "expected_reading": "ちょうさ",
+      "meaning": "Investigation",
+      "full_kana": "ちょうさのけっかをほうこくします。"
+    },
+    {
+      "id": 80,
+      "sentence": "具合が悪いです。",
+      "target_kanji": "具合",
+      "expected_reading": "ぐあい",
+      "meaning": "Condition",
+      "full_kana": "ぐあいがわるいです。"
+    },
+    {
+      "id": 81,
+      "sentence": "都合がいいですか。",
+      "target_kanji": "都合",
+      "expected_reading": "つごう",
+      "meaning": "Convenience",
+      "full_kana": "つごうがいいですか。"
+    },
+    {
+      "id": 82,
+      "sentence": "時計が合っていません。",
+      "target_kanji": "合って",
+      "expected_reading": "あって",
+      "meaning": "Match/Fit",
+      "full_kana": "とけいがあっていません。"
+    },
+    {
+      "id": 83,
+      "sentence": "試合に勝ちました。",
+      "target_kanji": "試合",
+      "expected_reading": "しあい",
+      "meaning": "Match/Game",
+      "full_kana": "しあいにかちました。"
+    },
+    {
+      "id": 84,
+      "sentence": "試験に合格しました。",
+      "target_kanji": "試験",
+      "expected_reading": "しけん",
+      "meaning": "Exam",
+      "full_kana": "しけんにごうかくしました。"
+    },
+    {
+      "id": 85,
+      "sentence": "経験がありません。",
+      "target_kanji": "経験",
+      "expected_reading": "けいけん",
+      "meaning": "Experience",
+      "full_kana": "けいけんがありません。"
+    },
+    {
+      "id": 86,
+      "sentence": "宿題を忘れてしまいました。",
+      "target_kanji": "宿題",
+      "expected_reading": "しゅくだい",
+      "meaning": "Homework",
+      "full_kana": "しゅくだいをわすれてしまいました。"
+    },
+    {
+      "id": 87,
+      "sentence": "新宿で買い物します。",
+      "target_kanji": "新宿",
+      "expected_reading": "しんじゅく",
+      "meaning": "Shinjuku",
+      "full_kana": "しんじゅくでかいものします。"
+    },
+    {
+      "id": 88,
+      "sentence": "話題の映画を見ました。",
+      "target_kanji": "話題",
+      "expected_reading": "わだい",
+      "meaning": "Topic",
+      "full_kana": "わだいのえいがをみました。"
+    },
+    {
+      "id": 89,
+      "sentence": "紙に名前を書いてください。",
+      "target_kanji": "紙",
+      "expected_reading": "かみ",
+      "meaning": "Paper",
+      "full_kana": "かみになまえをかいてください。"
+    },
+    {
+      "id": 90,
+      "sentence": "手紙を出しました。",
+      "target_kanji": "手紙",
+      "expected_reading": "てがみ",
+      "meaning": "Letter",
+      "full_kana": "てがみをだしました。"
+    },
+    {
+      "id": 91,
+      "sentence": "写真を撮ります。",
+      "target_kanji": "写真",
+      "expected_reading": "しゃしん",
+      "meaning": "Photograph",
+      "full_kana": "しゃしんをとります。"
+    },
+    {
+      "id": 92,
+      "sentence": "真ん中に立ってください。",
+      "target_kanji": "真ん中",
+      "expected_reading": "まんなか",
+      "meaning": "Center",
+      "full_kana": "まんなかにたってください。"
+    },
+    {
+      "id": 93,
+      "sentence": "真っ白な雪。",
+      "target_kanji": "真っ白",
+      "expected_reading": "まっしろ",
+      "meaning": "Pure white",
+      "full_kana": "まっしろなゆき。"
+    },
+    {
+      "id": 94,
+      "sentence": "時計が進んでいます。",
+      "target_kanji": "進んで",
+      "expected_reading": "すすんで",
+      "meaning": "Advance/Fast",
+      "full_kana": "とけいがすすんでいます。"
+    },
+    {
+      "id": 95,
+      "sentence": "進学の準備をします。",
+      "target_kanji": "進学",
+      "expected_reading": "しんがく",
+      "meaning": "Going on to higher education",
+      "full_kana": "しんがくのじゅんびをします。"
+    },
+    {
+      "id": 96,
+      "sentence": "集まってください。",
+      "target_kanji": "集まって",
+      "expected_reading": "あつまって",
+      "meaning": "Gather",
+      "full_kana": "あつまってください。"
+    },
+    {
+      "id": 97,
+      "sentence": "切手を集めています。",
+      "target_kanji": "集めて",
+      "expected_reading": "あつめて",
+      "meaning": "Collect",
+      "full_kana": "きってをあつめています。"
+    },
+    {
+      "id": 98,
+      "sentence": "発音がいいですね。",
+      "target_kanji": "発音",
+      "expected_reading": "はつおん",
+      "meaning": "Pronunciation",
+      "full_kana": "はつおんがいいですね。"
+    },
+    {
+      "id": 99,
+      "sentence": "東京を出発します。",
+      "target_kanji": "出発",
+      "expected_reading": "しゅっぱつ",
+      "meaning": "Departure",
+      "full_kana": "とうきょうをしゅっぱつします。"
+    },
+    {
+      "id": 100,
+      "sentence": "発見しました。",
+      "target_kanji": "発見",
+      "expected_reading": "はっけん",
+      "meaning": "Discovery",
+      "full_kana": "はっけんしました。"
+    },
+    {
+      "id": 101,
+      "sentence": "建物を建てる。",
+      "target_kanji": "建て",
+      "expected_reading": "たて",
+      "meaning": "Build",
+      "full_kana": "たてものをたてる。"
+    },
+    {
+      "id": 102,
+      "sentence": "二階建ての家。",
+      "target_kanji": "建て",
+      "expected_reading": "だて",
+      "meaning": "Story (Building)",
+      "full_kana": "にかいだててのいえ。"
+    },
+    {
+      "id": 103,
+      "sentence": "物が落ちました。",
+      "target_kanji": "落ち",
+      "expected_reading": "おち",
+      "meaning": "Fall",
+      "full_kana": "ものがおちました。"
+    },
+    {
+      "id": 104,
+      "sentence": "財布を落としました。",
+      "target_kanji": "落と",
+      "expected_reading": "おと",
+      "meaning": "Drop",
+      "full_kana": "さいふをおとしました。"
+    },
+    {
+      "id": 105,
+      "sentence": "お湯を沸かします。",
+      "target_kanji": "湯",
+      "expected_reading": "ゆ",
+      "meaning": "Hot water",
+      "full_kana": "おゆをわかします。"
+    },
+    {
+      "id": 106,
+      "sentence": "銭湯に行きます。",
+      "target_kanji": "銭湯",
+      "expected_reading": "せんとう",
+      "meaning": "Public bath",
+      "full_kana": "せんとうにいきます。"
+    },
+    {
+      "id": 107,
+      "sentence": "薬を飲みます。",
+      "target_kanji": "薬",
+      "expected_reading": "くすり",
+      "meaning": "Medicine",
+      "full_kana": "くすりをのみます。"
+    },
+    {
+      "id": 108,
+      "sentence": "薬局はどこですか。",
+      "target_kanji": "薬局",
+      "expected_reading": "やっきょく",
+      "meaning": "Pharmacy",
+      "full_kana": "やっきょくはどこですか。"
+    },
+    {
+      "id": 109,
+      "sentence": "漢字のテスト。",
+      "target_kanji": "漢字",
+      "expected_reading": "かんじ",
+      "meaning": "Kanji",
+      "full_kana": "かんじのてすと。"
+    },
+    {
+      "id": 110,
+      "sentence": "字が綺麗ですね。",
+      "target_kanji": "字",
+      "expected_reading": "じ",
+      "meaning": "Character",
+      "full_kana": "じがきれいですね。"
+    },
+    {
+      "id": 111,
+      "sentence": "地図を見ます。",
+      "target_kanji": "地図",
+      "expected_reading": "ちず",
+      "meaning": "Map",
+      "full_kana": "ちずをみます。"
+    },
+    {
+      "id": 112,
+      "sentence": "図書館で勉強します。",
+      "target_kanji": "図",
+      "expected_reading": "と",
+      "meaning": "Drawing/Plan",
+      "full_kana": "としょかんでべんきょうします。"
+    },
+    {
+      "id": 113,
+      "sentence": "計画を立てる。",
+      "target_kanji": "計画",
+      "expected_reading": "けいかく",
+      "meaning": "Plan",
+      "full_kana": "けいかくをたてる。"
+    },
+    {
+      "id": 114,
+      "sentence": "線を引いてください。",
+      "target_kanji": "線",
+      "expected_reading": "せん",
+      "meaning": "Line",
+      "full_kana": "せんをひいてください。"
+    },
+    {
+      "id": 115,
+      "sentence": "新幹線に乗ります。",
+      "target_kanji": "新幹線",
+      "expected_reading": "しんかんせん",
+      "meaning": "Bullet train",
+      "full_kana": "しんかんせんにのります。"
+    },
+    {
+      "id": 116,
+      "sentence": "顔を洗います。",
+      "target_kanji": "顔",
+      "expected_reading": "かお",
+      "meaning": "Face",
+      "full_kana": "かおをあらいます。"
+    },
+    {
+      "id": 117,
+      "sentence": "笑顔がいいです。",
+      "target_kanji": "笑顔",
+      "expected_reading": "えがお",
+      "meaning": "Smile",
+      "full_kana": "えがおがいいです。"
+    },
+    {
+      "id": 118,
+      "sentence": "声が小さいです。",
+      "target_kanji": "声",
+      "expected_reading": "こえ",
+      "meaning": "Voice",
+      "full_kana": "こえがちーさいです。"
+    },
+    {
+      "id": 119,
+      "sentence": "大声で呼びます。",
+      "target_kanji": "大声",
+      "expected_reading": "おおごえ",
+      "meaning": "Loud voice",
+      "full_kana": "おおごえでよびます。"
+    },
+    {
+      "id": 120,
+      "sentence": "心から感謝します。",
+      "target_kanji": "心",
+      "expected_reading": "こころ",
+      "meaning": "Heart",
+      "full_kana": "こころからかんしゃします。"
+    },
+    {
+      "id": 121,
+      "sentence": "心配しないでください。",
+      "target_kanji": "心配",
+      "expected_reading": "しんぱい",
+      "meaning": "Worry",
+      "full_kana": "しんぱいしないでください。"
+    },
+    {
+      "id": 122,
+      "sentence": "時計を忘れた。",
+      "target_kanji": "時計",
+      "expected_reading": "とけい",
+      "meaning": "Clock/Watch",
+      "full_kana": "とけいをわすれた。"
+    },
+    {
+      "id": 123,
+      "sentence": "熱を計る。",
+      "target_kanji": "計る",
+      "expected_reading": "はかる",
+      "meaning": "Measure",
+      "full_kana": "ねつをはかる。"
+    },
+    {
+      "id": 124,
+      "sentence": "体がだるいです。",
+      "target_kanji": "体",
+      "expected_reading": "からだ",
+      "meaning": "Body",
+      "full_kana": "からだがだるいです。"
+    },
+    {
+      "id": 125,
+      "sentence": "体育の授業。",
+      "target_kanji": "体育",
+      "expected_reading": "たいいく",
+      "meaning": "Physical education",
+      "full_kana": "たいいくのじゅぎょう。"
+    },
+    {
+      "id": 126,
+      "sentence": "雪が降っています。",
+      "target_kanji": "雪",
+      "expected_reading": "ゆき",
+      "meaning": "Snow",
+      "full_kana": "ゆきがふっています。"
+    },
+    {
+      "id": 127,
+      "sentence": "大雪で電車が止まりました。",
+      "target_kanji": "大雪",
+      "expected_reading": "おおゆき",
+      "meaning": "Heavy snow",
+      "full_kana": "おおゆきででんしゃがどまりました。"
+    },
+    {
+      "id": 128,
+      "sentence": "雲が多いです。",
+      "target_kanji": "雲",
+      "expected_reading": "くも",
+      "meaning": "Cloud",
+      "full_kana": "くもがおおいです。"
+    },
+    {
+      "id": 129,
+      "sentence": "星が綺麗です。",
+      "target_kanji": "星",
+      "expected_reading": "ほし",
+      "meaning": "Star",
+      "full_kana": "ほしがきれいです。"
+    },
+    {
+      "id": 130,
+      "sentence": "鳥が飛んでいます。",
+      "target_kanji": "飛んで",
+      "expected_reading": "とんで",
+      "meaning": "Fly",
+      "full_kana": "とりがとんでいます。"
+    },
+    {
+      "id": 131,
+      "sentence": "飛行機に乗ります。",
+      "target_kanji": "飛行機",
+      "expected_reading": "ひこうき",
+      "meaning": "Airplane",
+      "full_kana": "ひこうきにのります。"
+    },
+    {
+      "id": 132,
+      "sentence": "お茶を飲みます。",
+      "target_kanji": "お茶",
+      "expected_reading": "おちゃ",
+      "meaning": "Tea",
+      "full_kana": "おちゃをのみます。"
+    },
+    {
+      "id": 133,
+      "sentence": "茶色い靴。",
+      "target_kanji": "茶色",
+      "expected_reading": "ちゃいろ",
+      "meaning": "Brown",
+      "full_kana": "ちゃいろいくつ。"
+    },
+    {
+      "id": 134,
+      "sentence": "黄色い花。",
+      "target_kanji": "黄色",
+      "expected_reading": "きいろ",
+      "meaning": "Yellow",
+      "full_kana": "きいろいはな。"
+    },
+    {
+      "id": 135,
+      "sentence": "色が違います。",
+      "target_kanji": "色",
+      "expected_reading": "いろ",
+      "meaning": "Color",
+      "full_kana": "いろがちがいます。"
+    },
+    {
+      "id": 136,
+      "sentence": "いろいろな人がいます。",
+      "target_kanji": "色々",
+      "expected_reading": "いろいろ",
+      "meaning": "Various",
+      "full_kana": "いろいろなにんがいます。"
+    },
+    {
+      "id": 137,
+      "sentence": "野菜を食べます。",
+      "target_kanji": "野",
+      "expected_reading": "や",
+      "meaning": "Field",
+      "full_kana": "やさいをたべます。"
+    },
+    {
+      "id": 138,
+      "sentence": "分野が違います。",
+      "target_kanji": "分野",
+      "expected_reading": "ぶんや",
+      "meaning": "Field/Realm",
+      "full_kana": "ぶんやがちがいます。"
+    },
+    {
+      "id": 139,
+      "sentence": "野菜スープ。",
+      "target_kanji": "野菜",
+      "expected_reading": "やさい",
+      "meaning": "Vegetable",
+      "full_kana": "やさいすーぷ。"
+    },
+    {
+      "id": 140,
+      "sentence": "風邪を引きました。",
+      "target_kanji": "風邪",
+      "expected_reading": "かぜ",
+      "meaning": "Cold (illness)",
+      "full_kana": "かぜをひきました。"
+    },
+    {
+      "id": 141,
+      "sentence": "台風が来ます。",
+      "target_kanji": "台風",
+      "expected_reading": "たいふう",
+      "meaning": "Typhoon",
+      "full_kana": "たいふうがきます。"
+    },
+    {
+      "id": 142,
+      "sentence": "お風呂に入ります。",
+      "target_kanji": "風呂",
+      "expected_reading": "ふろ",
+      "meaning": "Bath",
+      "full_kana": "おふろにいります。"
+    },
+    {
+      "id": 143,
+      "sentence": "頭がいいですね。",
+      "target_kanji": "頭",
+      "expected_reading": "あたま",
+      "meaning": "Head",
+      "full_kana": "あたまがいいですね。"
+    },
+    {
+      "id": 144,
+      "sentence": "首が痛いです。",
+      "target_kanji": "首",
+      "expected_reading": "くび",
+      "meaning": "Neck",
+      "full_kana": "くびがいたいです。"
+    },
+    {
+      "id": 145,
+      "sentence": "手首を回します。",
+      "target_kanji": "手首",
+      "expected_reading": "てくび",
+      "meaning": "Wrist",
+      "full_kana": "てくびをまわします。"
+    },
+    {
+      "id": 146,
+      "sentence": "首都は東京です。",
+      "target_kanji": "首都",
+      "expected_reading": "しゅと",
+      "meaning": "Capital",
+      "full_kana": "しゅとはとうきょうです。"
+    },
+    {
+      "id": 147,
+      "sentence": "秋は短いです。",
+      "target_kanji": "短い",
+      "expected_reading": "みじかい",
+      "meaning": "Short",
+      "full_kana": "あきはみじかいです。"
+    },
+    {
+      "id": 148,
+      "sentence": "短距離を走ります。",
+      "target_kanji": "短距離",
+      "expected_reading": "たんきょり",
+      "meaning": "Short distance",
+      "full_kana": "たんきょりをはしります。"
+    },
+    {
+      "id": 149,
+      "sentence": "時間が長いです。",
+      "target_kanji": "長い",
+      "expected_reading": "ながい",
+      "meaning": "Long",
+      "full_kana": "じかんがながいです。"
+    },
+    {
+      "id": 150,
+      "sentence": "社長に会います。",
+      "target_kanji": "社長",
+      "expected_reading": "しゃちょう",
+      "meaning": "Company president",
+      "full_kana": "しゃちょうにあいます。"
+    }
+  ]
+}

@@ -96,7 +96,7 @@ fn render_quiz(f: &mut Frame, app: &App) {
                 Span::styled(&question.target_kanji, Style::default().fg(Color::Yellow).add_modifier(Modifier::BOLD)),
             ]),
             Line::from(""),
-            Line::from("Enter Reading (Kana): ".gray()),
+            Line::from("Enter full sentence in hiragana: ".cyan().bold()),
         ];
 
         let paragraph = Paragraph::new(text)

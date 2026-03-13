@@ -52,16 +52,20 @@ impl App {
         }
 
         let current_q = &self.questions[self.current_question_index];
-        let is_correct = self.user_input.trim() == current_q.correct_reading;
+
+        // String sanitization
+        let expected_clean = current_q.full_kana.replace("。", " ").replace("、", " ").replace("　", " ");
+        let user_clean = self.user_input.trim().replace("。", " ").replace("、", " ").replace("　", " ");
+
+        let is_correct = user_clean == expected_clean;
 
         if is_correct {
             self.score += 1;
-        } 
+        }
 
         self.user_answers.push((self.user_input.clone(), is_correct));
         self.user_input.clear();
 
-        // Check if we reached the limit dynamically (0-indexed, so limit - 1)
         if self.current_question_index >= self.question_limit.saturating_sub(1) {
             self.quiz_finished = true;
             self.screen = CurrentScreen::Results;

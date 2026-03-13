@@ -2,509 +2,4037 @@
   "level": "N5",
   "source": "Zenken N5 Kanji PDF",
   "questions": [
-    { "id": 1, "sentence": "わたしは毎日学校へ行きます。", "target_kanji": "毎日", "expected_reading": "まいにち", "meaning": "Every day" },
-    { "id": 2, "sentence": "日本の山はとても高いです。", "target_kanji": "山", "expected_reading": "やま", "meaning": "Mountain" },
-    { "id": 3, "sentence": "友達と映画を見ます。", "target_kanji": "友達", "expected_reading": "ともだち", "meaning": "Friend" },
-    { "id": 4, "sentence": "朝ごはんを食べます。", "target_kanji": "朝", "expected_reading": "あさ", "meaning": "Morning" },
-    { "id": 5, "sentence": "父は会社員です。", "target_kanji": "父", "expected_reading": "ちち", "meaning": "Father (my)" },
-    { "id": 6, "sentence": "七月に日本へ来ました。", "target_kanji": "七月", "expected_reading": "しちがつ", "meaning": "July" },
-    { "id": 7, "sentence": "水を飲みます。", "target_kanji": "水", "expected_reading": "みず", "meaning": "Water" },
-    { "id": 8, "sentence": "大学で日本語を勉強します。", "target_kanji": "大学", "expected_reading": "だいがく", "meaning": "University" },
-    { "id": 9, "sentence": "夜、本を読みます。", "target_kanji": "夜", "expected_reading": "よる", "meaning": "Night" },
-    { "id": 10, "sentence": "兄は車を持っています。", "target_kanji": "兄", "expected_reading": "あに", "meaning": "Older brother" },
-    { "id": 11, "sentence": "母は毎朝早く起きます。", "target_kanji": "母", "expected_reading": "はは", "meaning": "Mother (my)" },
-    { "id": 12, "sentence": "今、何時ですか。", "target_kanji": "何時", "expected_reading": "なんじ", "meaning": "What time" },
-    { "id": 13, "sentence": "土よう日は休みです。", "target_kanji": "土", "expected_reading": "ど", "meaning": "Saturday (abbr)" },
-    { "id": 14, "sentence": "学校の先生はとても親切です。", "target_kanji": "先生", "expected_reading": "せんせい", "meaning": "Teacher" },
-    { "id": 15, "sentence": "本を三冊買いました。", "target_kanji": "三", "expected_reading": "さん", "meaning": "Three" },
-    { "id": 16, "sentence": "友達の家へ行きます。", "target_kanji": "家", "expected_reading": "いえ", "meaning": "House" },
-    { "id": 17, "sentence": "雨の日は外へ出ません。", "target_kanji": "雨", "expected_reading": "あめ", "meaning": "Rain" },
-    { "id": 18, "sentence": "赤いかばんを持っています。", "target_kanji": "赤", "expected_reading": "あか", "meaning": "Red" },
-    { "id": 19, "sentence": "昼ごはんを食べました。", "target_kanji": "昼", "expected_reading": "ひる", "meaning": "Noon/Lunchtime" },
-    { "id": 20, "sentence": "来年、日本へ行きたいです。", "target_kanji": "来年", "expected_reading": "らいねん", "meaning": "Next year" },
-    { "id": 21, "sentence": "駅の前で友達と会います。", "target_kanji": "前", "expected_reading": "まえ", "meaning": "Front/Before" },
-    { "id": 22, "sentence": "白いシャツを着ます。", "target_kanji": "白", "expected_reading": "しろ", "meaning": "White" },
-    { "id": 23, "sentence": "日本語の本を読みます。", "target_kanji": "日本語", "expected_reading": "にほんご", "meaning": "Japanese language" },
-    { "id": 24, "sentence": "毎週日よう日に休みます。", "target_kanji": "毎週", "expected_reading": "まいしゅう", "meaning": "Every week" },
-    { "id": 25, "sentence": "小さい町に住んでいます。", "target_kanji": "町", "expected_reading": "まち", "meaning": "Town" },
-    { "id": 26, "sentence": "手紙を書きます。", "target_kanji": "手紙", "expected_reading": "てがみ", "meaning": "Letter" },
-    { "id": 27, "sentence": "魚が好きです。", "target_kanji": "魚", "expected_reading": "さかな", "meaning": "Fish" },
-    { "id": 28, "sentence": "学生は教室にいます。", "target_kanji": "教室", "expected_reading": "きょうしつ", "meaning": "Classroom" },
-    { "id": 29, "sentence": "青い空がきれいです。", "target_kanji": "青", "expected_reading": "あお", "meaning": "Blue" },
-    { "id": 30, "sentence": "電車で会社へ行きます。", "target_kanji": "電車", "expected_reading": "でんしゃ", "meaning": "Train" },
-    { "id": 31, "sentence": "妹は高校生です。", "target_kanji": "妹", "expected_reading": "いもうと", "meaning": "Younger sister" },
-    { "id": 32, "sentence": "弟と公園へ行きます。", "target_kanji": "弟", "expected_reading": "おとうと", "meaning": "Younger brother" },
-    { "id": 33, "sentence": "今日は天気がいいです。", "target_kanji": "天気", "expected_reading": "てんき", "meaning": "Weather" },
-    { "id": 34, "sentence": "春は花がきれいです。", "target_kanji": "春", "expected_reading": "はる", "meaning": "Spring" },
-    { "id": 35, "sentence": "夏休みに海へ行きます。", "target_kanji": "夏", "expected_reading": "なつ", "meaning": "Summer" },
-    { "id": 36, "sentence": "秋の夜は静かです。", "target_kanji": "秋", "expected_reading": "あき", "meaning": "Autumn" },
-    { "id": 37, "sentence": "冬はとても寒いです。", "target_kanji": "冬", "expected_reading": "ふゆ", "meaning": "Winter" },
-    { "id": 38, "sentence": "学生は図書室で勉強します。", "target_kanji": "学生", "expected_reading": "がくせい", "meaning": "Student" },
-    { "id": 39, "sentence": "友達と話します。", "target_kanji": "話", "expected_reading": "はな", "meaning": "Talk/Speak" },
-    { "id": 40, "sentence": "日本で働きたいです。", "target_kanji": "働", "expected_reading": "はたら", "meaning": "Work" },
-    { "id": 41, "sentence": "犬が家にいます。", "target_kanji": "犬", "expected_reading": "いぬ", "meaning": "Dog" },
-    { "id": 42, "sentence": "朝六時に起きます。", "target_kanji": "六", "expected_reading": "ろく", "meaning": "Six" },
-    { "id": 43, "sentence": "百円のパンを買いました。", "target_kanji": "百", "expected_reading": "ひゃく", "meaning": "Hundred" },
-    { "id": 44, "sentence": "この本はとても安いです。", "target_kanji": "安", "expected_reading": "やす", "meaning": "Cheap" },
-    { "id": 45, "sentence": "新しい車がほしいです。", "target_kanji": "新", "expected_reading": "あたら", "meaning": "New" },
-    { "id": 46, "sentence": "古い町を歩きます。", "target_kanji": "古", "expected_reading": "ふる", "meaning": "Old" },
-    { "id": 47, "sentence": "駅の近くに住んでいます。", "target_kanji": "近", "expected_reading": "ちか", "meaning": "Near" },
-    { "id": 48, "sentence": "名前を書いてください。", "target_kanji": "名前", "expected_reading": "なまえ", "meaning": "Name" },
-    { "id": 49, "sentence": "日本人の友達がいます。", "target_kanji": "日本人", "expected_reading": "にほんじん", "meaning": "Japanese person" },
-    { "id": 50, "sentence": "午前九時に会社へ行きます。", "target_kanji": "午前", "expected_reading": "ごぜん", "meaning": "A.M." },
-    { "id": 51, "sentence": "午後は家で休みます。", "target_kanji": "午後", "expected_reading": "ごご", "meaning": "P.M." },
-    { "id": 52, "sentence": "川で泳ぎます。", "target_kanji": "川", "expected_reading": "かわ", "meaning": "River" },
-    { "id": 53, "sentence": "門の前に人がいます。", "target_kanji": "門", "expected_reading": "もん", "meaning": "Gate" },
-    { "id": 54, "sentence": "箱の中に猫がいます。", "target_kanji": "中", "expected_reading": "なか", "meaning": "Inside" },
-    { "id": 55, "sentence": "料理を作ります。", "target_kanji": "料理", "expected_reading": "りょうり", "meaning": "Cooking/Cuisine" },
-    { "id": 56, "sentence": "音楽を聞くのが好きです。", "target_kanji": "音楽", "expected_reading": "おんがく", "meaning": "Music" },
-    { "id": 57, "sentence": "映画を見に行きます。", "target_kanji": "映画", "expected_reading": "えいが", "meaning": "Movie" },
-    { "id": 58, "sentence": "教室で日本語を話します。", "target_kanji": "教室", "expected_reading": "きょうしつ", "meaning": "Classroom" },
-    { "id": 59, "sentence": "先生に質問します。", "target_kanji": "質問", "expected_reading": "しつもん", "meaning": "Question" },
-    { "id": 60, "sentence": "答えを紙に書きます。", "target_kanji": "答", "expected_reading": "こた", "meaning": "Answer" },
-    { "id": 61, "sentence": "田中さんは親切です。", "target_kanji": "田中", "expected_reading": "たなか", "meaning": "Tanaka (Name)" },
-    { "id": 62, "sentence": "この紙を切ってください。", "target_kanji": "切", "expected_reading": "き", "meaning": "Cut" },
-    { "id": 63, "sentence": "シャワーを浴びます。", "target_kanji": "浴", "expected_reading": "あ", "meaning": "Bathe/Shower" },
-    { "id": 64, "sentence": "雨が降っています。", "target_kanji": "降", "expected_reading": "ふ", "meaning": "Fall (rain)" },
-    { "id": 65, "sentence": "新しい車が欲しいです。", "target_kanji": "欲", "expected_reading": "ほ", "meaning": "Want" },
-    { "id": 66, "sentence": "彼は私の兄です。", "target_kanji": "兄", "expected_reading": "あに", "meaning": "Older brother" },
-    { "id": 67, "sentence": "弟は背が高いです。", "target_kanji": "高", "expected_reading": "たか", "meaning": "Tall/High" },
-    { "id": 68, "sentence": "姉は銀行で働いています。", "target_kanji": "銀", "expected_reading": "ぎん", "meaning": "Silver (Bank)" },
-    { "id": 69, "sentence": "妹は可愛いですね。", "target_kanji": "妹", "expected_reading": "いもうと", "meaning": "Younger sister" },
-    { "id": 70, "sentence": "家族は五人です。", "target_kanji": "族", "expected_reading": "ぞく", "meaning": "Family (suffix)" },
-    { "id": 71, "sentence": "春は暖かいです。", "target_kanji": "春", "expected_reading": "はる", "meaning": "Spring" },
-    { "id": 72, "sentence": "夏は暑いです。", "target_kanji": "夏", "expected_reading": "なつ", "meaning": "Summer" },
-    { "id": 73, "sentence": "秋は涼しいです。", "target_kanji": "秋", "expected_reading": "あき", "meaning": "Autumn" },
-    { "id": 74, "sentence": "冬は寒いです。", "target_kanji": "冬", "expected_reading": "ふゆ", "meaning": "Winter" },
-    { "id": 75, "sentence": "天気がいいですね。", "target_kanji": "気", "expected_reading": "き", "meaning": "Spirit/Air" },
-    { "id": 76, "sentence": "人が多いです。", "target_kanji": "多", "expected_reading": "おお", "meaning": "Many" },
-    { "id": 77, "sentence": "お金が少しあります。", "target_kanji": "少", "expected_reading": "すこ", "meaning": "Little/Few" },
-    { "id": 78, "sentence": "元気ですか。", "target_kanji": "元", "expected_reading": "げん", "meaning": "Origin/Genki" },
-    { "id": 79, "sentence": "歩いて学校へ行きます。", "target_kanji": "歩", "expected_reading": "ある", "meaning": "Walk" },
-    { "id": 80, "sentence": "部屋に入ります。", "target_kanji": "入", "expected_reading": "はい", "meaning": "Enter" },
-    { "id": 81, "sentence": "家を出ます。", "target_kanji": "出", "expected_reading": "で", "meaning": "Exit/Leave" },
-    { "id": 82, "sentence": "この部屋は広いです。", "target_kanji": "広", "expected_reading": "ひろ", "meaning": "Wide/Spacious" },
-    { "id": 83, "sentence": "車を止めてください。", "target_kanji": "止", "expected_reading": "と", "meaning": "Stop" },
-    { "id": 84, "sentence": "窓を開けてください。", "target_kanji": "開", "expected_reading": "あ", "meaning": "Open" },
-    { "id": 85, "sentence": "海に行きたいです。", "target_kanji": "海", "expected_reading": "うみ", "meaning": "Sea" },
-    { "id": 86, "sentence": "世界のニュースを見ます。", "target_kanji": "界", "expected_reading": "かい", "meaning": "World (suffix)" },
-    { "id": 87, "sentence": "映画が好きです。", "target_kanji": "画", "expected_reading": "が", "meaning": "Picture" },
-    { "id": 88, "sentence": "お茶をください。", "target_kanji": "茶", "expected_reading": "ちゃ", "meaning": "Tea" },
-    { "id": 89, "sentence": "英語を話せますか。", "target_kanji": "英", "expected_reading": "えい", "meaning": "English" },
-    { "id": 90, "sentence": "体が丈夫です。", "target_kanji": "体", "expected_reading": "からだ", "meaning": "Body" },
-    { "id": 91, "sentence": "足が痛いです。", "target_kanji": "足", "expected_reading": "あし", "meaning": "Leg/Foot" },
-    { "id": 92, "sentence": "口を開けてください。", "target_kanji": "口", "expected_reading": "くち", "meaning": "Mouth" },
-    { "id": 93, "sentence": "顔を洗います。", "target_kanji": "顔", "expected_reading": "かお", "meaning": "Face" },
-    { "id": 94, "sentence": "耳が痛いです。", "target_kanji": "耳", "expected_reading": "みみ", "meaning": "Ear" },
-    { "id": 95, "sentence": "目が悪いです。", "target_kanji": "目", "expected_reading": "め", "meaning": "Eye" },
-    { "id": 96, "sentence": "立ってください。", "target_kanji": "立", "expected_reading": "た", "meaning": "Stand" },
-    { "id": 97, "sentence": "そのニュースを知っていますか。", "target_kanji": "知", "expected_reading": "し", "meaning": "Know" },
-    { "id": 98, "sentence": "東京に住んでいます。", "target_kanji": "住", "expected_reading": "す", "meaning": "Live/Reside" },
-    { "id": 99, "sentence": "どう思いますか。", "target_kanji": "思", "expected_reading": "おも", "meaning": "Think" },
-    { "id": 100, "sentence": "このペンを使ってください。", "target_kanji": "使", "expected_reading": "つか", "meaning": "Use" },
-    { "id": 101, "sentence": "ケーキを作ります。", "target_kanji": "作", "expected_reading": "つく", "meaning": "Make" },
-    { "id": 102, "sentence": "この品物は高いです。", "target_kanji": "品", "expected_reading": "しな", "meaning": "Item/Goods" },
-    { "id": 103, "sentence": "髪が長いです。", "target_kanji": "長", "expected_reading": "なが", "meaning": "Long" },
-    { "id": 104, "sentence": "明日は晴れです。", "target_kanji": "明", "expected_reading": "あ", "meaning": "Bright/Tomorrow" },
-    { "id": 105, "sentence": "肉を食べません。", "target_kanji": "肉", "expected_reading": "にく", "meaning": "Meat" },
-    { "id": 106, "sentence": "心配しないで。", "target_kanji": "配", "expected_reading": "ぱい", "meaning": "Distribute/Worry" },
-    { "id": 107, "sentence": "この店でパンを売っています。", "target_kanji": "売", "expected_reading": "う", "meaning": "Sell" },
-    { "id": 108, "sentence": "漢字を書きます。", "target_kanji": "漢", "expected_reading": "かん", "meaning": "Chinese" },
-    { "id": 109, "sentence": "きれいな字ですね。", "target_kanji": "字", "expected_reading": "じ", "meaning": "Character/Letter" },
-    { "id": 110, "sentence": "図書館へ行きます。", "target_kanji": "図", "expected_reading": "と", "meaning": "Map/Diagram" },
-    { "id": 111, "sentence": "留学生と友達になりました。", "target_kanji": "留学", "expected_reading": "りゅうがく", "meaning": "Study abroad" },
-    { "id": 112, "sentence": "明日、会議があります。", "target_kanji": "会議", "expected_reading": "かいぎ", "meaning": "Meeting" },
-    { "id": 113, "sentence": "毎朝、散歩をします。", "target_kanji": "散歩", "expected_reading": "さんぽ", "meaning": "Walk/Stroll" },
-    { "id": 114, "sentence": "姉は二十歳です。", "target_kanji": "二十歳", "expected_reading": "はたち", "meaning": "20 years old" },
-    { "id": 115, "sentence": "自己紹介をしてください。", "target_kanji": "紹介", "expected_reading": "しょうかい", "meaning": "Introduction" },
-    { "id": 116, "sentence": "りんごを一つください。", "target_kanji": "一", "expected_reading": "ひと", "meaning": "One (thing)" },
-    { "id": 117, "sentence": "一分待ってください。", "target_kanji": "一分", "expected_reading": "いっぷん", "meaning": "One minute" },
-    { "id": 118, "sentence": "一月一日です。", "target_kanji": "一月", "expected_reading": "いちがつ", "meaning": "January" },
-    { "id": 119, "sentence": "一人で行きます。", "target_kanji": "一人", "expected_reading": "ひとり", "meaning": "Alone/One person" },
-    { "id": 120, "sentence": "一万円持っています。", "target_kanji": "一万", "expected_reading": "いちまん", "meaning": "Ten thousand" },
-    { "id": 121, "sentence": "二つあります。", "target_kanji": "二", "expected_reading": "ふた", "meaning": "Two (things)" },
-    { "id": 122, "sentence": "二月は短いです。", "target_kanji": "二月", "expected_reading": "にがつ", "meaning": "February" },
-    { "id": 123, "sentence": "二人で食べました。", "target_kanji": "二人", "expected_reading": "ふたり", "meaning": "Two people" },
-    { "id": 124, "sentence": "二日酔いです。", "target_kanji": "二日", "expected_reading": "ふつか", "meaning": "Two days/2nd day" },
-    { "id": 125, "sentence": "三つ目の角を曲がります。", "target_kanji": "三", "expected_reading": "みっ", "meaning": "Three (things)" },
-    { "id": 126, "sentence": "三月三日はひな祭りです。", "target_kanji": "三月", "expected_reading": "さんがつ", "meaning": "March" },
-    { "id": 127, "sentence": "三日後に会いましょう。", "target_kanji": "三日", "expected_reading": "みっか", "meaning": "Three days/3rd day" },
-    { "id": 128, "sentence": "椅子が四つあります。", "target_kanji": "四", "expected_reading": "よっ", "meaning": "Four (things)" },
-    { "id": 129, "sentence": "四月は桜がきれいです。", "target_kanji": "四月", "expected_reading": "しがつ", "meaning": "April" },
-    { "id": 130, "sentence": "四時に起きます。", "target_kanji": "四時", "expected_reading": "よじ", "meaning": "4 o'clock" },
-    { "id": 131, "sentence": "四人家族です。", "target_kanji": "四人", "expected_reading": "よにん", "meaning": "Four people" },
-    { "id": 132, "sentence": "卵を五つ買いました。", "target_kanji": "五", "expected_reading": "いつ", "meaning": "Five (things)" },
-    { "id": 133, "sentence": "五月は天気がいいです。", "target_kanji": "五月", "expected_reading": "ごがつ", "meaning": "May" },
-    { "id": 134, "sentence": "五日働きます。", "target_kanji": "五日", "expected_reading": "いつか", "meaning": "Five days/5th day" },
-    { "id": 135, "sentence": "六つ数えてください。", "target_kanji": "六", "expected_reading": "むっ", "meaning": "Six (things)" },
-    { "id": 136, "sentence": "六月は雨が多いです。", "target_kanji": "六月", "expected_reading": "ろくがつ", "meaning": "June" },
-    { "id": 137, "sentence": "六百円です。", "target_kanji": "六百", "expected_reading": "ろっぴゃく", "meaning": "600" },
-    { "id": 138, "sentence": "七つの海。", "target_kanji": "七", "expected_reading": "なな", "meaning": "Seven (things)" },
-    { "id": 139, "sentence": "七月七日は七夕です。", "target_kanji": "七月", "expected_reading": "しちがつ", "meaning": "July" },
-    { "id": 140, "sentence": "七時に寝ます。", "target_kanji": "七時", "expected_reading": "しちじ", "meaning": "7 o'clock" },
-    { "id": 141, "sentence": "八つあります。", "target_kanji": "八", "expected_reading": "やっ", "meaning": "Eight (things)" },
-    { "id": 142, "sentence": "八月は暑いです。", "target_kanji": "八月", "expected_reading": "はちがつ", "meaning": "August" },
-    { "id": 143, "sentence": "八百屋へ行きます。", "target_kanji": "八百", "expected_reading": "やお", "meaning": "Greengrocer (800)" },
-    { "id": 144, "sentence": "九つ数えましょう。", "target_kanji": "九", "expected_reading": "ここの", "meaning": "Nine (things)" },
-    { "id": 145, "sentence": "九月になりました。", "target_kanji": "九月", "expected_reading": "くがつ", "meaning": "September" },
-    { "id": 146, "sentence": "九時半です。", "target_kanji": "九時", "expected_reading": "くじ", "meaning": "9 o'clock" },
-    { "id": 147, "sentence": "十個ください。", "target_kanji": "十", "expected_reading": "じゅっ", "meaning": "Ten (things/counters)" },
-    { "id": 148, "sentence": "十月は涼しいです。", "target_kanji": "十月", "expected_reading": "じゅうがつ", "meaning": "October" },
-    { "id": 149, "sentence": "十分休憩します。", "target_kanji": "十分", "expected_reading": "じゅっぷん", "meaning": "10 minutes" },
-    { "id": 150, "sentence": "十一月です。", "target_kanji": "十一月", "expected_reading": "じゅういちがつ", "meaning": "November" },
-    { "id": 151, "sentence": "十二月は忙しいです。", "target_kanji": "十二月", "expected_reading": "じゅうにがつ", "meaning": "December" },
-    { "id": 152, "sentence": "百人乗っても大丈夫。", "target_kanji": "百", "expected_reading": "ひゃく", "meaning": "Hundred" },
-    { "id": 153, "sentence": "三千円かかりました。", "target_kanji": "三千", "expected_reading": "さんぜん", "meaning": "3000" },
-    { "id": 154, "sentence": "八千円です。", "target_kanji": "八千", "expected_reading": "はっせん", "meaning": "8000" },
-    { "id": 155, "sentence": "一万人います。", "target_kanji": "一万", "expected_reading": "いちまん", "meaning": "10,000" },
-    { "id": 156, "sentence": "この円は大きいです。", "target_kanji": "円", "expected_reading": "えん", "meaning": "Circle/Yen" },
-    { "id": 157, "sentence": "円いテーブル。", "target_kanji": "円", "expected_reading": "まる", "meaning": "Round" },
-    { "id": 158, "sentence": "五千円札。", "target_kanji": "円", "expected_reading": "えん", "meaning": "Yen" },
-    { "id": 159, "sentence": "今年は2023年です。", "target_kanji": "年", "expected_reading": "ねん", "meaning": "Year" },
-    { "id": 160, "sentence": "去年、日本へ行きました。", "target_kanji": "去年", "expected_reading": "きょねん", "meaning": "Last year" },
-    { "id": 161, "sentence": "毎年帰ります。", "target_kanji": "毎年", "expected_reading": "まいとし", "meaning": "Every year" },
-    { "id": 162, "sentence": "上を見てください。", "target_kanji": "上", "expected_reading": "うえ", "meaning": "Up/Above" },
-    { "id": 163, "sentence": "山を上がります。", "target_kanji": "上", "expected_reading": "あ", "meaning": "Go up" },
-    { "id": 164, "sentence": "年上の人。", "target_kanji": "上", "expected_reading": "うえ", "meaning": "Older" },
-    { "id": 165, "sentence": "下を見てください。", "target_kanji": "下", "expected_reading": "した", "meaning": "Down/Below" },
-    { "id": 166, "sentence": "電車を降ります。", "target_kanji": "降", "expected_reading": "お", "meaning": "Get off" },
-    { "id": 167, "sentence": "地下鉄で行きます。", "target_kanji": "下", "expected_reading": "か", "meaning": "Below (Subway)" },
-    { "id": 168, "sentence": "中に入ってください。", "target_kanji": "中", "expected_reading": "なか", "meaning": "Inside" },
-    { "id": 169, "sentence": "一日中勉強しました。", "target_kanji": "中", "expected_reading": "じゅう", "meaning": "All through" },
-    { "id": 170, "sentence": "中国から来ました。", "target_kanji": "中", "expected_reading": "ちゅう", "meaning": "Middle (China)" },
-    { "id": 171, "sentence": "大きい声。", "target_kanji": "大", "expected_reading": "おお", "meaning": "Big" },
-    { "id": 172, "sentence": "大学院生です。", "target_kanji": "大", "expected_reading": "だい", "meaning": "Big (University)" },
-    { "id": 173, "sentence": "大変ですね。", "target_kanji": "大", "expected_reading": "たい", "meaning": "Big (Tough)" },
-    { "id": 174, "sentence": "小さい猫。", "target_kanji": "小", "expected_reading": "ちい", "meaning": "Small" },
-    { "id": 175, "sentence": "小学校へ行きます。", "target_kanji": "小", "expected_reading": "しょう", "meaning": "Small (Elementary)" },
-    { "id": 176, "sentence": "小川さんがいます。", "target_kanji": "小", "expected_reading": "お", "meaning": "Small (Name)" },
-    { "id": 177, "sentence": "本を読みます。", "target_kanji": "本", "expected_reading": "ほん", "meaning": "Book" },
-    { "id": 178, "sentence": "山本さんです。", "target_kanji": "本", "expected_reading": "もと", "meaning": "Root (Name)" },
-    { "id": 179, "sentence": "本日休業。", "target_kanji": "本", "expected_reading": "ほん", "meaning": "This day" },
-    { "id": 180, "sentence": "半分ください。", "target_kanji": "半", "expected_reading": "はん", "meaning": "Half" },
-    { "id": 181, "sentence": "半月。", "target_kanji": "半", "expected_reading": "はん", "meaning": "Half moon/month" },
-    { "id": 182, "sentence": "三時半です。", "target_kanji": "半", "expected_reading": "はん", "meaning": "Half past" },
-    { "id": 183, "sentence": "分かりますか。", "target_kanji": "分", "expected_reading": "わ", "meaning": "Understand" },
-    { "id": 184, "sentence": "五分待ちます。", "target_kanji": "分", "expected_reading": "ふん", "meaning": "Minute" },
-    { "id": 185, "sentence": "分ける。", "target_kanji": "分", "expected_reading": "わ", "meaning": "Divide" },
-    { "id": 186, "sentence": "力があります。", "target_kanji": "力", "expected_reading": "ちから", "meaning": "Power" },
-    { "id": 187, "sentence": "協力します。", "target_kanji": "力", "expected_reading": "りょく", "meaning": "Power (Cooperation)" },
-    { "id": 188, "sentence": "何ですか。", "target_kanji": "何", "expected_reading": "なん", "meaning": "What" },
-    { "id": 189, "sentence": "何をしますか。", "target_kanji": "何", "expected_reading": "なに", "meaning": "What" },
-    { "id": 190, "sentence": "明日は休みです。", "target_kanji": "明", "expected_reading": "あした", "meaning": "Tomorrow" },
-    { "id": 191, "sentence": "明るい部屋。", "target_kanji": "明", "expected_reading": "あか", "meaning": "Bright" },
-    { "id": 192, "sentence": "説明します。", "target_kanji": "明", "expected_reading": "めい", "meaning": "Clear (Explain)" },
-    { "id": 193, "sentence": "休み時間。", "target_kanji": "休", "expected_reading": "やす", "meaning": "Rest" },
-    { "id": 194, "sentence": "休日。", "target_kanji": "休", "expected_reading": "きゅう", "meaning": "Holiday" },
-    { "id": 195, "sentence": "体を洗います。", "target_kanji": "体", "expected_reading": "からだ", "meaning": "Body" },
-    { "id": 196, "sentence": "体育館。", "target_kanji": "体", "expected_reading": "たい", "meaning": "Body (Gym)" },
-    { "id": 197, "sentence": "好きな食べ物。", "target_kanji": "好", "expected_reading": "す", "meaning": "Like" },
-    { "id": 198, "sentence": "お好み焼き。", "target_kanji": "好", "expected_reading": "この", "meaning": "Preference" },
-    { "id": 199, "sentence": "男の子。", "target_kanji": "男", "expected_reading": "おとこ", "meaning": "Man/Male" },
-    { "id": 200, "sentence": "男性。", "target_kanji": "男", "expected_reading": "だん", "meaning": "Male gender" },
-    { "id": 201, "sentence": "長男。", "target_kanji": "男", "expected_reading": "なん", "meaning": "Son (Eldest)" },
-    { "id": 202, "sentence": "林の中にいます。", "target_kanji": "林", "expected_reading": "はやし", "meaning": "Grove/Woods" },
-    { "id": 203, "sentence": "小林さん。", "target_kanji": "林", "expected_reading": "ばやし", "meaning": "Grove (Name)" },
-    { "id": 204, "sentence": "森へ行きます。", "target_kanji": "森", "expected_reading": "もり", "meaning": "Forest" },
-    { "id": 205, "sentence": "森田さん。", "target_kanji": "森", "expected_reading": "もり", "meaning": "Forest (Name)" },
-    { "id": 206, "sentence": "間に入ります。", "target_kanji": "間", "expected_reading": "あいだ", "meaning": "Between" },
-    { "id": 207, "sentence": "時間があります。", "target_kanji": "間", "expected_reading": "かん", "meaning": "Time/Interval" },
-    { "id": 208, "sentence": "間に合います。", "target_kanji": "間", "expected_reading": "ま", "meaning": "Interval" },
-    { "id": 209, "sentence": "畑で働きます。", "target_kanji": "畑", "expected_reading": "はたけ", "meaning": "Field" },
-    { "id": 210, "sentence": "岩があります。", "target_kanji": "岩", "expected_reading": "いわ", "meaning": "Rock" },
-    { "id": 211, "sentence": "火山。", "target_kanji": "山", "expected_reading": "ざん", "meaning": "Mountain (Volcano)" },
-    { "id": 212, "sentence": "富士山。", "target_kanji": "山", "expected_reading": "さん", "meaning": "Mountain (Fuji)" },
-    { "id": 213, "sentence": "田んぼ。", "target_kanji": "田", "expected_reading": "た", "meaning": "Rice field" },
-    { "id": 214, "sentence": "山田さん。", "target_kanji": "田", "expected_reading": "だ", "meaning": "Rice field (Name)" },
-    { "id": 215, "sentence": "水田。", "target_kanji": "田", "expected_reading": "でん", "meaning": "Rice field" },
-    { "id": 216, "sentence": "目薬。", "target_kanji": "目", "expected_reading": "め", "meaning": "Eye" },
-    { "id": 217, "sentence": "目的。", "target_kanji": "目", "expected_reading": "もく", "meaning": "Eye (Purpose)" },
-    { "id": 218, "sentence": "耳が遠いです。", "target_kanji": "耳", "expected_reading": "みみ", "meaning": "Ear" },
-    { "id": 219, "sentence": "口紅。", "target_kanji": "口", "expected_reading": "くち", "meaning": "Mouth" },
-    { "id": 220, "sentence": "入口。", "target_kanji": "口", "expected_reading": "ぐち", "meaning": "Mouth (Entrance)" },
-    { "id": 221, "sentence": "人口。", "target_kanji": "口", "expected_reading": "こう", "meaning": "Mouth (Population)" },
-    { "id": 222, "sentence": "上手です。", "target_kanji": "手", "expected_reading": "ず", "meaning": "Hand (Skillful)" },
-    { "id": 223, "sentence": "手伝ってください。", "target_kanji": "手", "expected_reading": "て", "meaning": "Hand" },
-    { "id": 224, "sentence": "歌手。", "target_kanji": "手", "expected_reading": "しゅ", "meaning": "Hand (Singer)" },
-    { "id": 225, "sentence": "足ります。", "target_kanji": "足", "expected_reading": "た", "meaning": "Sufficient" },
-    { "id": 226, "sentence": "遠足。", "target_kanji": "足", "expected_reading": "そく", "meaning": "Foot (Excursion)" },
-    { "id": 227, "sentence": "雨天。", "target_kanji": "雨", "expected_reading": "う", "meaning": "Rain" },
-    { "id": 228, "sentence": "大雨。", "target_kanji": "雨", "expected_reading": "あめ", "meaning": "Rain (Heavy)" },
-    { "id": 229, "sentence": "竹の子。", "target_kanji": "竹", "expected_reading": "たけ", "meaning": "Bamboo" },
-    { "id": 230, "sentence": "竹田さん。", "target_kanji": "竹", "expected_reading": "たけ", "meaning": "Bamboo (Name)" },
-    { "id": 231, "sentence": "米を食べます。", "target_kanji": "米", "expected_reading": "こめ", "meaning": "Rice" },
-    { "id": 232, "sentence": "米国。", "target_kanji": "米", "expected_reading": "べい", "meaning": "Rice (USA)" },
-    { "id": 233, "sentence": "貝を拾います。", "target_kanji": "貝", "expected_reading": "かい", "meaning": "Shellfish" },
-    { "id": 234, "sentence": "石の上にも三年。", "target_kanji": "石", "expected_reading": "いし", "meaning": "Stone" },
-    { "id": 235, "sentence": "石川さん。", "target_kanji": "石", "expected_reading": "いし", "meaning": "Stone (Name)" },
-    { "id": 236, "sentence": "糸を使います。", "target_kanji": "糸", "expected_reading": "いと", "meaning": "Thread" },
-    { "id": 237, "sentence": "花火。", "target_kanji": "花", "expected_reading": "はな", "meaning": "Flower (Fireworks)" },
-    { "id": 238, "sentence": "花瓶。", "target_kanji": "花", "expected_reading": "か", "meaning": "Flower (Vase)" },
-    { "id": 239, "sentence": "お茶を飲みます。", "target_kanji": "茶", "expected_reading": "ちゃ", "meaning": "Tea" },
-    { "id": 240, "sentence": "茶色。", "target_kanji": "茶", "expected_reading": "ちゃ", "meaning": "Tea (Brown)" },
-    { "id": 241, "sentence": "喫茶店。", "target_kanji": "茶", "expected_reading": "さ", "meaning": "Tea (Cafe)" },
-    { "id": 242, "sentence": "肉屋。", "target_kanji": "肉", "expected_reading": "にく", "meaning": "Meat" },
-    { "id": 243, "sentence": "牛肉。", "target_kanji": "肉", "expected_reading": "にく", "meaning": "Beef" },
-    { "id": 244, "sentence": "文字。", "target_kanji": "文", "expected_reading": "も", "meaning": "Letter/Character" },
-    { "id": 245, "sentence": "文学。", "target_kanji": "文", "expected_reading": "ぶん", "meaning": "Letter (Literature)" },
-    { "id": 246, "sentence": "生物。", "target_kanji": "生", "expected_reading": "せい", "meaning": "Life (Biology)" },
-    { "id": 247, "sentence": "生ビール。", "target_kanji": "生", "expected_reading": "なま", "meaning": "Raw/Draft" },
-    { "id": 248, "sentence": "生まれる。", "target_kanji": "生", "expected_reading": "う", "meaning": "Born" },
-    { "id": 249, "sentence": "生きる。", "target_kanji": "生", "expected_reading": "い", "meaning": "Live" },
-    { "id": 250, "sentence": "花屋の店員。", "target_kanji": "店", "expected_reading": "みせ", "meaning": "Shop" },
-    { "id": 251, "sentence": "売店。", "target_kanji": "店", "expected_reading": "てん", "meaning": "Shop (Kiosk)" },
-    { "id": 252, "sentence": "馬に乗ります。", "target_kanji": "馬", "expected_reading": "うま", "meaning": "Horse" },
-    { "id": 253, "sentence": "鳥が鳴いています。", "target_kanji": "鳥", "expected_reading": "とり", "meaning": "Bird" },
-    { "id": 254, "sentence": "白鳥。", "target_kanji": "鳥", "expected_reading": "ちょう", "meaning": "Bird (Swan)" },
-    { "id": 255, "sentence": "道を通ります。", "target_kanji": "道", "expected_reading": "みち", "meaning": "Road" },
-    { "id": 256, "sentence": "書道。", "target_kanji": "道", "expected_reading": "どう", "meaning": "Way (Calligraphy)" },
-    { "id": 257, "sentence": "北海道。", "target_kanji": "道", "expected_reading": "どう", "meaning": "Way (Hokkaido)" },
-    { "id": 258, "sentence": "書く。", "target_kanji": "書", "expected_reading": "か", "meaning": "Write" },
-    { "id": 259, "sentence": "読書。", "target_kanji": "書", "expected_reading": "しょ", "meaning": "Write (Reading)" },
-    { "id": 260, "sentence": "自分。", "target_kanji": "自", "expected_reading": "じ", "meaning": "Self" },
-    { "id": 261, "sentence": "自動車。", "target_kanji": "自", "expected_reading": "じ", "meaning": "Self (Car)" },
-    { "id": 262, "sentence": "自転車。", "target_kanji": "車", "expected_reading": "しゃ", "meaning": "Car (Bicycle)" },
-    { "id": 263, "sentence": "門限。", "target_kanji": "門", "expected_reading": "もん", "meaning": "Gate (Curfew)" },
-    { "id": 264, "sentence": "専門。", "target_kanji": "門", "expected_reading": "もん", "meaning": "Gate (Specialty)" },
-    { "id": 265, "sentence": "聞こえますか。", "target_kanji": "聞", "expected_reading": "き", "meaning": "Hear" },
-    { "id": 266, "sentence": "新聞。", "target_kanji": "聞", "expected_reading": "ぶん", "meaning": "Hear (Newspaper)" },
-    { "id": 267, "sentence": "新幹線。", "target_kanji": "新", "expected_reading": "しん", "meaning": "New (Bullet Train)" },
-    { "id": 268, "sentence": "親切な人。", "target_kanji": "親", "expected_reading": "しん", "meaning": "Parent/Kind" },
-    { "id": 269, "sentence": "親。", "target_kanji": "親", "expected_reading": "おや", "meaning": "Parent" },
-    { "id": 270, "sentence": "父親。", "target_kanji": "親", "expected_reading": "おや", "meaning": "Parent (Father)" },
-    { "id": 271, "sentence": "少し。", "target_kanji": "少", "expected_reading": "すこ", "meaning": "A little" },
-    { "id": 272, "sentence": "少年。", "target_kanji": "少", "expected_reading": "しょう", "meaning": "Little (Boy)" },
-    { "id": 273, "sentence": "少女。", "target_kanji": "少", "expected_reading": "しょう", "meaning": "Little (Girl)" },
-    { "id": 274, "sentence": "今週。", "target_kanji": "週", "expected_reading": "しゅう", "meaning": "Week" },
-    { "id": 275, "sentence": "来週。", "target_kanji": "週", "expected_reading": "しゅう", "meaning": "Week (Next)" },
-    { "id": 276, "sentence": "先週。", "target_kanji": "週", "expected_reading": "しゅう", "meaning": "Week (Last)" },
-    { "id": 277, "sentence": "一週間。", "target_kanji": "週", "expected_reading": "しゅう", "meaning": "Week (Duration)" },
-    { "id": 278, "sentence": "主人がいます。", "target_kanji": "主", "expected_reading": "しゅ", "meaning": "Master/Husband" },
-    { "id": 279, "sentence": "持ち主。", "target_kanji": "主", "expected_reading": "ぬし", "meaning": "Master (Owner)" },
-    { "id": 280, "sentence": "立つ。", "target_kanji": "立", "expected_reading": "た", "meaning": "Stand" },
-    { "id": 281, "sentence": "国立。", "target_kanji": "立", "expected_reading": "りつ", "meaning": "Stand (National)" },
-    { "id": 282, "sentence": "私立。", "target_kanji": "立", "expected_reading": "りつ", "meaning": "Stand (Private)" },
-    { "id": 283, "sentence": "物事。", "target_kanji": "物", "expected_reading": "もの", "meaning": "Thing" },
-    { "id": 284, "sentence": "動物。", "target_kanji": "物", "expected_reading": "ぶつ", "meaning": "Thing (Animal)" },
-    { "id": 285, "sentence": "見物。", "target_kanji": "物", "expected_reading": "ぶつ", "meaning": "Thing (Sightseeing)" },
-    { "id": 286, "sentence": "食事。", "target_kanji": "事", "expected_reading": "じ", "meaning": "Thing (Meal)" },
-    { "id": 287, "sentence": "仕事。", "target_kanji": "事", "expected_reading": "ごと", "meaning": "Thing (Work)" },
-    { "id": 288, "sentence": "用事。", "target_kanji": "事", "expected_reading": "じ", "meaning": "Thing (Errand)" },
-    { "id": 289, "sentence": "夕方。", "target_kanji": "夕", "expected_reading": "ゆう", "meaning": "Evening" },
-    { "id": 290, "sentence": "夕飯。", "target_kanji": "夕", "expected_reading": "ゆう", "meaning": "Evening (Dinner)" },
-    { "id": 291, "sentence": "七夕。", "target_kanji": "夕", "expected_reading": "ばた", "meaning": "Evening (Tanabata)" },
-    { "id": 292, "sentence": "名刺。", "target_kanji": "名", "expected_reading": "めい", "meaning": "Name (Card)" },
-    { "id": 293, "sentence": "有名。", "target_kanji": "名", "expected_reading": "めい", "meaning": "Name (Famous)" },
-    { "id": 294, "sentence": "夜中。", "target_kanji": "夜", "expected_reading": "よ", "meaning": "Night (Midnight)" },
-    { "id": 295, "sentence": "今夜。", "target_kanji": "夜", "expected_reading": "や", "meaning": "Night (Tonight)" },
-    { "id": 296, "sentence": "外で遊びます。", "target_kanji": "外", "expected_reading": "そと", "meaning": "Outside" },
-    { "id": 297, "sentence": "外国。", "target_kanji": "外", "expected_reading": "がい", "meaning": "Outside (Foreign)" },
-    { "id": 298, "sentence": "外す。", "target_kanji": "外", "expected_reading": "はず", "meaning": "Remove" },
-    { "id": 299, "sentence": "多大。", "target_kanji": "多", "expected_reading": "た", "meaning": "Many (Great)" },
-    { "id": 300, "sentence": "多分。", "target_kanji": "多", "expected_reading": "た", "meaning": "Many (Probably)" },
-    { "id": 301, "sentence": "安全。", "target_kanji": "安", "expected_reading": "あん", "meaning": "Peace (Safe)" },
-    { "id": 302, "sentence": "安心。", "target_kanji": "安", "expected_reading": "あん", "meaning": "Peace (Relief)" },
-    { "id": 303, "sentence": "広場。", "target_kanji": "広", "expected_reading": "ひろ", "meaning": "Wide (Square)" },
-    { "id": 304, "sentence": "広告。", "target_kanji": "広", "expected_reading": "こう", "meaning": "Wide (Ad)" },
-    { "id": 305, "sentence": "早起き。", "target_kanji": "早", "expected_reading": "はや", "meaning": "Early" },
-    { "id": 306, "sentence": "早朝。", "target_kanji": "早", "expected_reading": "そう", "meaning": "Early (Morning)" },
-    { "id": 307, "sentence": "社長。", "target_kanji": "長", "expected_reading": "ちょう", "meaning": "Long (CEO)" },
-    { "id": 308, "sentence": "校長。", "target_kanji": "長", "expected_reading": "ちょう", "meaning": "Long (Principal)" },
-    { "id": 309, "sentence": "明るい。", "target_kanji": "明", "expected_reading": "あか", "meaning": "Bright" },
-    { "id": 310, "sentence": "明日。", "target_kanji": "明", "expected_reading": "あす", "meaning": "Tomorrow" },
-    { "id": 311, "sentence": "社会。", "target_kanji": "社", "expected_reading": "しゃ", "meaning": "Shrine/Company (Society)" },
-    { "id": 312, "sentence": "会社。", "target_kanji": "社", "expected_reading": "しゃ", "meaning": "Company" },
-    { "id": 313, "sentence": "神社。", "target_kanji": "社", "expected_reading": "じゃ", "meaning": "Shrine" },
-    { "id": 314, "sentence": "学校。", "target_kanji": "校", "expected_reading": "こう", "meaning": "School" },
-    { "id": 315, "sentence": "高校。", "target_kanji": "校", "expected_reading": "こう", "meaning": "School (High)" },
-    { "id": 316, "sentence": "中学校。", "target_kanji": "校", "expected_reading": "こう", "meaning": "School (Middle)" },
-    { "id": 317, "sentence": "村の生活。", "target_kanji": "村", "expected_reading": "むら", "meaning": "Village" },
-    { "id": 318, "sentence": "木村さん。", "target_kanji": "村", "expected_reading": "むら", "meaning": "Village (Name)" },
-    { "id": 319, "sentence": "町村。", "target_kanji": "村", "expected_reading": "そん", "meaning": "Village (Towns and villages)" },
-    { "id": 320, "sentence": "町長。", "target_kanji": "町", "expected_reading": "ちょう", "meaning": "Town (Mayor)" },
-    { "id": 321, "sentence": "下町。", "target_kanji": "町", "expected_reading": "まち", "meaning": "Town (Downtown)" },
-    { "id": 322, "sentence": "東京。", "target_kanji": "京", "expected_reading": "きょう", "meaning": "Capital" },
-    { "id": 323, "sentence": "京都。", "target_kanji": "京", "expected_reading": "きょう", "meaning": "Capital (Kyoto)" },
-    { "id": 324, "sentence": "上京する。", "target_kanji": "京", "expected_reading": "きょう", "meaning": "Capital (Go to Tokyo)" },
-    { "id": 325, "sentence": "国。", "target_kanji": "国", "expected_reading": "くに", "meaning": "Country" },
-    { "id": 326, "sentence": "国家。", "target_kanji": "国", "expected_reading": "こっ", "meaning": "Country (Nation)" },
-    { "id": 327, "sentence": "帰国。", "target_kanji": "国", "expected_reading": "こく", "meaning": "Country (Return)" },
-    { "id": 328, "sentence": "お店。", "target_kanji": "店", "expected_reading": "みせ", "meaning": "Shop" },
-    { "id": 329, "sentence": "書店。", "target_kanji": "店", "expected_reading": "てん", "meaning": "Shop (Bookstore)" },
-    { "id": 330, "sentence": "本店。", "target_kanji": "店", "expected_reading": "てん", "meaning": "Shop (Main branch)" },
-    { "id": 331, "sentence": "電気。", "target_kanji": "電", "expected_reading": "でん", "meaning": "Electricity" },
-    { "id": 332, "sentence": "電話。", "target_kanji": "電", "expected_reading": "でん", "meaning": "Electricity (Phone)" },
-    { "id": 333, "sentence": "電力。", "target_kanji": "電", "expected_reading": "でん", "meaning": "Electricity (Power)" },
-    { "id": 334, "sentence": "元気。", "target_kanji": "気", "expected_reading": "き", "meaning": "Spirit (Healthy)" },
-    { "id": 335, "sentence": "気分。", "target_kanji": "気", "expected_reading": "き", "meaning": "Spirit (Mood)" },
-    { "id": 336, "sentence": "空気。", "target_kanji": "気", "expected_reading": "き", "meaning": "Spirit (Air)" },
-    { "id": 337, "sentence": "父母。", "target_kanji": "父", "expected_reading": "ふ", "meaning": "Father (Parents)" },
-    { "id": 338, "sentence": "父母。", "target_kanji": "母", "expected_reading": "ぼ", "meaning": "Mother (Parents)" },
-    { "id": 339, "sentence": "祖父。", "target_kanji": "父", "expected_reading": "ふ", "meaning": "Father (Grandfather)" },
-    { "id": 340, "sentence": "祖母。", "target_kanji": "母", "expected_reading": "ぼ", "meaning": "Mother (Grandmother)" },
-    { "id": 341, "sentence": "兄弟。", "target_kanji": "兄", "expected_reading": "きょう", "meaning": "Brother (Siblings)" },
-    { "id": 342, "sentence": "兄弟。", "target_kanji": "弟", "expected_reading": "だい", "meaning": "Brother (Siblings)" },
-    { "id": 343, "sentence": "姉妹。", "target_kanji": "姉", "expected_reading": "し", "meaning": "Sister (Sisters)" },
-    { "id": 344, "sentence": "姉妹。", "target_kanji": "妹", "expected_reading": "まい", "meaning": "Sister (Sisters)" },
-    { "id": 345, "sentence": "お姉さん。", "target_kanji": "姉", "expected_reading": "ねえ", "meaning": "Older sister" },
-    { "id": 346, "sentence": "自ら。", "target_kanji": "自", "expected_reading": "みずか", "meaning": "Self" },
-    { "id": 347, "sentence": "友人。", "target_kanji": "友", "expected_reading": "ゆう", "meaning": "Friend" },
-    { "id": 348, "sentence": "親友。", "target_kanji": "友", "expected_reading": "ゆう", "meaning": "Friend (Best)" },
-    { "id": 349, "sentence": "友情。", "target_kanji": "友", "expected_reading": "ゆう", "meaning": "Friend (Friendship)" },
-    { "id": 350, "sentence": "春分。", "target_kanji": "春", "expected_reading": "しゅん", "meaning": "Spring (Equinox)" },
-    { "id": 351, "sentence": "青春。", "target_kanji": "春", "expected_reading": "しゅん", "meaning": "Spring (Youth)" },
-    { "id": 352, "sentence": "夏休み。", "target_kanji": "夏", "expected_reading": "なつ", "meaning": "Summer" },
-    { "id": 353, "sentence": "真夏。", "target_kanji": "夏", "expected_reading": "なつ", "meaning": "Summer (Midsummer)" },
-    { "id": 354, "sentence": "秋分。", "target_kanji": "秋", "expected_reading": "しゅう", "meaning": "Autumn (Equinox)" },
-    { "id": 355, "sentence": "秋冬。", "target_kanji": "秋", "expected_reading": "あき", "meaning": "Autumn (Autumn/Winter)" },
-    { "id": 356, "sentence": "真冬。", "target_kanji": "冬", "expected_reading": "ふゆ", "meaning": "Winter (Midwinter)" },
-    { "id": 357, "sentence": "冬休み。", "target_kanji": "冬", "expected_reading": "ふゆ", "meaning": "Winter" },
-    { "id": 358, "sentence": "東西。", "target_kanji": "東", "expected_reading": "とう", "meaning": "East" },
-    { "id": 359, "sentence": "東。", "target_kanji": "東", "expected_reading": "ひがし", "meaning": "East" },
-    { "id": 360, "sentence": "東京駅。", "target_kanji": "東", "expected_reading": "とう", "meaning": "East (Tokyo)" },
-    { "id": 361, "sentence": "西。", "target_kanji": "西", "expected_reading": "にし", "meaning": "West" },
-    { "id": 362, "sentence": "関西。", "target_kanji": "西", "expected_reading": "さい", "meaning": "West (Kansai)" },
-    { "id": 363, "sentence": "南。", "target_kanji": "南", "expected_reading": "みなみ", "meaning": "South" },
-    { "id": 364, "sentence": "南口。", "target_kanji": "南", "expected_reading": "みなみ", "meaning": "South (Exit)" },
-    { "id": 365, "sentence": "北。", "target_kanji": "北", "expected_reading": "きた", "meaning": "North" },
-    { "id": 366, "sentence": "北口。", "target_kanji": "北", "expected_reading": "きた", "meaning": "North (Exit)" },
-    { "id": 367, "sentence": "南北。", "target_kanji": "北", "expected_reading": "ほく", "meaning": "North (South/North)" },
-    { "id": 368, "sentence": "左。", "target_kanji": "左", "expected_reading": "ひだり", "meaning": "Left" },
-    { "id": 369, "sentence": "左右。", "target_kanji": "左", "expected_reading": "さ", "meaning": "Left (Left/Right)" },
-    { "id": 370, "sentence": "右。", "target_kanji": "右", "expected_reading": "みぎ", "meaning": "Right" },
-    { "id": 371, "sentence": "右手。", "target_kanji": "右", "expected_reading": "みぎ", "meaning": "Right (Hand)" },
-    { "id": 372, "sentence": "左右。", "target_kanji": "右", "expected_reading": "ゆう", "meaning": "Right (Left/Right)" },
-    { "id": 373, "sentence": "外に出る。", "target_kanji": "出", "expected_reading": "で", "meaning": "Exit" },
-    { "id": 374, "sentence": "出す。", "target_kanji": "出", "expected_reading": "だ", "meaning": "Put out" },
-    { "id": 375, "sentence": "出口。", "target_kanji": "出", "expected_reading": "で", "meaning": "Exit" },
-    { "id": 376, "sentence": "外出。", "target_kanji": "出", "expected_reading": "しゅつ", "meaning": "Exit (Go out)" },
-    { "id": 377, "sentence": "入れる。", "target_kanji": "入", "expected_reading": "い", "meaning": "Put in" },
-    { "id": 378, "sentence": "入口。", "target_kanji": "入", "expected_reading": "いり", "meaning": "Entrance" },
-    { "id": 379, "sentence": "入学。", "target_kanji": "入", "expected_reading": "にゅう", "meaning": "Enter (School)" },
-    { "id": 380, "sentence": "入院。", "target_kanji": "入", "expected_reading": "にゅう", "meaning": "Enter (Hospital)" },
-    { "id": 381, "sentence": "病院。", "target_kanji": "院", "expected_reading": "いん", "meaning": "Institution (Hospital)" },
-    { "id": 382, "sentence": "大学院。", "target_kanji": "院", "expected_reading": "いん", "meaning": "Institution (Grad School)" },
-    { "id": 383, "sentence": "行く。", "target_kanji": "行", "expected_reading": "い", "meaning": "Go" },
-    { "id": 384, "sentence": "行う。", "target_kanji": "行", "expected_reading": "おこな", "meaning": "Conduct" },
-    { "id": 385, "sentence": "旅行。", "target_kanji": "行", "expected_reading": "こう", "meaning": "Go (Travel)" },
-    { "id": 386, "sentence": "銀行。", "target_kanji": "行", "expected_reading": "こう", "meaning": "Go (Bank)" },
-    { "id": 387, "sentence": "来る。", "target_kanji": "来", "expected_reading": "く", "meaning": "Come" },
-    { "id": 388, "sentence": "来ない。", "target_kanji": "来", "expected_reading": "こ", "meaning": "Come (Not)" },
-    { "id": 389, "sentence": "来月。", "target_kanji": "来", "expected_reading": "らい", "meaning": "Come (Next Month)" },
-    { "id": 390, "sentence": "将来。", "target_kanji": "来", "expected_reading": "らい", "meaning": "Come (Future)" },
-    { "id": 391, "sentence": "食べる。", "target_kanji": "食", "expected_reading": "た", "meaning": "Eat" },
-    { "id": 392, "sentence": "食べ物。", "target_kanji": "食", "expected_reading": "た", "meaning": "Eat (Food)" },
-    { "id": 393, "sentence": "食事。", "target_kanji": "食", "expected_reading": "しょく", "meaning": "Eat (Meal)" },
-    { "id": 394, "sentence": "食堂。", "target_kanji": "食", "expected_reading": "しょく", "meaning": "Eat (Cafeteria)" },
-    { "id": 395, "sentence": "飲む。", "target_kanji": "飲", "expected_reading": "の", "meaning": "Drink" },
-    { "id": 396, "sentence": "飲み物。", "target_kanji": "飲", "expected_reading": "の", "meaning": "Drink (Beverage)" },
-    { "id": 397, "sentence": "飲食。", "target_kanji": "飲", "expected_reading": "いん", "meaning": "Drink (Eating & Drinking)" },
-    { "id": 398, "sentence": "見る。", "target_kanji": "見", "expected_reading": "み", "meaning": "See" },
-    { "id": 399, "sentence": "見せる。", "target_kanji": "見", "expected_reading": "み", "meaning": "Show" },
-    { "id": 400, "sentence": "見学。", "target_kanji": "見", "expected_reading": "けん", "meaning": "See (Study tour)" },
-    { "id": 401, "sentence": "意見。", "target_kanji": "見", "expected_reading": "けん", "meaning": "See (Opinion)" },
-    { "id": 402, "sentence": "会う。", "target_kanji": "会", "expected_reading": "あ", "meaning": "Meet" },
-    { "id": 403, "sentence": "会話。", "target_kanji": "会", "expected_reading": "かい", "meaning": "Meet (Conversation)" },
-    { "id": 404, "sentence": "会社員。", "target_kanji": "会", "expected_reading": "かい", "meaning": "Meet (Employee)" },
-    { "id": 405, "sentence": "大会。", "target_kanji": "会", "expected_reading": "かい", "meaning": "Meet (Tournament)" },
-    { "id": 406, "sentence": "休む。", "target_kanji": "休", "expected_reading": "やす", "meaning": "Rest" },
-    { "id": 407, "sentence": "夏休み。", "target_kanji": "休", "expected_reading": "やす", "meaning": "Rest (Summer break)" },
-    { "id": 408, "sentence": "休憩。", "target_kanji": "休", "expected_reading": "きゅう", "meaning": "Rest (Break)" },
-    { "id": 409, "sentence": "定休日。", "target_kanji": "休", "expected_reading": "きゅう", "meaning": "Rest (Regular holiday)" },
-    { "id": 410, "sentence": "言う。", "target_kanji": "言", "expected_reading": "い", "meaning": "Say" },
-    { "id": 411, "sentence": "言葉。", "target_kanji": "言", "expected_reading": "こと", "meaning": "Say (Word)" },
-    { "id": 412, "sentence": "一言。", "target_kanji": "言", "expected_reading": "こと", "meaning": "Say (One word)" },
-    { "id": 413, "sentence": "言語。", "target_kanji": "言", "expected_reading": "げん", "meaning": "Say (Language)" },
-    { "id": 414, "sentence": "話す。", "target_kanji": "話", "expected_reading": "はな", "meaning": "Speak" },
-    { "id": 415, "sentence": "話。", "target_kanji": "話", "expected_reading": "はなし", "meaning": "Story" },
-    { "id": 416, "sentence": "電話。", "target_kanji": "話", "expected_reading": "わ", "meaning": "Speak (Phone)" },
-    { "id": 417, "sentence": "読む。", "target_kanji": "読", "expected_reading": "よ", "meaning": "Read" },
-    { "id": 418, "sentence": "読書。", "target_kanji": "読", "expected_reading": "どく", "meaning": "Read (Reading books)" },
-    { "id": 419, "sentence": "買う。", "target_kanji": "買", "expected_reading": "か", "meaning": "Buy" },
-    { "id": 420, "sentence": "買い物。", "target_kanji": "買", "expected_reading": "か", "meaning": "Buy (Shopping)" },
-    { "id": 421, "sentence": "売る。", "target_kanji": "売", "expected_reading": "う", "meaning": "Sell" },
-    { "id": 422, "sentence": "売り場。", "target_kanji": "売", "expected_reading": "う", "meaning": "Sell (Counter)" },
-    { "id": 423, "sentence": "売店。", "target_kanji": "売", "expected_reading": "ばい", "meaning": "Sell (Shop)" },
-    { "id": 424, "sentence": "思う。", "target_kanji": "思", "expected_reading": "おも", "meaning": "Think" },
-    { "id": 425, "sentence": "思い出す。", "target_kanji": "思", "expected_reading": "おも", "meaning": "Think (Recall)" },
-    { "id": 426, "sentence": "知る。", "target_kanji": "知", "expected_reading": "し", "meaning": "Know" },
-    { "id": 427, "sentence": "知らせる。", "target_kanji": "知", "expected_reading": "し", "meaning": "Know (Inform)" },
-    { "id": 428, "sentence": "知人。", "target_kanji": "知", "expected_reading": "ち", "meaning": "Know (Acquaintance)" },
-    { "id": 429, "sentence": "持つ。", "target_kanji": "持", "expected_reading": "も", "meaning": "Hold" },
-    { "id": 430, "sentence": "気持ち。", "target_kanji": "持", "expected_reading": "も", "meaning": "Hold (Feeling)" },
-    { "id": 431, "sentence": "金持ち。", "target_kanji": "持", "expected_reading": "も", "meaning": "Hold (Rich)" },
-    { "id": 432, "sentence": "待つ。", "target_kanji": "待", "expected_reading": "ま", "meaning": "Wait" },
-    { "id": 433, "sentence": "待ち合わせ。", "target_kanji": "待", "expected_reading": "ま", "meaning": "Wait (Meeting)" },
-    { "id": 434, "sentence": "招待。", "target_kanji": "待", "expected_reading": "たい", "meaning": "Wait (Invitation)" },
-    { "id": 435, "sentence": "住む。", "target_kanji": "住", "expected_reading": "す", "meaning": "Live" },
-    { "id": 436, "sentence": "住所。", "target_kanji": "住", "expected_reading": "じゅう", "meaning": "Live (Address)" },
-    { "id": 437, "sentence": "作る。", "target_kanji": "作", "expected_reading": "つく", "meaning": "Make" },
-    { "id": 438, "sentence": "作文。", "target_kanji": "作", "expected_reading": "さく", "meaning": "Make (Essay)" },
-    { "id": 439, "sentence": "作品。", "target_kanji": "作", "expected_reading": "さく", "meaning": "Make (Work)" },
-    { "id": 440, "sentence": "使う。", "target_kanji": "使", "expected_reading": "つか", "meaning": "Use" },
-    { "id": 441, "sentence": "大使館。", "target_kanji": "使", "expected_reading": "し", "meaning": "Use (Embassy)" },
-    { "id": 442, "sentence": "止まる。", "target_kanji": "止", "expected_reading": "と", "meaning": "Stop" },
-    { "id": 443, "sentence": "中止。", "target_kanji": "止", "expected_reading": "し", "meaning": "Stop (Cancel)" },
-    { "id": 444, "sentence": "歩く。", "target_kanji": "歩", "expected_reading": "ある", "meaning": "Walk" },
-    { "id": 445, "sentence": "散歩。", "target_kanji": "歩", "expected_reading": "ぽ", "meaning": "Walk (Stroll)" },
-    { "id": 446, "sentence": "歩道。", "target_kanji": "歩", "expected_reading": "ほ", "meaning": "Walk (Sidewalk)" },
-    { "id": 447, "sentence": "走る。", "target_kanji": "走", "expected_reading": "はし", "meaning": "Run" },
-    { "id": 448, "sentence": "力走。", "target_kanji": "走", "expected_reading": "そう", "meaning": "Run (Sprint)" },
-    { "id": 449, "sentence": "教える。", "target_kanji": "教", "expected_reading": "おし", "meaning": "Teach" },
-    { "id": 450, "sentence": "教会。", "target_kanji": "教", "expected_reading": "きょう", "meaning": "Teach (Church)" },
-    { "id": 451, "sentence": "教育。", "target_kanji": "教", "expected_reading": "きょう", "meaning": "Teach (Education)" },
-    { "id": 452, "sentence": "勉強。", "target_kanji": "勉", "expected_reading": "べん", "meaning": "Exert (Study)" },
-    { "id": 453, "sentence": "強い。", "target_kanji": "強", "expected_reading": "つよ", "meaning": "Strong" },
-    { "id": 454, "sentence": "強力。", "target_kanji": "強", "expected_reading": "きょう", "meaning": "Strong (Powerful)" },
-    { "id": 455, "sentence": "帰る。", "target_kanji": "帰", "expected_reading": "かえ", "meaning": "Return" },
-    { "id": 456, "sentence": "帰国。", "target_kanji": "帰", "expected_reading": "き", "meaning": "Return (to country)" },
-    { "id": 457, "sentence": "貸す。", "target_kanji": "貸", "expected_reading": "か", "meaning": "Lend" },
-    { "id": 458, "sentence": "借りる。", "target_kanji": "借", "expected_reading": "か", "meaning": "Borrow" },
-    { "id": 459, "sentence": "借金。", "target_kanji": "借", "expected_reading": "しゃっ", "meaning": "Borrow (Debt)" },
-    { "id": 460, "sentence": "旅行。", "target_kanji": "旅", "expected_reading": "りょ", "meaning": "Trip (Travel)" },
-    { "id": 461, "sentence": "旅。", "target_kanji": "旅", "expected_reading": "たび", "meaning": "Trip" },
-    { "id": 462, "sentence": "古い。", "target_kanji": "古", "expected_reading": "ふる", "meaning": "Old" },
-    { "id": 463, "sentence": "中古。", "target_kanji": "古", "expected_reading": "こ", "meaning": "Old (Used)" },
-    { "id": 464, "sentence": "新しい。", "target_kanji": "新", "expected_reading": "あたら", "meaning": "New" },
-    { "id": 465, "sentence": "新聞。", "target_kanji": "新", "expected_reading": "しん", "meaning": "New (Newspaper)" },
-    { "id": 466, "sentence": "長い。", "target_kanji": "長", "expected_reading": "なが", "meaning": "Long" },
-    { "id": 467, "sentence": "短い。", "target_kanji": "短", "expected_reading": "みじか", "meaning": "Short" },
-    { "id": 468, "sentence": "短大。", "target_kanji": "短", "expected_reading": "たん", "meaning": "Short (Junior college)" },
-    { "id": 469, "sentence": "高い。", "target_kanji": "高", "expected_reading": "たか", "meaning": "High/Tall/Expensive" },
-    { "id": 470, "sentence": "高校。", "target_kanji": "高", "expected_reading": "こう", "meaning": "High (High school)" },
-    { "id": 471, "sentence": "安い。", "target_kanji": "安", "expected_reading": "やす", "meaning": "Cheap" },
-    { "id": 472, "sentence": "安全。", "target_kanji": "安", "expected_reading": "あん", "meaning": "Cheap/Peace (Safe)" },
-    { "id": 473, "sentence": "多い。", "target_kanji": "多", "expected_reading": "おお", "meaning": "Many" },
-    { "id": 474, "sentence": "多数。", "target_kanji": "多", "expected_reading": "た", "meaning": "Many (Majority)" },
-    { "id": 475, "sentence": "少ない。", "target_kanji": "少", "expected_reading": "すく", "meaning": "Few" },
-    { "id": 476, "sentence": "少し。", "target_kanji": "少", "expected_reading": "すこ", "meaning": "Little" },
-    { "id": 477, "sentence": "広い。", "target_kanji": "広", "expected_reading": "ひろ", "meaning": "Wide" },
-    { "id": 478, "sentence": "広島。", "target_kanji": "広", "expected_reading": "ひろ", "meaning": "Wide (Hiroshima)" },
-    { "id": 479, "sentence": "早い。", "target_kanji": "早", "expected_reading": "はや", "meaning": "Early" },
-    { "id": 480, "sentence": "暗い。", "target_kanji": "暗", "expected_reading": "くら", "meaning": "Dark" },
-    { "id": 481, "sentence": "近い。", "target_kanji": "近", "expected_reading": "ちか", "meaning": "Near" },
-    { "id": 482, "sentence": "近所。", "target_kanji": "近", "expected_reading": "きん", "meaning": "Near (Neighborhood)" },
-    { "id": 483, "sentence": "遠い。", "target_kanji": "遠", "expected_reading": "とお", "meaning": "Far" },
-    { "id": 484, "sentence": "遠足。", "target_kanji": "遠", "expected_reading": "えん", "meaning": "Far (Excursion)" },
-    { "id": 485, "sentence": "赤い。", "target_kanji": "赤", "expected_reading": "あか", "meaning": "Red" },
-    { "id": 486, "sentence": "赤ちゃん。", "target_kanji": "赤", "expected_reading": "あか", "meaning": "Red (Baby)" },
-    { "id": 487, "sentence": "青い。", "target_kanji": "青", "expected_reading": "あお", "meaning": "Blue" },
-    { "id": 488, "sentence": "青年。", "target_kanji": "青", "expected_reading": "せい", "meaning": "Blue (Youth)" },
-    { "id": 489, "sentence": "白い。", "target_kanji": "白", "expected_reading": "しろ", "meaning": "White" },
-    { "id": 490, "sentence": "面白い。", "target_kanji": "白", "expected_reading": "しろ", "meaning": "White (Interesting)" },
-    { "id": 491, "sentence": "黒い。", "target_kanji": "黒", "expected_reading": "くろ", "meaning": "Black" },
-    { "id": 492, "sentence": "黒板。", "target_kanji": "黒", "expected_reading": "こく", "meaning": "Black (Blackboard)" },
-    { "id": 493, "sentence": "色。", "target_kanji": "色", "expected_reading": "いろ", "meaning": "Color" },
-    { "id": 494, "sentence": "色々。", "target_kanji": "色", "expected_reading": "いろ", "meaning": "Color (Various)" },
-    { "id": 495, "sentence": "寒い。", "target_kanji": "寒", "expected_reading": "さむ", "meaning": "Cold (Weather)" },
-    { "id": 496, "sentence": "暑い。", "target_kanji": "暑", "expected_reading": "あつ", "meaning": "Hot (Weather)" },
-    { "id": 497, "sentence": "熱い。", "target_kanji": "熱", "expected_reading": "あつ", "meaning": "Hot (Touch/Thing)" },
-    { "id": 498, "sentence": "熱。", "target_kanji": "熱", "expected_reading": "ねつ", "meaning": "Heat/Fever" },
-    { "id": 499, "sentence": "重い。", "target_kanji": "重", "expected_reading": "おも", "meaning": "Heavy" },
-    { "id": 500, "sentence": "軽い。", "target_kanji": "軽", "expected_reading": "かる", "meaning": "Light (Weight)" },
-    { "id": 501, "sentence": "低い。", "target_kanji": "低", "expected_reading": "ひく", "meaning": "Low" },
-    { "id": 502, "sentence": "弱い。", "target_kanji": "弱", "expected_reading": "よわ", "meaning": "Weak" },
-    { "id": 503, "sentence": "悪い。", "target_kanji": "悪", "expected_reading": "わる", "meaning": "Bad" },
-    { "id": 504, "sentence": "悪口。", "target_kanji": "悪", "expected_reading": "わる", "meaning": "Bad (Bad mouth)" }
+    {
+      "id": 1,
+      "sentence": "わたしは毎日学校へ行きます。",
+      "target_kanji": "毎日",
+      "expected_reading": "まいにち",
+      "meaning": "Every day",
+      "full_kana": "わたしはまいにちがっこうへいきます。"
+    },
+    {
+      "id": 2,
+      "sentence": "日本の山はとても高いです。",
+      "target_kanji": "山",
+      "expected_reading": "やま",
+      "meaning": "Mountain",
+      "full_kana": "にっぽんのやまはとてもたかいです。"
+    },
+    {
+      "id": 3,
+      "sentence": "友達と映画を見ます。",
+      "target_kanji": "友達",
+      "expected_reading": "ともだち",
+      "meaning": "Friend",
+      "full_kana": "ともだちとえいがをみます。"
+    },
+    {
+      "id": 4,
+      "sentence": "朝ごはんを食べます。",
+      "target_kanji": "朝",
+      "expected_reading": "あさ",
+      "meaning": "Morning",
+      "full_kana": "あさごはんをたべます。"
+    },
+    {
+      "id": 5,
+      "sentence": "父は会社員です。",
+      "target_kanji": "父",
+      "expected_reading": "ちち",
+      "meaning": "Father (my)",
+      "full_kana": "ちちはかいしゃいんです。"
+    },
+    {
+      "id": 6,
+      "sentence": "七月に日本へ来ました。",
+      "target_kanji": "七月",
+      "expected_reading": "しちがつ",
+      "meaning": "July",
+      "full_kana": "しちがつににっぽんへきました。"
+    },
+    {
+      "id": 7,
+      "sentence": "水を飲みます。",
+      "target_kanji": "水",
+      "expected_reading": "みず",
+      "meaning": "Water",
+      "full_kana": "みずをのみます。"
+    },
+    {
+      "id": 8,
+      "sentence": "大学で日本語を勉強します。",
+      "target_kanji": "大学",
+      "expected_reading": "だいがく",
+      "meaning": "University",
+      "full_kana": "だいがくでにほんごをべんきょうします。"
+    },
+    {
+      "id": 9,
+      "sentence": "夜、本を読みます。",
+      "target_kanji": "夜",
+      "expected_reading": "よる",
+      "meaning": "Night",
+      "full_kana": "よる、ほんをよみます。"
+    },
+    {
+      "id": 10,
+      "sentence": "兄は車を持っています。",
+      "target_kanji": "兄",
+      "expected_reading": "あに",
+      "meaning": "Older brother",
+      "full_kana": "あにはくるまをもっています。"
+    },
+    {
+      "id": 11,
+      "sentence": "母は毎朝早く起きます。",
+      "target_kanji": "母",
+      "expected_reading": "はは",
+      "meaning": "Mother (my)",
+      "full_kana": "はははまいあさはやくおきます。"
+    },
+    {
+      "id": 12,
+      "sentence": "今、何時ですか。",
+      "target_kanji": "何時",
+      "expected_reading": "なんじ",
+      "meaning": "What time",
+      "full_kana": "いま、なんじですか。"
+    },
+    {
+      "id": 13,
+      "sentence": "土よう日は休みです。",
+      "target_kanji": "土",
+      "expected_reading": "ど",
+      "meaning": "Saturday (abbr)",
+      "full_kana": "つちようにちはやすみです。"
+    },
+    {
+      "id": 14,
+      "sentence": "学校の先生はとても親切です。",
+      "target_kanji": "先生",
+      "expected_reading": "せんせい",
+      "meaning": "Teacher",
+      "full_kana": "がっこうのせんせいはとてもしんせつです。"
+    },
+    {
+      "id": 15,
+      "sentence": "本を三冊買いました。",
+      "target_kanji": "三",
+      "expected_reading": "さん",
+      "meaning": "Three",
+      "full_kana": "ほんをさんさつかいました。"
+    },
+    {
+      "id": 16,
+      "sentence": "友達の家へ行きます。",
+      "target_kanji": "家",
+      "expected_reading": "いえ",
+      "meaning": "House",
+      "full_kana": "ともだちのいえへいきます。"
+    },
+    {
+      "id": 17,
+      "sentence": "雨の日は外へ出ません。",
+      "target_kanji": "雨",
+      "expected_reading": "あめ",
+      "meaning": "Rain",
+      "full_kana": "あめのにちはそとへでません。"
+    },
+    {
+      "id": 18,
+      "sentence": "赤いかばんを持っています。",
+      "target_kanji": "赤",
+      "expected_reading": "あか",
+      "meaning": "Red",
+      "full_kana": "あかいかばんをもっています。"
+    },
+    {
+      "id": 19,
+      "sentence": "昼ごはんを食べました。",
+      "target_kanji": "昼",
+      "expected_reading": "ひる",
+      "meaning": "Noon/Lunchtime",
+      "full_kana": "ひるごはんをたべました。"
+    },
+    {
+      "id": 20,
+      "sentence": "来年、日本へ行きたいです。",
+      "target_kanji": "来年",
+      "expected_reading": "らいねん",
+      "meaning": "Next year",
+      "full_kana": "らいねん、にっぽんへいきたいです。"
+    },
+    {
+      "id": 21,
+      "sentence": "駅の前で友達と会います。",
+      "target_kanji": "前",
+      "expected_reading": "まえ",
+      "meaning": "Front/Before",
+      "full_kana": "えきのまえでともだちとあいます。"
+    },
+    {
+      "id": 22,
+      "sentence": "白いシャツを着ます。",
+      "target_kanji": "白",
+      "expected_reading": "しろ",
+      "meaning": "White",
+      "full_kana": "しろいしゃつをちゃくます。"
+    },
+    {
+      "id": 23,
+      "sentence": "日本語の本を読みます。",
+      "target_kanji": "日本語",
+      "expected_reading": "にほんご",
+      "meaning": "Japanese language",
+      "full_kana": "にほんごのほんをよみます。"
+    },
+    {
+      "id": 24,
+      "sentence": "毎週日よう日に休みます。",
+      "target_kanji": "毎週",
+      "expected_reading": "まいしゅう",
+      "meaning": "Every week",
+      "full_kana": "まいしゅうにちようにちにやすみます。"
+    },
+    {
+      "id": 25,
+      "sentence": "小さい町に住んでいます。",
+      "target_kanji": "町",
+      "expected_reading": "まち",
+      "meaning": "Town",
+      "full_kana": "ちーさいまちにすんでいます。"
+    },
+    {
+      "id": 26,
+      "sentence": "手紙を書きます。",
+      "target_kanji": "手紙",
+      "expected_reading": "てがみ",
+      "meaning": "Letter",
+      "full_kana": "てがみをかきます。"
+    },
+    {
+      "id": 27,
+      "sentence": "魚が好きです。",
+      "target_kanji": "魚",
+      "expected_reading": "さかな",
+      "meaning": "Fish",
+      "full_kana": "さかながすきです。"
+    },
+    {
+      "id": 28,
+      "sentence": "学生は教室にいます。",
+      "target_kanji": "教室",
+      "expected_reading": "きょうしつ",
+      "meaning": "Classroom",
+      "full_kana": "がくせいはきょうしつにいます。"
+    },
+    {
+      "id": 29,
+      "sentence": "青い空がきれいです。",
+      "target_kanji": "青",
+      "expected_reading": "あお",
+      "meaning": "Blue",
+      "full_kana": "あおいそらがきれいです。"
+    },
+    {
+      "id": 30,
+      "sentence": "電車で会社へ行きます。",
+      "target_kanji": "電車",
+      "expected_reading": "でんしゃ",
+      "meaning": "Train",
+      "full_kana": "でんしゃでかいしゃへいきます。"
+    },
+    {
+      "id": 31,
+      "sentence": "妹は高校生です。",
+      "target_kanji": "妹",
+      "expected_reading": "いもうと",
+      "meaning": "Younger sister",
+      "full_kana": "いもうとはこうこうせいです。"
+    },
+    {
+      "id": 32,
+      "sentence": "弟と公園へ行きます。",
+      "target_kanji": "弟",
+      "expected_reading": "おとうと",
+      "meaning": "Younger brother",
+      "full_kana": "おとうととこうえんへいきます。"
+    },
+    {
+      "id": 33,
+      "sentence": "今日は天気がいいです。",
+      "target_kanji": "天気",
+      "expected_reading": "てんき",
+      "meaning": "Weather",
+      "full_kana": "こんにちはてんきがいいです。"
+    },
+    {
+      "id": 34,
+      "sentence": "春は花がきれいです。",
+      "target_kanji": "春",
+      "expected_reading": "はる",
+      "meaning": "Spring",
+      "full_kana": "はるははながきれいです。"
+    },
+    {
+      "id": 35,
+      "sentence": "夏休みに海へ行きます。",
+      "target_kanji": "夏",
+      "expected_reading": "なつ",
+      "meaning": "Summer",
+      "full_kana": "なつやすみにうみへいきます。"
+    },
+    {
+      "id": 36,
+      "sentence": "秋の夜は静かです。",
+      "target_kanji": "秋",
+      "expected_reading": "あき",
+      "meaning": "Autumn",
+      "full_kana": "あきのよるはしずかです。"
+    },
+    {
+      "id": 37,
+      "sentence": "冬はとても寒いです。",
+      "target_kanji": "冬",
+      "expected_reading": "ふゆ",
+      "meaning": "Winter",
+      "full_kana": "ふゆはとてもさむいです。"
+    },
+    {
+      "id": 38,
+      "sentence": "学生は図書室で勉強します。",
+      "target_kanji": "学生",
+      "expected_reading": "がくせい",
+      "meaning": "Student",
+      "full_kana": "がくせいはとしょしつでべんきょうします。"
+    },
+    {
+      "id": 39,
+      "sentence": "友達と話します。",
+      "target_kanji": "話",
+      "expected_reading": "はな",
+      "meaning": "Talk/Speak",
+      "full_kana": "ともだちとはなします。"
+    },
+    {
+      "id": 40,
+      "sentence": "日本で働きたいです。",
+      "target_kanji": "働",
+      "expected_reading": "はたら",
+      "meaning": "Work",
+      "full_kana": "にっぽんではたらきたいです。"
+    },
+    {
+      "id": 41,
+      "sentence": "犬が家にいます。",
+      "target_kanji": "犬",
+      "expected_reading": "いぬ",
+      "meaning": "Dog",
+      "full_kana": "いぬがいえにいます。"
+    },
+    {
+      "id": 42,
+      "sentence": "朝六時に起きます。",
+      "target_kanji": "六",
+      "expected_reading": "ろく",
+      "meaning": "Six",
+      "full_kana": "あさろくときにおきます。"
+    },
+    {
+      "id": 43,
+      "sentence": "百円のパンを買いました。",
+      "target_kanji": "百",
+      "expected_reading": "ひゃく",
+      "meaning": "Hundred",
+      "full_kana": "ひゃくえんのぱんをかいました。"
+    },
+    {
+      "id": 44,
+      "sentence": "この本はとても安いです。",
+      "target_kanji": "安",
+      "expected_reading": "やす",
+      "meaning": "Cheap",
+      "full_kana": "このほんはとてもやすいです。"
+    },
+    {
+      "id": 45,
+      "sentence": "新しい車がほしいです。",
+      "target_kanji": "新",
+      "expected_reading": "あたら",
+      "meaning": "New",
+      "full_kana": "あたらしいくるまがほしいです。"
+    },
+    {
+      "id": 46,
+      "sentence": "古い町を歩きます。",
+      "target_kanji": "古",
+      "expected_reading": "ふる",
+      "meaning": "Old",
+      "full_kana": "ふるいまちをあるきます。"
+    },
+    {
+      "id": 47,
+      "sentence": "駅の近くに住んでいます。",
+      "target_kanji": "近",
+      "expected_reading": "ちか",
+      "meaning": "Near",
+      "full_kana": "えきのちかくにすんでいます。"
+    },
+    {
+      "id": 48,
+      "sentence": "名前を書いてください。",
+      "target_kanji": "名前",
+      "expected_reading": "なまえ",
+      "meaning": "Name",
+      "full_kana": "なまえをかいてください。"
+    },
+    {
+      "id": 49,
+      "sentence": "日本人の友達がいます。",
+      "target_kanji": "日本人",
+      "expected_reading": "にほんじん",
+      "meaning": "Japanese person",
+      "full_kana": "にほんじんのともだちがいます。"
+    },
+    {
+      "id": 50,
+      "sentence": "午前九時に会社へ行きます。",
+      "target_kanji": "午前",
+      "expected_reading": "ごぜん",
+      "meaning": "A.M.",
+      "full_kana": "ごぜんくじにかいしゃへいきます。"
+    },
+    {
+      "id": 51,
+      "sentence": "午後は家で休みます。",
+      "target_kanji": "午後",
+      "expected_reading": "ごご",
+      "meaning": "P.M.",
+      "full_kana": "ごごはいえでやすみます。"
+    },
+    {
+      "id": 52,
+      "sentence": "川で泳ぎます。",
+      "target_kanji": "川",
+      "expected_reading": "かわ",
+      "meaning": "River",
+      "full_kana": "かわでおよぎます。"
+    },
+    {
+      "id": 53,
+      "sentence": "門の前に人がいます。",
+      "target_kanji": "門",
+      "expected_reading": "もん",
+      "meaning": "Gate",
+      "full_kana": "もんのまえににんがいます。"
+    },
+    {
+      "id": 54,
+      "sentence": "箱の中に猫がいます。",
+      "target_kanji": "中",
+      "expected_reading": "なか",
+      "meaning": "Inside",
+      "full_kana": "はこのなかにねこがいます。"
+    },
+    {
+      "id": 55,
+      "sentence": "料理を作ります。",
+      "target_kanji": "料理",
+      "expected_reading": "りょうり",
+      "meaning": "Cooking/Cuisine",
+      "full_kana": "りょうりをつくります。"
+    },
+    {
+      "id": 56,
+      "sentence": "音楽を聞くのが好きです。",
+      "target_kanji": "音楽",
+      "expected_reading": "おんがく",
+      "meaning": "Music",
+      "full_kana": "おんがくをきくのがすきです。"
+    },
+    {
+      "id": 57,
+      "sentence": "映画を見に行きます。",
+      "target_kanji": "映画",
+      "expected_reading": "えいが",
+      "meaning": "Movie",
+      "full_kana": "えいがをみにいきます。"
+    },
+    {
+      "id": 58,
+      "sentence": "教室で日本語を話します。",
+      "target_kanji": "教室",
+      "expected_reading": "きょうしつ",
+      "meaning": "Classroom",
+      "full_kana": "きょうしつでにほんごをはなします。"
+    },
+    {
+      "id": 59,
+      "sentence": "先生に質問します。",
+      "target_kanji": "質問",
+      "expected_reading": "しつもん",
+      "meaning": "Question",
+      "full_kana": "せんせいにしつもんします。"
+    },
+    {
+      "id": 60,
+      "sentence": "答えを紙に書きます。",
+      "target_kanji": "答",
+      "expected_reading": "こた",
+      "meaning": "Answer",
+      "full_kana": "こたえをかみにかきます。"
+    },
+    {
+      "id": 61,
+      "sentence": "田中さんは親切です。",
+      "target_kanji": "田中",
+      "expected_reading": "たなか",
+      "meaning": "Tanaka (Name)",
+      "full_kana": "たなかさんはしんせつです。"
+    },
+    {
+      "id": 62,
+      "sentence": "この紙を切ってください。",
+      "target_kanji": "切",
+      "expected_reading": "き",
+      "meaning": "Cut",
+      "full_kana": "このかみをきってください。"
+    },
+    {
+      "id": 63,
+      "sentence": "シャワーを浴びます。",
+      "target_kanji": "浴",
+      "expected_reading": "あ",
+      "meaning": "Bathe/Shower",
+      "full_kana": "しゃわーをあびます。"
+    },
+    {
+      "id": 64,
+      "sentence": "雨が降っています。",
+      "target_kanji": "降",
+      "expected_reading": "ふ",
+      "meaning": "Fall (rain)",
+      "full_kana": "あめがふっています。"
+    },
+    {
+      "id": 65,
+      "sentence": "新しい車が欲しいです。",
+      "target_kanji": "欲",
+      "expected_reading": "ほ",
+      "meaning": "Want",
+      "full_kana": "あたらしいくるまがほしいです。"
+    },
+    {
+      "id": 66,
+      "sentence": "彼は私の兄です。",
+      "target_kanji": "兄",
+      "expected_reading": "あに",
+      "meaning": "Older brother",
+      "full_kana": "かれはわたしのあにです。"
+    },
+    {
+      "id": 67,
+      "sentence": "弟は背が高いです。",
+      "target_kanji": "高",
+      "expected_reading": "たか",
+      "meaning": "Tall/High",
+      "full_kana": "おとうとはせがたかいです。"
+    },
+    {
+      "id": 68,
+      "sentence": "姉は銀行で働いています。",
+      "target_kanji": "銀",
+      "expected_reading": "ぎん",
+      "meaning": "Silver (Bank)",
+      "full_kana": "あねはぎんこうではたらいています。"
+    },
+    {
+      "id": 69,
+      "sentence": "妹は可愛いですね。",
+      "target_kanji": "妹",
+      "expected_reading": "いもうと",
+      "meaning": "Younger sister",
+      "full_kana": "いもうとはかわいですね。"
+    },
+    {
+      "id": 70,
+      "sentence": "家族は五人です。",
+      "target_kanji": "族",
+      "expected_reading": "ぞく",
+      "meaning": "Family (suffix)",
+      "full_kana": "かぞくはごにんです。"
+    },
+    {
+      "id": 71,
+      "sentence": "春は暖かいです。",
+      "target_kanji": "春",
+      "expected_reading": "はる",
+      "meaning": "Spring",
+      "full_kana": "はるはあたたかいです。"
+    },
+    {
+      "id": 72,
+      "sentence": "夏は暑いです。",
+      "target_kanji": "夏",
+      "expected_reading": "なつ",
+      "meaning": "Summer",
+      "full_kana": "なつはあついです。"
+    },
+    {
+      "id": 73,
+      "sentence": "秋は涼しいです。",
+      "target_kanji": "秋",
+      "expected_reading": "あき",
+      "meaning": "Autumn",
+      "full_kana": "あきはすずしいです。"
+    },
+    {
+      "id": 74,
+      "sentence": "冬は寒いです。",
+      "target_kanji": "冬",
+      "expected_reading": "ふゆ",
+      "meaning": "Winter",
+      "full_kana": "ふゆはさむいです。"
+    },
+    {
+      "id": 75,
+      "sentence": "天気がいいですね。",
+      "target_kanji": "気",
+      "expected_reading": "き",
+      "meaning": "Spirit/Air",
+      "full_kana": "てんきがいいですね。"
+    },
+    {
+      "id": 76,
+      "sentence": "人が多いです。",
+      "target_kanji": "多",
+      "expected_reading": "おお",
+      "meaning": "Many",
+      "full_kana": "にんがおおいです。"
+    },
+    {
+      "id": 77,
+      "sentence": "お金が少しあります。",
+      "target_kanji": "少",
+      "expected_reading": "すこ",
+      "meaning": "Little/Few",
+      "full_kana": "おきんがすこしあります。"
+    },
+    {
+      "id": 78,
+      "sentence": "元気ですか。",
+      "target_kanji": "元",
+      "expected_reading": "げん",
+      "meaning": "Origin/Genki",
+      "full_kana": "げんきですか。"
+    },
+    {
+      "id": 79,
+      "sentence": "歩いて学校へ行きます。",
+      "target_kanji": "歩",
+      "expected_reading": "ある",
+      "meaning": "Walk",
+      "full_kana": "あるいてがっこうへいきます。"
+    },
+    {
+      "id": 80,
+      "sentence": "部屋に入ります。",
+      "target_kanji": "入",
+      "expected_reading": "はい",
+      "meaning": "Enter",
+      "full_kana": "へやにいります。"
+    },
+    {
+      "id": 81,
+      "sentence": "家を出ます。",
+      "target_kanji": "出",
+      "expected_reading": "で",
+      "meaning": "Exit/Leave",
+      "full_kana": "いえをでます。"
+    },
+    {
+      "id": 82,
+      "sentence": "この部屋は広いです。",
+      "target_kanji": "広",
+      "expected_reading": "ひろ",
+      "meaning": "Wide/Spacious",
+      "full_kana": "このへやはひろいです。"
+    },
+    {
+      "id": 83,
+      "sentence": "車を止めてください。",
+      "target_kanji": "止",
+      "expected_reading": "と",
+      "meaning": "Stop",
+      "full_kana": "くるまをとめてください。"
+    },
+    {
+      "id": 84,
+      "sentence": "窓を開けてください。",
+      "target_kanji": "開",
+      "expected_reading": "あ",
+      "meaning": "Open",
+      "full_kana": "まどをひらけてください。"
+    },
+    {
+      "id": 85,
+      "sentence": "海に行きたいです。",
+      "target_kanji": "海",
+      "expected_reading": "うみ",
+      "meaning": "Sea",
+      "full_kana": "うみにいきたいです。"
+    },
+    {
+      "id": 86,
+      "sentence": "世界のニュースを見ます。",
+      "target_kanji": "界",
+      "expected_reading": "かい",
+      "meaning": "World (suffix)",
+      "full_kana": "せかいのにゅーすをみます。"
+    },
+    {
+      "id": 87,
+      "sentence": "映画が好きです。",
+      "target_kanji": "画",
+      "expected_reading": "が",
+      "meaning": "Picture",
+      "full_kana": "えいががすきです。"
+    },
+    {
+      "id": 88,
+      "sentence": "お茶をください。",
+      "target_kanji": "茶",
+      "expected_reading": "ちゃ",
+      "meaning": "Tea",
+      "full_kana": "おちゃをください。"
+    },
+    {
+      "id": 89,
+      "sentence": "英語を話せますか。",
+      "target_kanji": "英",
+      "expected_reading": "えい",
+      "meaning": "English",
+      "full_kana": "えいごをはなせますか。"
+    },
+    {
+      "id": 90,
+      "sentence": "体が丈夫です。",
+      "target_kanji": "体",
+      "expected_reading": "からだ",
+      "meaning": "Body",
+      "full_kana": "からだがじょうぶです。"
+    },
+    {
+      "id": 91,
+      "sentence": "足が痛いです。",
+      "target_kanji": "足",
+      "expected_reading": "あし",
+      "meaning": "Leg/Foot",
+      "full_kana": "あしがいたいです。"
+    },
+    {
+      "id": 92,
+      "sentence": "口を開けてください。",
+      "target_kanji": "口",
+      "expected_reading": "くち",
+      "meaning": "Mouth",
+      "full_kana": "くちをひらけてください。"
+    },
+    {
+      "id": 93,
+      "sentence": "顔を洗います。",
+      "target_kanji": "顔",
+      "expected_reading": "かお",
+      "meaning": "Face",
+      "full_kana": "かおをあらいます。"
+    },
+    {
+      "id": 94,
+      "sentence": "耳が痛いです。",
+      "target_kanji": "耳",
+      "expected_reading": "みみ",
+      "meaning": "Ear",
+      "full_kana": "みみがいたいです。"
+    },
+    {
+      "id": 95,
+      "sentence": "目が悪いです。",
+      "target_kanji": "目",
+      "expected_reading": "め",
+      "meaning": "Eye",
+      "full_kana": "めがわるいです。"
+    },
+    {
+      "id": 96,
+      "sentence": "立ってください。",
+      "target_kanji": "立",
+      "expected_reading": "た",
+      "meaning": "Stand",
+      "full_kana": "たってください。"
+    },
+    {
+      "id": 97,
+      "sentence": "そのニュースを知っていますか。",
+      "target_kanji": "知",
+      "expected_reading": "し",
+      "meaning": "Know",
+      "full_kana": "そのにゅーすをしっていますか。"
+    },
+    {
+      "id": 98,
+      "sentence": "東京に住んでいます。",
+      "target_kanji": "住",
+      "expected_reading": "す",
+      "meaning": "Live/Reside",
+      "full_kana": "とうきょうにすんでいます。"
+    },
+    {
+      "id": 99,
+      "sentence": "どう思いますか。",
+      "target_kanji": "思",
+      "expected_reading": "おも",
+      "meaning": "Think",
+      "full_kana": "どうおもいますか。"
+    },
+    {
+      "id": 100,
+      "sentence": "このペンを使ってください。",
+      "target_kanji": "使",
+      "expected_reading": "つか",
+      "meaning": "Use",
+      "full_kana": "このぺんをつかってください。"
+    },
+    {
+      "id": 101,
+      "sentence": "ケーキを作ります。",
+      "target_kanji": "作",
+      "expected_reading": "つく",
+      "meaning": "Make",
+      "full_kana": "けーきをつくります。"
+    },
+    {
+      "id": 102,
+      "sentence": "この品物は高いです。",
+      "target_kanji": "品",
+      "expected_reading": "しな",
+      "meaning": "Item/Goods",
+      "full_kana": "このしなものはたかいです。"
+    },
+    {
+      "id": 103,
+      "sentence": "髪が長いです。",
+      "target_kanji": "長",
+      "expected_reading": "なが",
+      "meaning": "Long",
+      "full_kana": "かみがながいです。"
+    },
+    {
+      "id": 104,
+      "sentence": "明日は晴れです。",
+      "target_kanji": "明",
+      "expected_reading": "あ",
+      "meaning": "Bright/Tomorrow",
+      "full_kana": "あしたははれです。"
+    },
+    {
+      "id": 105,
+      "sentence": "肉を食べません。",
+      "target_kanji": "肉",
+      "expected_reading": "にく",
+      "meaning": "Meat",
+      "full_kana": "にくをたべません。"
+    },
+    {
+      "id": 106,
+      "sentence": "心配しないで。",
+      "target_kanji": "配",
+      "expected_reading": "ぱい",
+      "meaning": "Distribute/Worry",
+      "full_kana": "しんぱいしないで。"
+    },
+    {
+      "id": 107,
+      "sentence": "この店でパンを売っています。",
+      "target_kanji": "売",
+      "expected_reading": "う",
+      "meaning": "Sell",
+      "full_kana": "このみせでぱんをうっています。"
+    },
+    {
+      "id": 108,
+      "sentence": "漢字を書きます。",
+      "target_kanji": "漢",
+      "expected_reading": "かん",
+      "meaning": "Chinese",
+      "full_kana": "かんじをかきます。"
+    },
+    {
+      "id": 109,
+      "sentence": "きれいな字ですね。",
+      "target_kanji": "字",
+      "expected_reading": "じ",
+      "meaning": "Character/Letter",
+      "full_kana": "きれいなじですね。"
+    },
+    {
+      "id": 110,
+      "sentence": "図書館へ行きます。",
+      "target_kanji": "図",
+      "expected_reading": "と",
+      "meaning": "Map/Diagram",
+      "full_kana": "としょかんへいきます。"
+    },
+    {
+      "id": 111,
+      "sentence": "留学生と友達になりました。",
+      "target_kanji": "留学",
+      "expected_reading": "りゅうがく",
+      "meaning": "Study abroad",
+      "full_kana": "りゅうがくせいとともだちになりました。"
+    },
+    {
+      "id": 112,
+      "sentence": "明日、会議があります。",
+      "target_kanji": "会議",
+      "expected_reading": "かいぎ",
+      "meaning": "Meeting",
+      "full_kana": "あした、かいぎがあります。"
+    },
+    {
+      "id": 113,
+      "sentence": "毎朝、散歩をします。",
+      "target_kanji": "散歩",
+      "expected_reading": "さんぽ",
+      "meaning": "Walk/Stroll",
+      "full_kana": "まいあさ、さんぽをします。"
+    },
+    {
+      "id": 114,
+      "sentence": "姉は二十歳です。",
+      "target_kanji": "二十歳",
+      "expected_reading": "はたち",
+      "meaning": "20 years old",
+      "full_kana": "あねははたちです。"
+    },
+    {
+      "id": 115,
+      "sentence": "自己紹介をしてください。",
+      "target_kanji": "紹介",
+      "expected_reading": "しょうかい",
+      "meaning": "Introduction",
+      "full_kana": "じこしょうかいをしてください。"
+    },
+    {
+      "id": 116,
+      "sentence": "りんごを一つください。",
+      "target_kanji": "一",
+      "expected_reading": "ひと",
+      "meaning": "One (thing)",
+      "full_kana": "りんごをひとつください。"
+    },
+    {
+      "id": 117,
+      "sentence": "一分待ってください。",
+      "target_kanji": "一分",
+      "expected_reading": "いっぷん",
+      "meaning": "One minute",
+      "full_kana": "いちぶまってください。"
+    },
+    {
+      "id": 118,
+      "sentence": "一月一日です。",
+      "target_kanji": "一月",
+      "expected_reading": "いちがつ",
+      "meaning": "January",
+      "full_kana": "いちがつついたちです。"
+    },
+    {
+      "id": 119,
+      "sentence": "一人で行きます。",
+      "target_kanji": "一人",
+      "expected_reading": "ひとり",
+      "meaning": "Alone/One person",
+      "full_kana": "ひとりでいきます。"
+    },
+    {
+      "id": 120,
+      "sentence": "一万円持っています。",
+      "target_kanji": "一万",
+      "expected_reading": "いちまん",
+      "meaning": "Ten thousand",
+      "full_kana": "いちまんえんもっています。"
+    },
+    {
+      "id": 121,
+      "sentence": "二つあります。",
+      "target_kanji": "二",
+      "expected_reading": "ふた",
+      "meaning": "Two (things)",
+      "full_kana": "ふたつあります。"
+    },
+    {
+      "id": 122,
+      "sentence": "二月は短いです。",
+      "target_kanji": "二月",
+      "expected_reading": "にがつ",
+      "meaning": "February",
+      "full_kana": "にがつはみじかいです。"
+    },
+    {
+      "id": 123,
+      "sentence": "二人で食べました。",
+      "target_kanji": "二人",
+      "expected_reading": "ふたり",
+      "meaning": "Two people",
+      "full_kana": "ふたりでたべました。"
+    },
+    {
+      "id": 124,
+      "sentence": "二日酔いです。",
+      "target_kanji": "二日",
+      "expected_reading": "ふつか",
+      "meaning": "Two days/2nd day",
+      "full_kana": "ふつかよいです。"
+    },
+    {
+      "id": 125,
+      "sentence": "三つ目の角を曲がります。",
+      "target_kanji": "三",
+      "expected_reading": "みっ",
+      "meaning": "Three (things)",
+      "full_kana": "みっつめのかくをまがります。"
+    },
+    {
+      "id": 126,
+      "sentence": "三月三日はひな祭りです。",
+      "target_kanji": "三月",
+      "expected_reading": "さんがつ",
+      "meaning": "March",
+      "full_kana": "さんがつみっかはひなまつりです。"
+    },
+    {
+      "id": 127,
+      "sentence": "三日後に会いましょう。",
+      "target_kanji": "三日",
+      "expected_reading": "みっか",
+      "meaning": "Three days/3rd day",
+      "full_kana": "みっかのちにあいましょう。"
+    },
+    {
+      "id": 128,
+      "sentence": "椅子が四つあります。",
+      "target_kanji": "四",
+      "expected_reading": "よっ",
+      "meaning": "Four (things)",
+      "full_kana": "いすがよつあります。"
+    },
+    {
+      "id": 129,
+      "sentence": "四月は桜がきれいです。",
+      "target_kanji": "四月",
+      "expected_reading": "しがつ",
+      "meaning": "April",
+      "full_kana": "しがつはさくらがきれいです。"
+    },
+    {
+      "id": 130,
+      "sentence": "四時に起きます。",
+      "target_kanji": "四時",
+      "expected_reading": "よじ",
+      "meaning": "4 o'clock",
+      "full_kana": "よじにおきます。"
+    },
+    {
+      "id": 131,
+      "sentence": "四人家族です。",
+      "target_kanji": "四人",
+      "expected_reading": "よにん",
+      "meaning": "Four people",
+      "full_kana": "よにんかぞくです。"
+    },
+    {
+      "id": 132,
+      "sentence": "卵を五つ買いました。",
+      "target_kanji": "五",
+      "expected_reading": "いつ",
+      "meaning": "Five (things)",
+      "full_kana": "たまごをいつつかいました。"
+    },
+    {
+      "id": 133,
+      "sentence": "五月は天気がいいです。",
+      "target_kanji": "五月",
+      "expected_reading": "ごがつ",
+      "meaning": "May",
+      "full_kana": "ごがつはてんきがいいです。"
+    },
+    {
+      "id": 134,
+      "sentence": "五日働きます。",
+      "target_kanji": "五日",
+      "expected_reading": "いつか",
+      "meaning": "Five days/5th day",
+      "full_kana": "いつかはたらきます。"
+    },
+    {
+      "id": 135,
+      "sentence": "六つ数えてください。",
+      "target_kanji": "六",
+      "expected_reading": "むっ",
+      "meaning": "Six (things)",
+      "full_kana": "むつかぞえてください。"
+    },
+    {
+      "id": 136,
+      "sentence": "六月は雨が多いです。",
+      "target_kanji": "六月",
+      "expected_reading": "ろくがつ",
+      "meaning": "June",
+      "full_kana": "ろくがつはあめがおおいです。"
+    },
+    {
+      "id": 137,
+      "sentence": "六百円です。",
+      "target_kanji": "六百",
+      "expected_reading": "ろっぴゃく",
+      "meaning": "600",
+      "full_kana": "ろっぴゃくえんです。"
+    },
+    {
+      "id": 138,
+      "sentence": "七つの海。",
+      "target_kanji": "七",
+      "expected_reading": "なな",
+      "meaning": "Seven (things)",
+      "full_kana": "ななつのうみ。"
+    },
+    {
+      "id": 139,
+      "sentence": "七月七日は七夕です。",
+      "target_kanji": "七月",
+      "expected_reading": "しちがつ",
+      "meaning": "July",
+      "full_kana": "しちがつなのかはたなばたです。"
+    },
+    {
+      "id": 140,
+      "sentence": "七時に寝ます。",
+      "target_kanji": "七時",
+      "expected_reading": "しちじ",
+      "meaning": "7 o'clock",
+      "full_kana": "しちじにねます。"
+    },
+    {
+      "id": 141,
+      "sentence": "八つあります。",
+      "target_kanji": "八",
+      "expected_reading": "やっ",
+      "meaning": "Eight (things)",
+      "full_kana": "やつあります。"
+    },
+    {
+      "id": 142,
+      "sentence": "八月は暑いです。",
+      "target_kanji": "八月",
+      "expected_reading": "はちがつ",
+      "meaning": "August",
+      "full_kana": "はちがつはあついです。"
+    },
+    {
+      "id": 143,
+      "sentence": "八百屋へ行きます。",
+      "target_kanji": "八百",
+      "expected_reading": "やお",
+      "meaning": "Greengrocer (800)",
+      "full_kana": "やおやへいきます。"
+    },
+    {
+      "id": 144,
+      "sentence": "九つ数えましょう。",
+      "target_kanji": "九",
+      "expected_reading": "ここの",
+      "meaning": "Nine (things)",
+      "full_kana": "ここのつかぞえましょう。"
+    },
+    {
+      "id": 145,
+      "sentence": "九月になりました。",
+      "target_kanji": "九月",
+      "expected_reading": "くがつ",
+      "meaning": "September",
+      "full_kana": "くがつになりました。"
+    },
+    {
+      "id": 146,
+      "sentence": "九時半です。",
+      "target_kanji": "九時",
+      "expected_reading": "くじ",
+      "meaning": "9 o'clock",
+      "full_kana": "くじはんです。"
+    },
+    {
+      "id": 147,
+      "sentence": "十個ください。",
+      "target_kanji": "十",
+      "expected_reading": "じゅっ",
+      "meaning": "Ten (things/counters)",
+      "full_kana": "じゅうこください。"
+    },
+    {
+      "id": 148,
+      "sentence": "十月は涼しいです。",
+      "target_kanji": "十月",
+      "expected_reading": "じゅうがつ",
+      "meaning": "October",
+      "full_kana": "じゅうがつはすずしいです。"
+    },
+    {
+      "id": 149,
+      "sentence": "十分休憩します。",
+      "target_kanji": "十分",
+      "expected_reading": "じゅっぷん",
+      "meaning": "10 minutes",
+      "full_kana": "じゅうぶんきゅうけいします。"
+    },
+    {
+      "id": 150,
+      "sentence": "十一月です。",
+      "target_kanji": "十一月",
+      "expected_reading": "じゅういちがつ",
+      "meaning": "November",
+      "full_kana": "じゅういちがつです。"
+    },
+    {
+      "id": 151,
+      "sentence": "十二月は忙しいです。",
+      "target_kanji": "十二月",
+      "expected_reading": "じゅうにがつ",
+      "meaning": "December",
+      "full_kana": "じゅうにがつはいそがしいです。"
+    },
+    {
+      "id": 152,
+      "sentence": "百人乗っても大丈夫。",
+      "target_kanji": "百",
+      "expected_reading": "ひゃく",
+      "meaning": "Hundred",
+      "full_kana": "ひゃくにんのってもだいじょうぶ。"
+    },
+    {
+      "id": 153,
+      "sentence": "三千円かかりました。",
+      "target_kanji": "三千",
+      "expected_reading": "さんぜん",
+      "meaning": "3000",
+      "full_kana": "さんぜんえんかかりました。"
+    },
+    {
+      "id": 154,
+      "sentence": "八千円です。",
+      "target_kanji": "八千",
+      "expected_reading": "はっせん",
+      "meaning": "8000",
+      "full_kana": "はっせんえんです。"
+    },
+    {
+      "id": 155,
+      "sentence": "一万人います。",
+      "target_kanji": "一万",
+      "expected_reading": "いちまん",
+      "meaning": "10,000",
+      "full_kana": "いちまんにんいます。"
+    },
+    {
+      "id": 156,
+      "sentence": "この円は大きいです。",
+      "target_kanji": "円",
+      "expected_reading": "えん",
+      "meaning": "Circle/Yen",
+      "full_kana": "このえんはおおきいです。"
+    },
+    {
+      "id": 157,
+      "sentence": "円いテーブル。",
+      "target_kanji": "円",
+      "expected_reading": "まる",
+      "meaning": "Round",
+      "full_kana": "まるいてーぶる。"
+    },
+    {
+      "id": 158,
+      "sentence": "五千円札。",
+      "target_kanji": "円",
+      "expected_reading": "えん",
+      "meaning": "Yen",
+      "full_kana": "ごせんえんさつ。"
+    },
+    {
+      "id": 159,
+      "sentence": "今年は2023年です。",
+      "target_kanji": "年",
+      "expected_reading": "ねん",
+      "meaning": "Year",
+      "full_kana": "こんねんは2023ねんです。"
+    },
+    {
+      "id": 160,
+      "sentence": "去年、日本へ行きました。",
+      "target_kanji": "去年",
+      "expected_reading": "きょねん",
+      "meaning": "Last year",
+      "full_kana": "きょねん、にっぽんへいきました。"
+    },
+    {
+      "id": 161,
+      "sentence": "毎年帰ります。",
+      "target_kanji": "毎年",
+      "expected_reading": "まいとし",
+      "meaning": "Every year",
+      "full_kana": "まいとしかえります。"
+    },
+    {
+      "id": 162,
+      "sentence": "上を見てください。",
+      "target_kanji": "上",
+      "expected_reading": "うえ",
+      "meaning": "Up/Above",
+      "full_kana": "うえをみてください。"
+    },
+    {
+      "id": 163,
+      "sentence": "山を上がります。",
+      "target_kanji": "上",
+      "expected_reading": "あ",
+      "meaning": "Go up",
+      "full_kana": "やまをあがります。"
+    },
+    {
+      "id": 164,
+      "sentence": "年上の人。",
+      "target_kanji": "上",
+      "expected_reading": "うえ",
+      "meaning": "Older",
+      "full_kana": "としうえのにん。"
+    },
+    {
+      "id": 165,
+      "sentence": "下を見てください。",
+      "target_kanji": "下",
+      "expected_reading": "した",
+      "meaning": "Down/Below",
+      "full_kana": "したをみてください。"
+    },
+    {
+      "id": 166,
+      "sentence": "電車を降ります。",
+      "target_kanji": "降",
+      "expected_reading": "お",
+      "meaning": "Get off",
+      "full_kana": "でんしゃをおります。"
+    },
+    {
+      "id": 167,
+      "sentence": "地下鉄で行きます。",
+      "target_kanji": "下",
+      "expected_reading": "か",
+      "meaning": "Below (Subway)",
+      "full_kana": "ちかてつでいきます。"
+    },
+    {
+      "id": 168,
+      "sentence": "中に入ってください。",
+      "target_kanji": "中",
+      "expected_reading": "なか",
+      "meaning": "Inside",
+      "full_kana": "なかにいっってください。"
+    },
+    {
+      "id": 169,
+      "sentence": "一日中勉強しました。",
+      "target_kanji": "中",
+      "expected_reading": "じゅう",
+      "meaning": "All through",
+      "full_kana": "いちにちじゅうべんきょうしました。"
+    },
+    {
+      "id": 170,
+      "sentence": "中国から来ました。",
+      "target_kanji": "中",
+      "expected_reading": "ちゅう",
+      "meaning": "Middle (China)",
+      "full_kana": "ちゅうごくからきました。"
+    },
+    {
+      "id": 171,
+      "sentence": "大きい声。",
+      "target_kanji": "大",
+      "expected_reading": "おお",
+      "meaning": "Big",
+      "full_kana": "おおきいこえ。"
+    },
+    {
+      "id": 172,
+      "sentence": "大学院生です。",
+      "target_kanji": "大",
+      "expected_reading": "だい",
+      "meaning": "Big (University)",
+      "full_kana": "だいがくいんせいです。"
+    },
+    {
+      "id": 173,
+      "sentence": "大変ですね。",
+      "target_kanji": "大",
+      "expected_reading": "たい",
+      "meaning": "Big (Tough)",
+      "full_kana": "たいへんですね。"
+    },
+    {
+      "id": 174,
+      "sentence": "小さい猫。",
+      "target_kanji": "小",
+      "expected_reading": "ちい",
+      "meaning": "Small",
+      "full_kana": "ちーさいねこ。"
+    },
+    {
+      "id": 175,
+      "sentence": "小学校へ行きます。",
+      "target_kanji": "小",
+      "expected_reading": "しょう",
+      "meaning": "Small (Elementary)",
+      "full_kana": "しょうがっこうへいきます。"
+    },
+    {
+      "id": 176,
+      "sentence": "小川さんがいます。",
+      "target_kanji": "小",
+      "expected_reading": "お",
+      "meaning": "Small (Name)",
+      "full_kana": "おがわさんがいます。"
+    },
+    {
+      "id": 177,
+      "sentence": "本を読みます。",
+      "target_kanji": "本",
+      "expected_reading": "ほん",
+      "meaning": "Book",
+      "full_kana": "ほんをよみます。"
+    },
+    {
+      "id": 178,
+      "sentence": "山本さんです。",
+      "target_kanji": "本",
+      "expected_reading": "もと",
+      "meaning": "Root (Name)",
+      "full_kana": "やまもとさんです。"
+    },
+    {
+      "id": 179,
+      "sentence": "本日休業。",
+      "target_kanji": "本",
+      "expected_reading": "ほん",
+      "meaning": "This day",
+      "full_kana": "ほんじつきゅうぎょう。"
+    },
+    {
+      "id": 180,
+      "sentence": "半分ください。",
+      "target_kanji": "半",
+      "expected_reading": "はん",
+      "meaning": "Half",
+      "full_kana": "はんぶんください。"
+    },
+    {
+      "id": 181,
+      "sentence": "半月。",
+      "target_kanji": "半",
+      "expected_reading": "はん",
+      "meaning": "Half moon/month",
+      "full_kana": "はんつき。"
+    },
+    {
+      "id": 182,
+      "sentence": "三時半です。",
+      "target_kanji": "半",
+      "expected_reading": "はん",
+      "meaning": "Half past",
+      "full_kana": "さんじはんです。"
+    },
+    {
+      "id": 183,
+      "sentence": "分かりますか。",
+      "target_kanji": "分",
+      "expected_reading": "わ",
+      "meaning": "Understand",
+      "full_kana": "わかりますか。"
+    },
+    {
+      "id": 184,
+      "sentence": "五分待ちます。",
+      "target_kanji": "分",
+      "expected_reading": "ふん",
+      "meaning": "Minute",
+      "full_kana": "ごぶまちます。"
+    },
+    {
+      "id": 185,
+      "sentence": "分ける。",
+      "target_kanji": "分",
+      "expected_reading": "わ",
+      "meaning": "Divide",
+      "full_kana": "わける。"
+    },
+    {
+      "id": 186,
+      "sentence": "力があります。",
+      "target_kanji": "力",
+      "expected_reading": "ちから",
+      "meaning": "Power",
+      "full_kana": "ちからがあります。"
+    },
+    {
+      "id": 187,
+      "sentence": "協力します。",
+      "target_kanji": "力",
+      "expected_reading": "りょく",
+      "meaning": "Power (Cooperation)",
+      "full_kana": "きょうりょくします。"
+    },
+    {
+      "id": 188,
+      "sentence": "何ですか。",
+      "target_kanji": "何",
+      "expected_reading": "なん",
+      "meaning": "What",
+      "full_kana": "なんですか。"
+    },
+    {
+      "id": 189,
+      "sentence": "何をしますか。",
+      "target_kanji": "何",
+      "expected_reading": "なに",
+      "meaning": "What",
+      "full_kana": "なにをしますか。"
+    },
+    {
+      "id": 190,
+      "sentence": "明日は休みです。",
+      "target_kanji": "明",
+      "expected_reading": "あした",
+      "meaning": "Tomorrow",
+      "full_kana": "あしたはやすみです。"
+    },
+    {
+      "id": 191,
+      "sentence": "明るい部屋。",
+      "target_kanji": "明",
+      "expected_reading": "あか",
+      "meaning": "Bright",
+      "full_kana": "あかるいへや。"
+    },
+    {
+      "id": 192,
+      "sentence": "説明します。",
+      "target_kanji": "明",
+      "expected_reading": "めい",
+      "meaning": "Clear (Explain)",
+      "full_kana": "せつめいします。"
+    },
+    {
+      "id": 193,
+      "sentence": "休み時間。",
+      "target_kanji": "休",
+      "expected_reading": "やす",
+      "meaning": "Rest",
+      "full_kana": "やすみじかん。"
+    },
+    {
+      "id": 194,
+      "sentence": "休日。",
+      "target_kanji": "休",
+      "expected_reading": "きゅう",
+      "meaning": "Holiday",
+      "full_kana": "きゅうじつ。"
+    },
+    {
+      "id": 195,
+      "sentence": "体を洗います。",
+      "target_kanji": "体",
+      "expected_reading": "からだ",
+      "meaning": "Body",
+      "full_kana": "からだをあらいます。"
+    },
+    {
+      "id": 196,
+      "sentence": "体育館。",
+      "target_kanji": "体",
+      "expected_reading": "たい",
+      "meaning": "Body (Gym)",
+      "full_kana": "たいいくかん。"
+    },
+    {
+      "id": 197,
+      "sentence": "好きな食べ物。",
+      "target_kanji": "好",
+      "expected_reading": "す",
+      "meaning": "Like",
+      "full_kana": "すきなたべもの。"
+    },
+    {
+      "id": 198,
+      "sentence": "お好み焼き。",
+      "target_kanji": "好",
+      "expected_reading": "この",
+      "meaning": "Preference",
+      "full_kana": "おこのみやき。"
+    },
+    {
+      "id": 199,
+      "sentence": "男の子。",
+      "target_kanji": "男",
+      "expected_reading": "おとこ",
+      "meaning": "Man/Male",
+      "full_kana": "おとこのこ。"
+    },
+    {
+      "id": 200,
+      "sentence": "男性。",
+      "target_kanji": "男",
+      "expected_reading": "だん",
+      "meaning": "Male gender",
+      "full_kana": "だんせい。"
+    },
+    {
+      "id": 201,
+      "sentence": "長男。",
+      "target_kanji": "男",
+      "expected_reading": "なん",
+      "meaning": "Son (Eldest)",
+      "full_kana": "ちょうなん。"
+    },
+    {
+      "id": 202,
+      "sentence": "林の中にいます。",
+      "target_kanji": "林",
+      "expected_reading": "はやし",
+      "meaning": "Grove/Woods",
+      "full_kana": "はやしのなかにいます。"
+    },
+    {
+      "id": 203,
+      "sentence": "小林さん。",
+      "target_kanji": "林",
+      "expected_reading": "ばやし",
+      "meaning": "Grove (Name)",
+      "full_kana": "こばやしさん。"
+    },
+    {
+      "id": 204,
+      "sentence": "森へ行きます。",
+      "target_kanji": "森",
+      "expected_reading": "もり",
+      "meaning": "Forest",
+      "full_kana": "もりへいきます。"
+    },
+    {
+      "id": 205,
+      "sentence": "森田さん。",
+      "target_kanji": "森",
+      "expected_reading": "もり",
+      "meaning": "Forest (Name)",
+      "full_kana": "もりたさん。"
+    },
+    {
+      "id": 206,
+      "sentence": "間に入ります。",
+      "target_kanji": "間",
+      "expected_reading": "あいだ",
+      "meaning": "Between",
+      "full_kana": "まにいります。"
+    },
+    {
+      "id": 207,
+      "sentence": "時間があります。",
+      "target_kanji": "間",
+      "expected_reading": "かん",
+      "meaning": "Time/Interval",
+      "full_kana": "じかんがあります。"
+    },
+    {
+      "id": 208,
+      "sentence": "間に合います。",
+      "target_kanji": "間",
+      "expected_reading": "ま",
+      "meaning": "Interval",
+      "full_kana": "まにあいます。"
+    },
+    {
+      "id": 209,
+      "sentence": "畑で働きます。",
+      "target_kanji": "畑",
+      "expected_reading": "はたけ",
+      "meaning": "Field",
+      "full_kana": "はたけではたらきます。"
+    },
+    {
+      "id": 210,
+      "sentence": "岩があります。",
+      "target_kanji": "岩",
+      "expected_reading": "いわ",
+      "meaning": "Rock",
+      "full_kana": "いわがあります。"
+    },
+    {
+      "id": 211,
+      "sentence": "火山。",
+      "target_kanji": "山",
+      "expected_reading": "ざん",
+      "meaning": "Mountain (Volcano)",
+      "full_kana": "かざん。"
+    },
+    {
+      "id": 212,
+      "sentence": "富士山。",
+      "target_kanji": "山",
+      "expected_reading": "さん",
+      "meaning": "Mountain (Fuji)",
+      "full_kana": "ふじさん。"
+    },
+    {
+      "id": 213,
+      "sentence": "田んぼ。",
+      "target_kanji": "田",
+      "expected_reading": "た",
+      "meaning": "Rice field",
+      "full_kana": "たんぼ。"
+    },
+    {
+      "id": 214,
+      "sentence": "山田さん。",
+      "target_kanji": "田",
+      "expected_reading": "だ",
+      "meaning": "Rice field (Name)",
+      "full_kana": "やまださん。"
+    },
+    {
+      "id": 215,
+      "sentence": "水田。",
+      "target_kanji": "田",
+      "expected_reading": "でん",
+      "meaning": "Rice field",
+      "full_kana": "すいでん。"
+    },
+    {
+      "id": 216,
+      "sentence": "目薬。",
+      "target_kanji": "目",
+      "expected_reading": "め",
+      "meaning": "Eye",
+      "full_kana": "めぐすり。"
+    },
+    {
+      "id": 217,
+      "sentence": "目的。",
+      "target_kanji": "目",
+      "expected_reading": "もく",
+      "meaning": "Eye (Purpose)",
+      "full_kana": "もくてき。"
+    },
+    {
+      "id": 218,
+      "sentence": "耳が遠いです。",
+      "target_kanji": "耳",
+      "expected_reading": "みみ",
+      "meaning": "Ear",
+      "full_kana": "みみがとおいです。"
+    },
+    {
+      "id": 219,
+      "sentence": "口紅。",
+      "target_kanji": "口",
+      "expected_reading": "くち",
+      "meaning": "Mouth",
+      "full_kana": "くちべに。"
+    },
+    {
+      "id": 220,
+      "sentence": "入口。",
+      "target_kanji": "口",
+      "expected_reading": "ぐち",
+      "meaning": "Mouth (Entrance)",
+      "full_kana": "いりぐち。"
+    },
+    {
+      "id": 221,
+      "sentence": "人口。",
+      "target_kanji": "口",
+      "expected_reading": "こう",
+      "meaning": "Mouth (Population)",
+      "full_kana": "じんこう。"
+    },
+    {
+      "id": 222,
+      "sentence": "上手です。",
+      "target_kanji": "手",
+      "expected_reading": "ず",
+      "meaning": "Hand (Skillful)",
+      "full_kana": "じょうずです。"
+    },
+    {
+      "id": 223,
+      "sentence": "手伝ってください。",
+      "target_kanji": "手",
+      "expected_reading": "て",
+      "meaning": "Hand",
+      "full_kana": "てつだってください。"
+    },
+    {
+      "id": 224,
+      "sentence": "歌手。",
+      "target_kanji": "手",
+      "expected_reading": "しゅ",
+      "meaning": "Hand (Singer)",
+      "full_kana": "かしゅ。"
+    },
+    {
+      "id": 225,
+      "sentence": "足ります。",
+      "target_kanji": "足",
+      "expected_reading": "た",
+      "meaning": "Sufficient",
+      "full_kana": "たります。"
+    },
+    {
+      "id": 226,
+      "sentence": "遠足。",
+      "target_kanji": "足",
+      "expected_reading": "そく",
+      "meaning": "Foot (Excursion)",
+      "full_kana": "えんそく。"
+    },
+    {
+      "id": 227,
+      "sentence": "雨天。",
+      "target_kanji": "雨",
+      "expected_reading": "う",
+      "meaning": "Rain",
+      "full_kana": "うてん。"
+    },
+    {
+      "id": 228,
+      "sentence": "大雨。",
+      "target_kanji": "雨",
+      "expected_reading": "あめ",
+      "meaning": "Rain (Heavy)",
+      "full_kana": "おおあめ。"
+    },
+    {
+      "id": 229,
+      "sentence": "竹の子。",
+      "target_kanji": "竹",
+      "expected_reading": "たけ",
+      "meaning": "Bamboo",
+      "full_kana": "たけのこ。"
+    },
+    {
+      "id": 230,
+      "sentence": "竹田さん。",
+      "target_kanji": "竹",
+      "expected_reading": "たけ",
+      "meaning": "Bamboo (Name)",
+      "full_kana": "たけださん。"
+    },
+    {
+      "id": 231,
+      "sentence": "米を食べます。",
+      "target_kanji": "米",
+      "expected_reading": "こめ",
+      "meaning": "Rice",
+      "full_kana": "こめをたべます。"
+    },
+    {
+      "id": 232,
+      "sentence": "米国。",
+      "target_kanji": "米",
+      "expected_reading": "べい",
+      "meaning": "Rice (USA)",
+      "full_kana": "べいこく。"
+    },
+    {
+      "id": 233,
+      "sentence": "貝を拾います。",
+      "target_kanji": "貝",
+      "expected_reading": "かい",
+      "meaning": "Shellfish",
+      "full_kana": "かいをひろいます。"
+    },
+    {
+      "id": 234,
+      "sentence": "石の上にも三年。",
+      "target_kanji": "石",
+      "expected_reading": "いし",
+      "meaning": "Stone",
+      "full_kana": "いしのうえにもさんねん。"
+    },
+    {
+      "id": 235,
+      "sentence": "石川さん。",
+      "target_kanji": "石",
+      "expected_reading": "いし",
+      "meaning": "Stone (Name)",
+      "full_kana": "いしかわさん。"
+    },
+    {
+      "id": 236,
+      "sentence": "糸を使います。",
+      "target_kanji": "糸",
+      "expected_reading": "いと",
+      "meaning": "Thread",
+      "full_kana": "いとをつかいます。"
+    },
+    {
+      "id": 237,
+      "sentence": "花火。",
+      "target_kanji": "花",
+      "expected_reading": "はな",
+      "meaning": "Flower (Fireworks)",
+      "full_kana": "はなび。"
+    },
+    {
+      "id": 238,
+      "sentence": "花瓶。",
+      "target_kanji": "花",
+      "expected_reading": "か",
+      "meaning": "Flower (Vase)",
+      "full_kana": "かびん。"
+    },
+    {
+      "id": 239,
+      "sentence": "お茶を飲みます。",
+      "target_kanji": "茶",
+      "expected_reading": "ちゃ",
+      "meaning": "Tea",
+      "full_kana": "おちゃをのみます。"
+    },
+    {
+      "id": 240,
+      "sentence": "茶色。",
+      "target_kanji": "茶",
+      "expected_reading": "ちゃ",
+      "meaning": "Tea (Brown)",
+      "full_kana": "ちゃいろ。"
+    },
+    {
+      "id": 241,
+      "sentence": "喫茶店。",
+      "target_kanji": "茶",
+      "expected_reading": "さ",
+      "meaning": "Tea (Cafe)",
+      "full_kana": "きっさてん。"
+    },
+    {
+      "id": 242,
+      "sentence": "肉屋。",
+      "target_kanji": "肉",
+      "expected_reading": "にく",
+      "meaning": "Meat",
+      "full_kana": "にくや。"
+    },
+    {
+      "id": 243,
+      "sentence": "牛肉。",
+      "target_kanji": "肉",
+      "expected_reading": "にく",
+      "meaning": "Beef",
+      "full_kana": "ぎゅうにく。"
+    },
+    {
+      "id": 244,
+      "sentence": "文字。",
+      "target_kanji": "文",
+      "expected_reading": "も",
+      "meaning": "Letter/Character",
+      "full_kana": "もじ。"
+    },
+    {
+      "id": 245,
+      "sentence": "文学。",
+      "target_kanji": "文",
+      "expected_reading": "ぶん",
+      "meaning": "Letter (Literature)",
+      "full_kana": "ぶんがく。"
+    },
+    {
+      "id": 246,
+      "sentence": "生物。",
+      "target_kanji": "生",
+      "expected_reading": "せい",
+      "meaning": "Life (Biology)",
+      "full_kana": "せいぶつ。"
+    },
+    {
+      "id": 247,
+      "sentence": "生ビール。",
+      "target_kanji": "生",
+      "expected_reading": "なま",
+      "meaning": "Raw/Draft",
+      "full_kana": "なまびーる。"
+    },
+    {
+      "id": 248,
+      "sentence": "生まれる。",
+      "target_kanji": "生",
+      "expected_reading": "う",
+      "meaning": "Born",
+      "full_kana": "うまれる。"
+    },
+    {
+      "id": 249,
+      "sentence": "生きる。",
+      "target_kanji": "生",
+      "expected_reading": "い",
+      "meaning": "Live",
+      "full_kana": "いきる。"
+    },
+    {
+      "id": 250,
+      "sentence": "花屋の店員。",
+      "target_kanji": "店",
+      "expected_reading": "みせ",
+      "meaning": "Shop",
+      "full_kana": "はなやのてんいん。"
+    },
+    {
+      "id": 251,
+      "sentence": "売店。",
+      "target_kanji": "店",
+      "expected_reading": "てん",
+      "meaning": "Shop (Kiosk)",
+      "full_kana": "ばいてん。"
+    },
+    {
+      "id": 252,
+      "sentence": "馬に乗ります。",
+      "target_kanji": "馬",
+      "expected_reading": "うま",
+      "meaning": "Horse",
+      "full_kana": "うまにのります。"
+    },
+    {
+      "id": 253,
+      "sentence": "鳥が鳴いています。",
+      "target_kanji": "鳥",
+      "expected_reading": "とり",
+      "meaning": "Bird",
+      "full_kana": "とりがないています。"
+    },
+    {
+      "id": 254,
+      "sentence": "白鳥。",
+      "target_kanji": "鳥",
+      "expected_reading": "ちょう",
+      "meaning": "Bird (Swan)",
+      "full_kana": "はくちょう。"
+    },
+    {
+      "id": 255,
+      "sentence": "道を通ります。",
+      "target_kanji": "道",
+      "expected_reading": "みち",
+      "meaning": "Road",
+      "full_kana": "みちをとうります。"
+    },
+    {
+      "id": 256,
+      "sentence": "書道。",
+      "target_kanji": "道",
+      "expected_reading": "どう",
+      "meaning": "Way (Calligraphy)",
+      "full_kana": "しょどう。"
+    },
+    {
+      "id": 257,
+      "sentence": "北海道。",
+      "target_kanji": "道",
+      "expected_reading": "どう",
+      "meaning": "Way (Hokkaido)",
+      "full_kana": "ほっかいどう。"
+    },
+    {
+      "id": 258,
+      "sentence": "書く。",
+      "target_kanji": "書",
+      "expected_reading": "か",
+      "meaning": "Write",
+      "full_kana": "かく。"
+    },
+    {
+      "id": 259,
+      "sentence": "読書。",
+      "target_kanji": "書",
+      "expected_reading": "しょ",
+      "meaning": "Write (Reading)",
+      "full_kana": "どくしょ。"
+    },
+    {
+      "id": 260,
+      "sentence": "自分。",
+      "target_kanji": "自",
+      "expected_reading": "じ",
+      "meaning": "Self",
+      "full_kana": "じぶん。"
+    },
+    {
+      "id": 261,
+      "sentence": "自動車。",
+      "target_kanji": "自",
+      "expected_reading": "じ",
+      "meaning": "Self (Car)",
+      "full_kana": "じどうしゃ。"
+    },
+    {
+      "id": 262,
+      "sentence": "自転車。",
+      "target_kanji": "車",
+      "expected_reading": "しゃ",
+      "meaning": "Car (Bicycle)",
+      "full_kana": "じてんしゃ。"
+    },
+    {
+      "id": 263,
+      "sentence": "門限。",
+      "target_kanji": "門",
+      "expected_reading": "もん",
+      "meaning": "Gate (Curfew)",
+      "full_kana": "もんげん。"
+    },
+    {
+      "id": 264,
+      "sentence": "専門。",
+      "target_kanji": "門",
+      "expected_reading": "もん",
+      "meaning": "Gate (Specialty)",
+      "full_kana": "せんもん。"
+    },
+    {
+      "id": 265,
+      "sentence": "聞こえますか。",
+      "target_kanji": "聞",
+      "expected_reading": "き",
+      "meaning": "Hear",
+      "full_kana": "きこえますか。"
+    },
+    {
+      "id": 266,
+      "sentence": "新聞。",
+      "target_kanji": "聞",
+      "expected_reading": "ぶん",
+      "meaning": "Hear (Newspaper)",
+      "full_kana": "しんぶん。"
+    },
+    {
+      "id": 267,
+      "sentence": "新幹線。",
+      "target_kanji": "新",
+      "expected_reading": "しん",
+      "meaning": "New (Bullet Train)",
+      "full_kana": "しんかんせん。"
+    },
+    {
+      "id": 268,
+      "sentence": "親切な人。",
+      "target_kanji": "親",
+      "expected_reading": "しん",
+      "meaning": "Parent/Kind",
+      "full_kana": "しんせつなにん。"
+    },
+    {
+      "id": 269,
+      "sentence": "親。",
+      "target_kanji": "親",
+      "expected_reading": "おや",
+      "meaning": "Parent",
+      "full_kana": "おや。"
+    },
+    {
+      "id": 270,
+      "sentence": "父親。",
+      "target_kanji": "親",
+      "expected_reading": "おや",
+      "meaning": "Parent (Father)",
+      "full_kana": "ちちおや。"
+    },
+    {
+      "id": 271,
+      "sentence": "少し。",
+      "target_kanji": "少",
+      "expected_reading": "すこ",
+      "meaning": "A little",
+      "full_kana": "すこし。"
+    },
+    {
+      "id": 272,
+      "sentence": "少年。",
+      "target_kanji": "少",
+      "expected_reading": "しょう",
+      "meaning": "Little (Boy)",
+      "full_kana": "しょうねん。"
+    },
+    {
+      "id": 273,
+      "sentence": "少女。",
+      "target_kanji": "少",
+      "expected_reading": "しょう",
+      "meaning": "Little (Girl)",
+      "full_kana": "しょうじょ。"
+    },
+    {
+      "id": 274,
+      "sentence": "今週。",
+      "target_kanji": "週",
+      "expected_reading": "しゅう",
+      "meaning": "Week",
+      "full_kana": "こんしゅう。"
+    },
+    {
+      "id": 275,
+      "sentence": "来週。",
+      "target_kanji": "週",
+      "expected_reading": "しゅう",
+      "meaning": "Week (Next)",
+      "full_kana": "らいしゅう。"
+    },
+    {
+      "id": 276,
+      "sentence": "先週。",
+      "target_kanji": "週",
+      "expected_reading": "しゅう",
+      "meaning": "Week (Last)",
+      "full_kana": "せんしゅう。"
+    },
+    {
+      "id": 277,
+      "sentence": "一週間。",
+      "target_kanji": "週",
+      "expected_reading": "しゅう",
+      "meaning": "Week (Duration)",
+      "full_kana": "いっしゅうかん。"
+    },
+    {
+      "id": 278,
+      "sentence": "主人がいます。",
+      "target_kanji": "主",
+      "expected_reading": "しゅ",
+      "meaning": "Master/Husband",
+      "full_kana": "しゅじんがいます。"
+    },
+    {
+      "id": 279,
+      "sentence": "持ち主。",
+      "target_kanji": "主",
+      "expected_reading": "ぬし",
+      "meaning": "Master (Owner)",
+      "full_kana": "もちぬし。"
+    },
+    {
+      "id": 280,
+      "sentence": "立つ。",
+      "target_kanji": "立",
+      "expected_reading": "た",
+      "meaning": "Stand",
+      "full_kana": "たつ。"
+    },
+    {
+      "id": 281,
+      "sentence": "国立。",
+      "target_kanji": "立",
+      "expected_reading": "りつ",
+      "meaning": "Stand (National)",
+      "full_kana": "こくりつ。"
+    },
+    {
+      "id": 282,
+      "sentence": "私立。",
+      "target_kanji": "立",
+      "expected_reading": "りつ",
+      "meaning": "Stand (Private)",
+      "full_kana": "しりつ。"
+    },
+    {
+      "id": 283,
+      "sentence": "物事。",
+      "target_kanji": "物",
+      "expected_reading": "もの",
+      "meaning": "Thing",
+      "full_kana": "ものごと。"
+    },
+    {
+      "id": 284,
+      "sentence": "動物。",
+      "target_kanji": "物",
+      "expected_reading": "ぶつ",
+      "meaning": "Thing (Animal)",
+      "full_kana": "どうぶつ。"
+    },
+    {
+      "id": 285,
+      "sentence": "見物。",
+      "target_kanji": "物",
+      "expected_reading": "ぶつ",
+      "meaning": "Thing (Sightseeing)",
+      "full_kana": "けんぶつ。"
+    },
+    {
+      "id": 286,
+      "sentence": "食事。",
+      "target_kanji": "事",
+      "expected_reading": "じ",
+      "meaning": "Thing (Meal)",
+      "full_kana": "しょくじ。"
+    },
+    {
+      "id": 287,
+      "sentence": "仕事。",
+      "target_kanji": "事",
+      "expected_reading": "ごと",
+      "meaning": "Thing (Work)",
+      "full_kana": "しごと。"
+    },
+    {
+      "id": 288,
+      "sentence": "用事。",
+      "target_kanji": "事",
+      "expected_reading": "じ",
+      "meaning": "Thing (Errand)",
+      "full_kana": "ようじ。"
+    },
+    {
+      "id": 289,
+      "sentence": "夕方。",
+      "target_kanji": "夕",
+      "expected_reading": "ゆう",
+      "meaning": "Evening",
+      "full_kana": "ゆうがた。"
+    },
+    {
+      "id": 290,
+      "sentence": "夕飯。",
+      "target_kanji": "夕",
+      "expected_reading": "ゆう",
+      "meaning": "Evening (Dinner)",
+      "full_kana": "ゆうはん。"
+    },
+    {
+      "id": 291,
+      "sentence": "七夕。",
+      "target_kanji": "夕",
+      "expected_reading": "ばた",
+      "meaning": "Evening (Tanabata)",
+      "full_kana": "たなばた。"
+    },
+    {
+      "id": 292,
+      "sentence": "名刺。",
+      "target_kanji": "名",
+      "expected_reading": "めい",
+      "meaning": "Name (Card)",
+      "full_kana": "めいし。"
+    },
+    {
+      "id": 293,
+      "sentence": "有名。",
+      "target_kanji": "名",
+      "expected_reading": "めい",
+      "meaning": "Name (Famous)",
+      "full_kana": "ゆうめい。"
+    },
+    {
+      "id": 294,
+      "sentence": "夜中。",
+      "target_kanji": "夜",
+      "expected_reading": "よ",
+      "meaning": "Night (Midnight)",
+      "full_kana": "よなか。"
+    },
+    {
+      "id": 295,
+      "sentence": "今夜。",
+      "target_kanji": "夜",
+      "expected_reading": "や",
+      "meaning": "Night (Tonight)",
+      "full_kana": "こんや。"
+    },
+    {
+      "id": 296,
+      "sentence": "外で遊びます。",
+      "target_kanji": "外",
+      "expected_reading": "そと",
+      "meaning": "Outside",
+      "full_kana": "そとであそびます。"
+    },
+    {
+      "id": 297,
+      "sentence": "外国。",
+      "target_kanji": "外",
+      "expected_reading": "がい",
+      "meaning": "Outside (Foreign)",
+      "full_kana": "がいこく。"
+    },
+    {
+      "id": 298,
+      "sentence": "外す。",
+      "target_kanji": "外",
+      "expected_reading": "はず",
+      "meaning": "Remove",
+      "full_kana": "はずす。"
+    },
+    {
+      "id": 299,
+      "sentence": "多大。",
+      "target_kanji": "多",
+      "expected_reading": "た",
+      "meaning": "Many (Great)",
+      "full_kana": "ただい。"
+    },
+    {
+      "id": 300,
+      "sentence": "多分。",
+      "target_kanji": "多",
+      "expected_reading": "た",
+      "meaning": "Many (Probably)",
+      "full_kana": "たぶん。"
+    },
+    {
+      "id": 301,
+      "sentence": "安全。",
+      "target_kanji": "安",
+      "expected_reading": "あん",
+      "meaning": "Peace (Safe)",
+      "full_kana": "あんぜん。"
+    },
+    {
+      "id": 302,
+      "sentence": "安心。",
+      "target_kanji": "安",
+      "expected_reading": "あん",
+      "meaning": "Peace (Relief)",
+      "full_kana": "あんしん。"
+    },
+    {
+      "id": 303,
+      "sentence": "広場。",
+      "target_kanji": "広",
+      "expected_reading": "ひろ",
+      "meaning": "Wide (Square)",
+      "full_kana": "ひろば。"
+    },
+    {
+      "id": 304,
+      "sentence": "広告。",
+      "target_kanji": "広",
+      "expected_reading": "こう",
+      "meaning": "Wide (Ad)",
+      "full_kana": "こうこく。"
+    },
+    {
+      "id": 305,
+      "sentence": "早起き。",
+      "target_kanji": "早",
+      "expected_reading": "はや",
+      "meaning": "Early",
+      "full_kana": "はやおき。"
+    },
+    {
+      "id": 306,
+      "sentence": "早朝。",
+      "target_kanji": "早",
+      "expected_reading": "そう",
+      "meaning": "Early (Morning)",
+      "full_kana": "そうちょう。"
+    },
+    {
+      "id": 307,
+      "sentence": "社長。",
+      "target_kanji": "長",
+      "expected_reading": "ちょう",
+      "meaning": "Long (CEO)",
+      "full_kana": "しゃちょう。"
+    },
+    {
+      "id": 308,
+      "sentence": "校長。",
+      "target_kanji": "長",
+      "expected_reading": "ちょう",
+      "meaning": "Long (Principal)",
+      "full_kana": "こうちょう。"
+    },
+    {
+      "id": 309,
+      "sentence": "明るい。",
+      "target_kanji": "明",
+      "expected_reading": "あか",
+      "meaning": "Bright",
+      "full_kana": "あかるい。"
+    },
+    {
+      "id": 310,
+      "sentence": "明日。",
+      "target_kanji": "明",
+      "expected_reading": "あす",
+      "meaning": "Tomorrow",
+      "full_kana": "あした。"
+    },
+    {
+      "id": 311,
+      "sentence": "社会。",
+      "target_kanji": "社",
+      "expected_reading": "しゃ",
+      "meaning": "Shrine/Company (Society)",
+      "full_kana": "しゃかい。"
+    },
+    {
+      "id": 312,
+      "sentence": "会社。",
+      "target_kanji": "社",
+      "expected_reading": "しゃ",
+      "meaning": "Company",
+      "full_kana": "かいしゃ。"
+    },
+    {
+      "id": 313,
+      "sentence": "神社。",
+      "target_kanji": "社",
+      "expected_reading": "じゃ",
+      "meaning": "Shrine",
+      "full_kana": "じんじゃ。"
+    },
+    {
+      "id": 314,
+      "sentence": "学校。",
+      "target_kanji": "校",
+      "expected_reading": "こう",
+      "meaning": "School",
+      "full_kana": "がっこう。"
+    },
+    {
+      "id": 315,
+      "sentence": "高校。",
+      "target_kanji": "校",
+      "expected_reading": "こう",
+      "meaning": "School (High)",
+      "full_kana": "こうこう。"
+    },
+    {
+      "id": 316,
+      "sentence": "中学校。",
+      "target_kanji": "校",
+      "expected_reading": "こう",
+      "meaning": "School (Middle)",
+      "full_kana": "ちゅうがっこう。"
+    },
+    {
+      "id": 317,
+      "sentence": "村の生活。",
+      "target_kanji": "村",
+      "expected_reading": "むら",
+      "meaning": "Village",
+      "full_kana": "むらのせいかつ。"
+    },
+    {
+      "id": 318,
+      "sentence": "木村さん。",
+      "target_kanji": "村",
+      "expected_reading": "むら",
+      "meaning": "Village (Name)",
+      "full_kana": "きむらさん。"
+    },
+    {
+      "id": 319,
+      "sentence": "町村。",
+      "target_kanji": "村",
+      "expected_reading": "そん",
+      "meaning": "Village (Towns and villages)",
+      "full_kana": "ちょうそん。"
+    },
+    {
+      "id": 320,
+      "sentence": "町長。",
+      "target_kanji": "町",
+      "expected_reading": "ちょう",
+      "meaning": "Town (Mayor)",
+      "full_kana": "ちょうちょう。"
+    },
+    {
+      "id": 321,
+      "sentence": "下町。",
+      "target_kanji": "町",
+      "expected_reading": "まち",
+      "meaning": "Town (Downtown)",
+      "full_kana": "したまち。"
+    },
+    {
+      "id": 322,
+      "sentence": "東京。",
+      "target_kanji": "京",
+      "expected_reading": "きょう",
+      "meaning": "Capital",
+      "full_kana": "とうきょう。"
+    },
+    {
+      "id": 323,
+      "sentence": "京都。",
+      "target_kanji": "京",
+      "expected_reading": "きょう",
+      "meaning": "Capital (Kyoto)",
+      "full_kana": "きょうと。"
+    },
+    {
+      "id": 324,
+      "sentence": "上京する。",
+      "target_kanji": "京",
+      "expected_reading": "きょう",
+      "meaning": "Capital (Go to Tokyo)",
+      "full_kana": "じょうきょうする。"
+    },
+    {
+      "id": 325,
+      "sentence": "国。",
+      "target_kanji": "国",
+      "expected_reading": "くに",
+      "meaning": "Country",
+      "full_kana": "くに。"
+    },
+    {
+      "id": 326,
+      "sentence": "国家。",
+      "target_kanji": "国",
+      "expected_reading": "こっ",
+      "meaning": "Country (Nation)",
+      "full_kana": "こっか。"
+    },
+    {
+      "id": 327,
+      "sentence": "帰国。",
+      "target_kanji": "国",
+      "expected_reading": "こく",
+      "meaning": "Country (Return)",
+      "full_kana": "きこく。"
+    },
+    {
+      "id": 328,
+      "sentence": "お店。",
+      "target_kanji": "店",
+      "expected_reading": "みせ",
+      "meaning": "Shop",
+      "full_kana": "おみせ。"
+    },
+    {
+      "id": 329,
+      "sentence": "書店。",
+      "target_kanji": "店",
+      "expected_reading": "てん",
+      "meaning": "Shop (Bookstore)",
+      "full_kana": "しょてん。"
+    },
+    {
+      "id": 330,
+      "sentence": "本店。",
+      "target_kanji": "店",
+      "expected_reading": "てん",
+      "meaning": "Shop (Main branch)",
+      "full_kana": "ほんてん。"
+    },
+    {
+      "id": 331,
+      "sentence": "電気。",
+      "target_kanji": "電",
+      "expected_reading": "でん",
+      "meaning": "Electricity",
+      "full_kana": "でんき。"
+    },
+    {
+      "id": 332,
+      "sentence": "電話。",
+      "target_kanji": "電",
+      "expected_reading": "でん",
+      "meaning": "Electricity (Phone)",
+      "full_kana": "でんわ。"
+    },
+    {
+      "id": 333,
+      "sentence": "電力。",
+      "target_kanji": "電",
+      "expected_reading": "でん",
+      "meaning": "Electricity (Power)",
+      "full_kana": "でんりょく。"
+    },
+    {
+      "id": 334,
+      "sentence": "元気。",
+      "target_kanji": "気",
+      "expected_reading": "き",
+      "meaning": "Spirit (Healthy)",
+      "full_kana": "げんき。"
+    },
+    {
+      "id": 335,
+      "sentence": "気分。",
+      "target_kanji": "気",
+      "expected_reading": "き",
+      "meaning": "Spirit (Mood)",
+      "full_kana": "きぶん。"
+    },
+    {
+      "id": 336,
+      "sentence": "空気。",
+      "target_kanji": "気",
+      "expected_reading": "き",
+      "meaning": "Spirit (Air)",
+      "full_kana": "くうき。"
+    },
+    {
+      "id": 337,
+      "sentence": "父母。",
+      "target_kanji": "父",
+      "expected_reading": "ふ",
+      "meaning": "Father (Parents)",
+      "full_kana": "ふぼ。"
+    },
+    {
+      "id": 338,
+      "sentence": "父母。",
+      "target_kanji": "母",
+      "expected_reading": "ぼ",
+      "meaning": "Mother (Parents)",
+      "full_kana": "ふぼ。"
+    },
+    {
+      "id": 339,
+      "sentence": "祖父。",
+      "target_kanji": "父",
+      "expected_reading": "ふ",
+      "meaning": "Father (Grandfather)",
+      "full_kana": "そふ。"
+    },
+    {
+      "id": 340,
+      "sentence": "祖母。",
+      "target_kanji": "母",
+      "expected_reading": "ぼ",
+      "meaning": "Mother (Grandmother)",
+      "full_kana": "そぼ。"
+    },
+    {
+      "id": 341,
+      "sentence": "兄弟。",
+      "target_kanji": "兄",
+      "expected_reading": "きょう",
+      "meaning": "Brother (Siblings)",
+      "full_kana": "きょうだい。"
+    },
+    {
+      "id": 342,
+      "sentence": "兄弟。",
+      "target_kanji": "弟",
+      "expected_reading": "だい",
+      "meaning": "Brother (Siblings)",
+      "full_kana": "きょうだい。"
+    },
+    {
+      "id": 343,
+      "sentence": "姉妹。",
+      "target_kanji": "姉",
+      "expected_reading": "し",
+      "meaning": "Sister (Sisters)",
+      "full_kana": "しまい。"
+    },
+    {
+      "id": 344,
+      "sentence": "姉妹。",
+      "target_kanji": "妹",
+      "expected_reading": "まい",
+      "meaning": "Sister (Sisters)",
+      "full_kana": "しまい。"
+    },
+    {
+      "id": 345,
+      "sentence": "お姉さん。",
+      "target_kanji": "姉",
+      "expected_reading": "ねえ",
+      "meaning": "Older sister",
+      "full_kana": "おねえさん。"
+    },
+    {
+      "id": 346,
+      "sentence": "自ら。",
+      "target_kanji": "自",
+      "expected_reading": "みずか",
+      "meaning": "Self",
+      "full_kana": "みずから。"
+    },
+    {
+      "id": 347,
+      "sentence": "友人。",
+      "target_kanji": "友",
+      "expected_reading": "ゆう",
+      "meaning": "Friend",
+      "full_kana": "ゆうじん。"
+    },
+    {
+      "id": 348,
+      "sentence": "親友。",
+      "target_kanji": "友",
+      "expected_reading": "ゆう",
+      "meaning": "Friend (Best)",
+      "full_kana": "しんゆう。"
+    },
+    {
+      "id": 349,
+      "sentence": "友情。",
+      "target_kanji": "友",
+      "expected_reading": "ゆう",
+      "meaning": "Friend (Friendship)",
+      "full_kana": "ゆうじょう。"
+    },
+    {
+      "id": 350,
+      "sentence": "春分。",
+      "target_kanji": "春",
+      "expected_reading": "しゅん",
+      "meaning": "Spring (Equinox)",
+      "full_kana": "しゅんぶん。"
+    },
+    {
+      "id": 351,
+      "sentence": "青春。",
+      "target_kanji": "春",
+      "expected_reading": "しゅん",
+      "meaning": "Spring (Youth)",
+      "full_kana": "せいしゅん。"
+    },
+    {
+      "id": 352,
+      "sentence": "夏休み。",
+      "target_kanji": "夏",
+      "expected_reading": "なつ",
+      "meaning": "Summer",
+      "full_kana": "なつやすみ。"
+    },
+    {
+      "id": 353,
+      "sentence": "真夏。",
+      "target_kanji": "夏",
+      "expected_reading": "なつ",
+      "meaning": "Summer (Midsummer)",
+      "full_kana": "まなつ。"
+    },
+    {
+      "id": 354,
+      "sentence": "秋分。",
+      "target_kanji": "秋",
+      "expected_reading": "しゅう",
+      "meaning": "Autumn (Equinox)",
+      "full_kana": "しゅうぶん。"
+    },
+    {
+      "id": 355,
+      "sentence": "秋冬。",
+      "target_kanji": "秋",
+      "expected_reading": "あき",
+      "meaning": "Autumn (Autumn/Winter)",
+      "full_kana": "あきふゆ。"
+    },
+    {
+      "id": 356,
+      "sentence": "真冬。",
+      "target_kanji": "冬",
+      "expected_reading": "ふゆ",
+      "meaning": "Winter (Midwinter)",
+      "full_kana": "まふゆ。"
+    },
+    {
+      "id": 357,
+      "sentence": "冬休み。",
+      "target_kanji": "冬",
+      "expected_reading": "ふゆ",
+      "meaning": "Winter",
+      "full_kana": "ふゆやすみ。"
+    },
+    {
+      "id": 358,
+      "sentence": "東西。",
+      "target_kanji": "東",
+      "expected_reading": "とう",
+      "meaning": "East",
+      "full_kana": "とうざい。"
+    },
+    {
+      "id": 359,
+      "sentence": "東。",
+      "target_kanji": "東",
+      "expected_reading": "ひがし",
+      "meaning": "East",
+      "full_kana": "ひがし。"
+    },
+    {
+      "id": 360,
+      "sentence": "東京駅。",
+      "target_kanji": "東",
+      "expected_reading": "とう",
+      "meaning": "East (Tokyo)",
+      "full_kana": "とうきょうえき。"
+    },
+    {
+      "id": 361,
+      "sentence": "西。",
+      "target_kanji": "西",
+      "expected_reading": "にし",
+      "meaning": "West",
+      "full_kana": "にし。"
+    },
+    {
+      "id": 362,
+      "sentence": "関西。",
+      "target_kanji": "西",
+      "expected_reading": "さい",
+      "meaning": "West (Kansai)",
+      "full_kana": "かんさい。"
+    },
+    {
+      "id": 363,
+      "sentence": "南。",
+      "target_kanji": "南",
+      "expected_reading": "みなみ",
+      "meaning": "South",
+      "full_kana": "みなみ。"
+    },
+    {
+      "id": 364,
+      "sentence": "南口。",
+      "target_kanji": "南",
+      "expected_reading": "みなみ",
+      "meaning": "South (Exit)",
+      "full_kana": "みなみぐち。"
+    },
+    {
+      "id": 365,
+      "sentence": "北。",
+      "target_kanji": "北",
+      "expected_reading": "きた",
+      "meaning": "North",
+      "full_kana": "きた。"
+    },
+    {
+      "id": 366,
+      "sentence": "北口。",
+      "target_kanji": "北",
+      "expected_reading": "きた",
+      "meaning": "North (Exit)",
+      "full_kana": "きたぐち。"
+    },
+    {
+      "id": 367,
+      "sentence": "南北。",
+      "target_kanji": "北",
+      "expected_reading": "ほく",
+      "meaning": "North (South/North)",
+      "full_kana": "なんぼく。"
+    },
+    {
+      "id": 368,
+      "sentence": "左。",
+      "target_kanji": "左",
+      "expected_reading": "ひだり",
+      "meaning": "Left",
+      "full_kana": "ひだり。"
+    },
+    {
+      "id": 369,
+      "sentence": "左右。",
+      "target_kanji": "左",
+      "expected_reading": "さ",
+      "meaning": "Left (Left/Right)",
+      "full_kana": "さゆう。"
+    },
+    {
+      "id": 370,
+      "sentence": "右。",
+      "target_kanji": "右",
+      "expected_reading": "みぎ",
+      "meaning": "Right",
+      "full_kana": "みぎ。"
+    },
+    {
+      "id": 371,
+      "sentence": "右手。",
+      "target_kanji": "右",
+      "expected_reading": "みぎ",
+      "meaning": "Right (Hand)",
+      "full_kana": "みぎて。"
+    },
+    {
+      "id": 372,
+      "sentence": "左右。",
+      "target_kanji": "右",
+      "expected_reading": "ゆう",
+      "meaning": "Right (Left/Right)",
+      "full_kana": "さゆう。"
+    },
+    {
+      "id": 373,
+      "sentence": "外に出る。",
+      "target_kanji": "出",
+      "expected_reading": "で",
+      "meaning": "Exit",
+      "full_kana": "そとにでる。"
+    },
+    {
+      "id": 374,
+      "sentence": "出す。",
+      "target_kanji": "出",
+      "expected_reading": "だ",
+      "meaning": "Put out",
+      "full_kana": "だす。"
+    },
+    {
+      "id": 375,
+      "sentence": "出口。",
+      "target_kanji": "出",
+      "expected_reading": "で",
+      "meaning": "Exit",
+      "full_kana": "でぐち。"
+    },
+    {
+      "id": 376,
+      "sentence": "外出。",
+      "target_kanji": "出",
+      "expected_reading": "しゅつ",
+      "meaning": "Exit (Go out)",
+      "full_kana": "がいしゅつ。"
+    },
+    {
+      "id": 377,
+      "sentence": "入れる。",
+      "target_kanji": "入",
+      "expected_reading": "い",
+      "meaning": "Put in",
+      "full_kana": "いれる。"
+    },
+    {
+      "id": 378,
+      "sentence": "入口。",
+      "target_kanji": "入",
+      "expected_reading": "いり",
+      "meaning": "Entrance",
+      "full_kana": "いりぐち。"
+    },
+    {
+      "id": 379,
+      "sentence": "入学。",
+      "target_kanji": "入",
+      "expected_reading": "にゅう",
+      "meaning": "Enter (School)",
+      "full_kana": "にゅうがく。"
+    },
+    {
+      "id": 380,
+      "sentence": "入院。",
+      "target_kanji": "入",
+      "expected_reading": "にゅう",
+      "meaning": "Enter (Hospital)",
+      "full_kana": "にゅういん。"
+    },
+    {
+      "id": 381,
+      "sentence": "病院。",
+      "target_kanji": "院",
+      "expected_reading": "いん",
+      "meaning": "Institution (Hospital)",
+      "full_kana": "びょういん。"
+    },
+    {
+      "id": 382,
+      "sentence": "大学院。",
+      "target_kanji": "院",
+      "expected_reading": "いん",
+      "meaning": "Institution (Grad School)",
+      "full_kana": "だいがくいん。"
+    },
+    {
+      "id": 383,
+      "sentence": "行く。",
+      "target_kanji": "行",
+      "expected_reading": "い",
+      "meaning": "Go",
+      "full_kana": "いく。"
+    },
+    {
+      "id": 384,
+      "sentence": "行う。",
+      "target_kanji": "行",
+      "expected_reading": "おこな",
+      "meaning": "Conduct",
+      "full_kana": "おこなう。"
+    },
+    {
+      "id": 385,
+      "sentence": "旅行。",
+      "target_kanji": "行",
+      "expected_reading": "こう",
+      "meaning": "Go (Travel)",
+      "full_kana": "りょこう。"
+    },
+    {
+      "id": 386,
+      "sentence": "銀行。",
+      "target_kanji": "行",
+      "expected_reading": "こう",
+      "meaning": "Go (Bank)",
+      "full_kana": "ぎんこう。"
+    },
+    {
+      "id": 387,
+      "sentence": "来る。",
+      "target_kanji": "来",
+      "expected_reading": "く",
+      "meaning": "Come",
+      "full_kana": "くる。"
+    },
+    {
+      "id": 388,
+      "sentence": "来ない。",
+      "target_kanji": "来",
+      "expected_reading": "こ",
+      "meaning": "Come (Not)",
+      "full_kana": "こない。"
+    },
+    {
+      "id": 389,
+      "sentence": "来月。",
+      "target_kanji": "来",
+      "expected_reading": "らい",
+      "meaning": "Come (Next Month)",
+      "full_kana": "らいげつ。"
+    },
+    {
+      "id": 390,
+      "sentence": "将来。",
+      "target_kanji": "来",
+      "expected_reading": "らい",
+      "meaning": "Come (Future)",
+      "full_kana": "しょうらい。"
+    },
+    {
+      "id": 391,
+      "sentence": "食べる。",
+      "target_kanji": "食",
+      "expected_reading": "た",
+      "meaning": "Eat",
+      "full_kana": "たべる。"
+    },
+    {
+      "id": 392,
+      "sentence": "食べ物。",
+      "target_kanji": "食",
+      "expected_reading": "た",
+      "meaning": "Eat (Food)",
+      "full_kana": "たべもの。"
+    },
+    {
+      "id": 393,
+      "sentence": "食事。",
+      "target_kanji": "食",
+      "expected_reading": "しょく",
+      "meaning": "Eat (Meal)",
+      "full_kana": "しょくじ。"
+    },
+    {
+      "id": 394,
+      "sentence": "食堂。",
+      "target_kanji": "食",
+      "expected_reading": "しょく",
+      "meaning": "Eat (Cafeteria)",
+      "full_kana": "しょくどう。"
+    },
+    {
+      "id": 395,
+      "sentence": "飲む。",
+      "target_kanji": "飲",
+      "expected_reading": "の",
+      "meaning": "Drink",
+      "full_kana": "のむ。"
+    },
+    {
+      "id": 396,
+      "sentence": "飲み物。",
+      "target_kanji": "飲",
+      "expected_reading": "の",
+      "meaning": "Drink (Beverage)",
+      "full_kana": "のみもの。"
+    },
+    {
+      "id": 397,
+      "sentence": "飲食。",
+      "target_kanji": "飲",
+      "expected_reading": "いん",
+      "meaning": "Drink (Eating & Drinking)",
+      "full_kana": "いんしょく。"
+    },
+    {
+      "id": 398,
+      "sentence": "見る。",
+      "target_kanji": "見",
+      "expected_reading": "み",
+      "meaning": "See",
+      "full_kana": "みる。"
+    },
+    {
+      "id": 399,
+      "sentence": "見せる。",
+      "target_kanji": "見",
+      "expected_reading": "み",
+      "meaning": "Show",
+      "full_kana": "みせる。"
+    },
+    {
+      "id": 400,
+      "sentence": "見学。",
+      "target_kanji": "見",
+      "expected_reading": "けん",
+      "meaning": "See (Study tour)",
+      "full_kana": "けんがく。"
+    },
+    {
+      "id": 401,
+      "sentence": "意見。",
+      "target_kanji": "見",
+      "expected_reading": "けん",
+      "meaning": "See (Opinion)",
+      "full_kana": "いけん。"
+    },
+    {
+      "id": 402,
+      "sentence": "会う。",
+      "target_kanji": "会",
+      "expected_reading": "あ",
+      "meaning": "Meet",
+      "full_kana": "あう。"
+    },
+    {
+      "id": 403,
+      "sentence": "会話。",
+      "target_kanji": "会",
+      "expected_reading": "かい",
+      "meaning": "Meet (Conversation)",
+      "full_kana": "かいわ。"
+    },
+    {
+      "id": 404,
+      "sentence": "会社員。",
+      "target_kanji": "会",
+      "expected_reading": "かい",
+      "meaning": "Meet (Employee)",
+      "full_kana": "かいしゃいん。"
+    },
+    {
+      "id": 405,
+      "sentence": "大会。",
+      "target_kanji": "会",
+      "expected_reading": "かい",
+      "meaning": "Meet (Tournament)",
+      "full_kana": "たいかい。"
+    },
+    {
+      "id": 406,
+      "sentence": "休む。",
+      "target_kanji": "休",
+      "expected_reading": "やす",
+      "meaning": "Rest",
+      "full_kana": "やすむ。"
+    },
+    {
+      "id": 407,
+      "sentence": "夏休み。",
+      "target_kanji": "休",
+      "expected_reading": "やす",
+      "meaning": "Rest (Summer break)",
+      "full_kana": "なつやすみ。"
+    },
+    {
+      "id": 408,
+      "sentence": "休憩。",
+      "target_kanji": "休",
+      "expected_reading": "きゅう",
+      "meaning": "Rest (Break)",
+      "full_kana": "きゅうけい。"
+    },
+    {
+      "id": 409,
+      "sentence": "定休日。",
+      "target_kanji": "休",
+      "expected_reading": "きゅう",
+      "meaning": "Rest (Regular holiday)",
+      "full_kana": "ていきゅうび。"
+    },
+    {
+      "id": 410,
+      "sentence": "言う。",
+      "target_kanji": "言",
+      "expected_reading": "い",
+      "meaning": "Say",
+      "full_kana": "いう。"
+    },
+    {
+      "id": 411,
+      "sentence": "言葉。",
+      "target_kanji": "言",
+      "expected_reading": "こと",
+      "meaning": "Say (Word)",
+      "full_kana": "ことば。"
+    },
+    {
+      "id": 412,
+      "sentence": "一言。",
+      "target_kanji": "言",
+      "expected_reading": "こと",
+      "meaning": "Say (One word)",
+      "full_kana": "ひとこと。"
+    },
+    {
+      "id": 413,
+      "sentence": "言語。",
+      "target_kanji": "言",
+      "expected_reading": "げん",
+      "meaning": "Say (Language)",
+      "full_kana": "げんご。"
+    },
+    {
+      "id": 414,
+      "sentence": "話す。",
+      "target_kanji": "話",
+      "expected_reading": "はな",
+      "meaning": "Speak",
+      "full_kana": "はなす。"
+    },
+    {
+      "id": 415,
+      "sentence": "話。",
+      "target_kanji": "話",
+      "expected_reading": "はなし",
+      "meaning": "Story",
+      "full_kana": "はなし。"
+    },
+    {
+      "id": 416,
+      "sentence": "電話。",
+      "target_kanji": "話",
+      "expected_reading": "わ",
+      "meaning": "Speak (Phone)",
+      "full_kana": "でんわ。"
+    },
+    {
+      "id": 417,
+      "sentence": "読む。",
+      "target_kanji": "読",
+      "expected_reading": "よ",
+      "meaning": "Read",
+      "full_kana": "よむ。"
+    },
+    {
+      "id": 418,
+      "sentence": "読書。",
+      "target_kanji": "読",
+      "expected_reading": "どく",
+      "meaning": "Read (Reading books)",
+      "full_kana": "どくしょ。"
+    },
+    {
+      "id": 419,
+      "sentence": "買う。",
+      "target_kanji": "買",
+      "expected_reading": "か",
+      "meaning": "Buy",
+      "full_kana": "かう。"
+    },
+    {
+      "id": 420,
+      "sentence": "買い物。",
+      "target_kanji": "買",
+      "expected_reading": "か",
+      "meaning": "Buy (Shopping)",
+      "full_kana": "かいもの。"
+    },
+    {
+      "id": 421,
+      "sentence": "売る。",
+      "target_kanji": "売",
+      "expected_reading": "う",
+      "meaning": "Sell",
+      "full_kana": "うる。"
+    },
+    {
+      "id": 422,
+      "sentence": "売り場。",
+      "target_kanji": "売",
+      "expected_reading": "う",
+      "meaning": "Sell (Counter)",
+      "full_kana": "うりば。"
+    },
+    {
+      "id": 423,
+      "sentence": "売店。",
+      "target_kanji": "売",
+      "expected_reading": "ばい",
+      "meaning": "Sell (Shop)",
+      "full_kana": "ばいてん。"
+    },
+    {
+      "id": 424,
+      "sentence": "思う。",
+      "target_kanji": "思",
+      "expected_reading": "おも",
+      "meaning": "Think",
+      "full_kana": "おもう。"
+    },
+    {
+      "id": 425,
+      "sentence": "思い出す。",
+      "target_kanji": "思",
+      "expected_reading": "おも",
+      "meaning": "Think (Recall)",
+      "full_kana": "おもいだす。"
+    },
+    {
+      "id": 426,
+      "sentence": "知る。",
+      "target_kanji": "知",
+      "expected_reading": "し",
+      "meaning": "Know",
+      "full_kana": "しる。"
+    },
+    {
+      "id": 427,
+      "sentence": "知らせる。",
+      "target_kanji": "知",
+      "expected_reading": "し",
+      "meaning": "Know (Inform)",
+      "full_kana": "しらせる。"
+    },
+    {
+      "id": 428,
+      "sentence": "知人。",
+      "target_kanji": "知",
+      "expected_reading": "ち",
+      "meaning": "Know (Acquaintance)",
+      "full_kana": "ちじん。"
+    },
+    {
+      "id": 429,
+      "sentence": "持つ。",
+      "target_kanji": "持",
+      "expected_reading": "も",
+      "meaning": "Hold",
+      "full_kana": "もつ。"
+    },
+    {
+      "id": 430,
+      "sentence": "気持ち。",
+      "target_kanji": "持",
+      "expected_reading": "も",
+      "meaning": "Hold (Feeling)",
+      "full_kana": "きもち。"
+    },
+    {
+      "id": 431,
+      "sentence": "金持ち。",
+      "target_kanji": "持",
+      "expected_reading": "も",
+      "meaning": "Hold (Rich)",
+      "full_kana": "かねもち。"
+    },
+    {
+      "id": 432,
+      "sentence": "待つ。",
+      "target_kanji": "待",
+      "expected_reading": "ま",
+      "meaning": "Wait",
+      "full_kana": "まつ。"
+    },
+    {
+      "id": 433,
+      "sentence": "待ち合わせ。",
+      "target_kanji": "待",
+      "expected_reading": "ま",
+      "meaning": "Wait (Meeting)",
+      "full_kana": "まちあわせ。"
+    },
+    {
+      "id": 434,
+      "sentence": "招待。",
+      "target_kanji": "待",
+      "expected_reading": "たい",
+      "meaning": "Wait (Invitation)",
+      "full_kana": "しょうたい。"
+    },
+    {
+      "id": 435,
+      "sentence": "住む。",
+      "target_kanji": "住",
+      "expected_reading": "す",
+      "meaning": "Live",
+      "full_kana": "すむ。"
+    },
+    {
+      "id": 436,
+      "sentence": "住所。",
+      "target_kanji": "住",
+      "expected_reading": "じゅう",
+      "meaning": "Live (Address)",
+      "full_kana": "じゅうしょ。"
+    },
+    {
+      "id": 437,
+      "sentence": "作る。",
+      "target_kanji": "作",
+      "expected_reading": "つく",
+      "meaning": "Make",
+      "full_kana": "つくる。"
+    },
+    {
+      "id": 438,
+      "sentence": "作文。",
+      "target_kanji": "作",
+      "expected_reading": "さく",
+      "meaning": "Make (Essay)",
+      "full_kana": "さくぶん。"
+    },
+    {
+      "id": 439,
+      "sentence": "作品。",
+      "target_kanji": "作",
+      "expected_reading": "さく",
+      "meaning": "Make (Work)",
+      "full_kana": "さくひん。"
+    },
+    {
+      "id": 440,
+      "sentence": "使う。",
+      "target_kanji": "使",
+      "expected_reading": "つか",
+      "meaning": "Use",
+      "full_kana": "つかう。"
+    },
+    {
+      "id": 441,
+      "sentence": "大使館。",
+      "target_kanji": "使",
+      "expected_reading": "し",
+      "meaning": "Use (Embassy)",
+      "full_kana": "たいしかん。"
+    },
+    {
+      "id": 442,
+      "sentence": "止まる。",
+      "target_kanji": "止",
+      "expected_reading": "と",
+      "meaning": "Stop",
+      "full_kana": "とまる。"
+    },
+    {
+      "id": 443,
+      "sentence": "中止。",
+      "target_kanji": "止",
+      "expected_reading": "し",
+      "meaning": "Stop (Cancel)",
+      "full_kana": "ちゅうし。"
+    },
+    {
+      "id": 444,
+      "sentence": "歩く。",
+      "target_kanji": "歩",
+      "expected_reading": "ある",
+      "meaning": "Walk",
+      "full_kana": "あるく。"
+    },
+    {
+      "id": 445,
+      "sentence": "散歩。",
+      "target_kanji": "歩",
+      "expected_reading": "ぽ",
+      "meaning": "Walk (Stroll)",
+      "full_kana": "さんぽ。"
+    },
+    {
+      "id": 446,
+      "sentence": "歩道。",
+      "target_kanji": "歩",
+      "expected_reading": "ほ",
+      "meaning": "Walk (Sidewalk)",
+      "full_kana": "ほどう。"
+    },
+    {
+      "id": 447,
+      "sentence": "走る。",
+      "target_kanji": "走",
+      "expected_reading": "はし",
+      "meaning": "Run",
+      "full_kana": "はしる。"
+    },
+    {
+      "id": 448,
+      "sentence": "力走。",
+      "target_kanji": "走",
+      "expected_reading": "そう",
+      "meaning": "Run (Sprint)",
+      "full_kana": "りきそう。"
+    },
+    {
+      "id": 449,
+      "sentence": "教える。",
+      "target_kanji": "教",
+      "expected_reading": "おし",
+      "meaning": "Teach",
+      "full_kana": "おしえる。"
+    },
+    {
+      "id": 450,
+      "sentence": "教会。",
+      "target_kanji": "教",
+      "expected_reading": "きょう",
+      "meaning": "Teach (Church)",
+      "full_kana": "きょうかい。"
+    },
+    {
+      "id": 451,
+      "sentence": "教育。",
+      "target_kanji": "教",
+      "expected_reading": "きょう",
+      "meaning": "Teach (Education)",
+      "full_kana": "きょういく。"
+    },
+    {
+      "id": 452,
+      "sentence": "勉強。",
+      "target_kanji": "勉",
+      "expected_reading": "べん",
+      "meaning": "Exert (Study)",
+      "full_kana": "べんきょう。"
+    },
+    {
+      "id": 453,
+      "sentence": "強い。",
+      "target_kanji": "強",
+      "expected_reading": "つよ",
+      "meaning": "Strong",
+      "full_kana": "つよい。"
+    },
+    {
+      "id": 454,
+      "sentence": "強力。",
+      "target_kanji": "強",
+      "expected_reading": "きょう",
+      "meaning": "Strong (Powerful)",
+      "full_kana": "きょうりょく。"
+    },
+    {
+      "id": 455,
+      "sentence": "帰る。",
+      "target_kanji": "帰",
+      "expected_reading": "かえ",
+      "meaning": "Return",
+      "full_kana": "かえる。"
+    },
+    {
+      "id": 456,
+      "sentence": "帰国。",
+      "target_kanji": "帰",
+      "expected_reading": "き",
+      "meaning": "Return (to country)",
+      "full_kana": "きこく。"
+    },
+    {
+      "id": 457,
+      "sentence": "貸す。",
+      "target_kanji": "貸",
+      "expected_reading": "か",
+      "meaning": "Lend",
+      "full_kana": "かす。"
+    },
+    {
+      "id": 458,
+      "sentence": "借りる。",
+      "target_kanji": "借",
+      "expected_reading": "か",
+      "meaning": "Borrow",
+      "full_kana": "かりる。"
+    },
+    {
+      "id": 459,
+      "sentence": "借金。",
+      "target_kanji": "借",
+      "expected_reading": "しゃっ",
+      "meaning": "Borrow (Debt)",
+      "full_kana": "しゃっきん。"
+    },
+    {
+      "id": 460,
+      "sentence": "旅行。",
+      "target_kanji": "旅",
+      "expected_reading": "りょ",
+      "meaning": "Trip (Travel)",
+      "full_kana": "りょこう。"
+    },
+    {
+      "id": 461,
+      "sentence": "旅。",
+      "target_kanji": "旅",
+      "expected_reading": "たび",
+      "meaning": "Trip",
+      "full_kana": "たび。"
+    },
+    {
+      "id": 462,
+      "sentence": "古い。",
+      "target_kanji": "古",
+      "expected_reading": "ふる",
+      "meaning": "Old",
+      "full_kana": "ふるい。"
+    },
+    {
+      "id": 463,
+      "sentence": "中古。",
+      "target_kanji": "古",
+      "expected_reading": "こ",
+      "meaning": "Old (Used)",
+      "full_kana": "ちゅうこ。"
+    },
+    {
+      "id": 464,
+      "sentence": "新しい。",
+      "target_kanji": "新",
+      "expected_reading": "あたら",
+      "meaning": "New",
+      "full_kana": "あたらしい。"
+    },
+    {
+      "id": 465,
+      "sentence": "新聞。",
+      "target_kanji": "新",
+      "expected_reading": "しん",
+      "meaning": "New (Newspaper)",
+      "full_kana": "しんぶん。"
+    },
+    {
+      "id": 466,
+      "sentence": "長い。",
+      "target_kanji": "長",
+      "expected_reading": "なが",
+      "meaning": "Long",
+      "full_kana": "ながい。"
+    },
+    {
+      "id": 467,
+      "sentence": "短い。",
+      "target_kanji": "短",
+      "expected_reading": "みじか",
+      "meaning": "Short",
+      "full_kana": "みじかい。"
+    },
+    {
+      "id": 468,
+      "sentence": "短大。",
+      "target_kanji": "短",
+      "expected_reading": "たん",
+      "meaning": "Short (Junior college)",
+      "full_kana": "たんだい。"
+    },
+    {
+      "id": 469,
+      "sentence": "高い。",
+      "target_kanji": "高",
+      "expected_reading": "たか",
+      "meaning": "High/Tall/Expensive",
+      "full_kana": "たかい。"
+    },
+    {
+      "id": 470,
+      "sentence": "高校。",
+      "target_kanji": "高",
+      "expected_reading": "こう",
+      "meaning": "High (High school)",
+      "full_kana": "こうこう。"
+    },
+    {
+      "id": 471,
+      "sentence": "安い。",
+      "target_kanji": "安",
+      "expected_reading": "やす",
+      "meaning": "Cheap",
+      "full_kana": "やすい。"
+    },
+    {
+      "id": 472,
+      "sentence": "安全。",
+      "target_kanji": "安",
+      "expected_reading": "あん",
+      "meaning": "Cheap/Peace (Safe)",
+      "full_kana": "あんぜん。"
+    },
+    {
+      "id": 473,
+      "sentence": "多い。",
+      "target_kanji": "多",
+      "expected_reading": "おお",
+      "meaning": "Many",
+      "full_kana": "おおい。"
+    },
+    {
+      "id": 474,
+      "sentence": "多数。",
+      "target_kanji": "多",
+      "expected_reading": "た",
+      "meaning": "Many (Majority)",
+      "full_kana": "たすう。"
+    },
+    {
+      "id": 475,
+      "sentence": "少ない。",
+      "target_kanji": "少",
+      "expected_reading": "すく",
+      "meaning": "Few",
+      "full_kana": "すくない。"
+    },
+    {
+      "id": 476,
+      "sentence": "少し。",
+      "target_kanji": "少",
+      "expected_reading": "すこ",
+      "meaning": "Little",
+      "full_kana": "すこし。"
+    },
+    {
+      "id": 477,
+      "sentence": "広い。",
+      "target_kanji": "広",
+      "expected_reading": "ひろ",
+      "meaning": "Wide",
+      "full_kana": "ひろい。"
+    },
+    {
+      "id": 478,
+      "sentence": "広島。",
+      "target_kanji": "広",
+      "expected_reading": "ひろ",
+      "meaning": "Wide (Hiroshima)",
+      "full_kana": "ひろしま。"
+    },
+    {
+      "id": 479,
+      "sentence": "早い。",
+      "target_kanji": "早",
+      "expected_reading": "はや",
+      "meaning": "Early",
+      "full_kana": "はやい。"
+    },
+    {
+      "id": 480,
+      "sentence": "暗い。",
+      "target_kanji": "暗",
+      "expected_reading": "くら",
+      "meaning": "Dark",
+      "full_kana": "くらい。"
+    },
+    {
+      "id": 481,
+      "sentence": "近い。",
+      "target_kanji": "近",
+      "expected_reading": "ちか",
+      "meaning": "Near",
+      "full_kana": "ちかい。"
+    },
+    {
+      "id": 482,
+      "sentence": "近所。",
+      "target_kanji": "近",
+      "expected_reading": "きん",
+      "meaning": "Near (Neighborhood)",
+      "full_kana": "きんじょ。"
+    },
+    {
+      "id": 483,
+      "sentence": "遠い。",
+      "target_kanji": "遠",
+      "expected_reading": "とお",
+      "meaning": "Far",
+      "full_kana": "とおい。"
+    },
+    {
+      "id": 484,
+      "sentence": "遠足。",
+      "target_kanji": "遠",
+      "expected_reading": "えん",
+      "meaning": "Far (Excursion)",
+      "full_kana": "えんそく。"
+    },
+    {
+      "id": 485,
+      "sentence": "赤い。",
+      "target_kanji": "赤",
+      "expected_reading": "あか",
+      "meaning": "Red",
+      "full_kana": "あかい。"
+    },
+    {
+      "id": 486,
+      "sentence": "赤ちゃん。",
+      "target_kanji": "赤",
+      "expected_reading": "あか",
+      "meaning": "Red (Baby)",
+      "full_kana": "あかちゃん。"
+    },
+    {
+      "id": 487,
+      "sentence": "青い。",
+      "target_kanji": "青",
+      "expected_reading": "あお",
+      "meaning": "Blue",
+      "full_kana": "あおい。"
+    },
+    {
+      "id": 488,
+      "sentence": "青年。",
+      "target_kanji": "青",
+      "expected_reading": "せい",
+      "meaning": "Blue (Youth)",
+      "full_kana": "せいねん。"
+    },
+    {
+      "id": 489,
+      "sentence": "白い。",
+      "target_kanji": "白",
+      "expected_reading": "しろ",
+      "meaning": "White",
+      "full_kana": "しろい。"
+    },
+    {
+      "id": 490,
+      "sentence": "面白い。",
+      "target_kanji": "白",
+      "expected_reading": "しろ",
+      "meaning": "White (Interesting)",
+      "full_kana": "おもしろい。"
+    },
+    {
+      "id": 491,
+      "sentence": "黒い。",
+      "target_kanji": "黒",
+      "expected_reading": "くろ",
+      "meaning": "Black",
+      "full_kana": "くろい。"
+    },
+    {
+      "id": 492,
+      "sentence": "黒板。",
+      "target_kanji": "黒",
+      "expected_reading": "こく",
+      "meaning": "Black (Blackboard)",
+      "full_kana": "こくばん。"
+    },
+    {
+      "id": 493,
+      "sentence": "色。",
+      "target_kanji": "色",
+      "expected_reading": "いろ",
+      "meaning": "Color",
+      "full_kana": "いろ。"
+    },
+    {
+      "id": 494,
+      "sentence": "色々。",
+      "target_kanji": "色",
+      "expected_reading": "いろ",
+      "meaning": "Color (Various)",
+      "full_kana": "いろいろ。"
+    },
+    {
+      "id": 495,
+      "sentence": "寒い。",
+      "target_kanji": "寒",
+      "expected_reading": "さむ",
+      "meaning": "Cold (Weather)",
+      "full_kana": "さむい。"
+    },
+    {
+      "id": 496,
+      "sentence": "暑い。",
+      "target_kanji": "暑",
+      "expected_reading": "あつ",
+      "meaning": "Hot (Weather)",
+      "full_kana": "あつい。"
+    },
+    {
+      "id": 497,
+      "sentence": "熱い。",
+      "target_kanji": "熱",
+      "expected_reading": "あつ",
+      "meaning": "Hot (Touch/Thing)",
+      "full_kana": "あつい。"
+    },
+    {
+      "id": 498,
+      "sentence": "熱。",
+      "target_kanji": "熱",
+      "expected_reading": "ねつ",
+      "meaning": "Heat/Fever",
+      "full_kana": "ねつ。"
+    },
+    {
+      "id": 499,
+      "sentence": "重い。",
+      "target_kanji": "重",
+      "expected_reading": "おも",
+      "meaning": "Heavy",
+      "full_kana": "おもい。"
+    },
+    {
+      "id": 500,
+      "sentence": "軽い。",
+      "target_kanji": "軽",
+      "expected_reading": "かる",
+      "meaning": "Light (Weight)",
+      "full_kana": "かるい。"
+    },
+    {
+      "id": 501,
+      "sentence": "低い。",
+      "target_kanji": "低",
+      "expected_reading": "ひく",
+      "meaning": "Low",
+      "full_kana": "ひくい。"
+    },
+    {
+      "id": 502,
+      "sentence": "弱い。",
+      "target_kanji": "弱",
+      "expected_reading": "よわ",
+      "meaning": "Weak",
+      "full_kana": "よわい。"
+    },
+    {
+      "id": 503,
+      "sentence": "悪い。",
+      "target_kanji": "悪",
+      "expected_reading": "わる",
+      "meaning": "Bad",
+      "full_kana": "わるい。"
+    },
+    {
+      "id": 504,
+      "sentence": "悪口。",
+      "target_kanji": "悪",
+      "expected_reading": "わる",
+      "meaning": "Bad (Bad mouth)",
+      "full_kana": "わるくち。"
+    }
   ]
 }
